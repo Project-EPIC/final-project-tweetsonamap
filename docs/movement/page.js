@@ -42,25 +42,12 @@ function extractLink(text){
   }
 }
 
-function addGeoJSONLayerToMap(geojson_source, stripped){
+function addGeoJSONLayerToMap(geojson_source){
   console.log('loading: '+geojson_source)
   map.addSource('geojson-source',{
     data: geojson_source,
     type: 'geojson'
   })
-
-  var cColor;
-  if (stripped){
-    cColor = {
-      'property':'c',
-      'stops':clusterColorStops
-    }
-  }else{
-    cColor = {
-      'property':'cluster',
-      'stops':clusterColorStops
-    }
-  }
 
   map.addLayer({
     "id": "geojson-circle-layer",
@@ -70,7 +57,10 @@ function addGeoJSONLayerToMap(geojson_source, stripped){
       "circle-radius": {
         'stops':[[0,3],[12,8]]
       },
-      "circle-color": cColor,
+      "circle-color": {
+        'property':'c',
+        'stops':clusterColorStops
+      },
       "circle-opacity":0.8
     }
   })
@@ -81,47 +71,53 @@ function loadGeoJSONTweets(geojson_source_URI, stripped){
   var globalPopUp = new mapboxgl.Popup()
   var oReq = new XMLHttpRequest();
 
+  var cleanedFeatureCollection = {
+    type: "FeatureCollection",
+    features: []
+  }
+
   var c1,c2,c3
 
   oReq.onload = function (e) {
     var tweets = e.target.response.features
     loaded_geojson = e.target.response
     var uName = document.getElementById('this_user').innerHTML = tweets[0].properties.user
+    document.getElementById('twitLink').href = "http://twitter.com/"+uName 
     document.getElementById('homeLocationbutton').addEventListener('click',function(){
       toggleHomeLocation(uName.toLowerCase())
     })
 
     var count = document.getElementById('tCount').innerHTML = tweets.length;
 
+    if(stripped){
+      start = Date.parse(tweets[0].properties.time )
+      end   = Date.parse(tweets[tweets.length-1].properties.time)
+    }else{
+      start = Date.parse(tweets[0].properties.date)
+    }
+
     tweets.forEach(function(t){
       var row = table.insertRow(-1);
       row.className = "tweet-row bg-gray-dark-on-hover"
 
-      var d;
-      if(stripped){
-        d = new Date(Date.parse(t.properties.time))
-      }else{
-        d = new Date(Date.parse(t.properties.date))
+      if(!stripped){
+        t.properties.time = t.properties.date
+        t.properties.s    = t.properties.speed
+        t.properties.m    = Math.round( (Date.parse(t.properties.time) - start) / 60000)
       }
 
-      var dateString = d.toLocaleString("en-US", {timeZone: "America/New_York"}).replace(",","<br>")
+      var d, speed;
 
-      // // row.insertCell(0).innerHTML = monthNames[d.getUTCMonth()] + " " +d.getUTCDate() + ", " + d.getUTCFullYear() + "<br>" +
-      //   d.getUTCHours() + ":" +d.getUTCMinutes() + ":" + d.getUTCSeconds()
+      d = new Date(Date.parse(t.properties.time))
+      speed = t.properties.s
 
-      var speed;
-      if(stripped){
-        speed = t.properties.s
-      }else{
-        speed = t.properties.speed
-      }
       if(speed){
         speed *= (3600.0/1609.4)
         speed = speed.toFixed(2)
       }
 
       c1 = row.insertCell(0)
-        c1.innerHTML = dateString
+        c1.innerHTML = d.toLocaleString("en-US", {timeZone: "America/New_York"}).replace(",","<br>")
         c1.style = "min-width:100px !important;";
 
       c2 = row.insertCell(1)
@@ -133,7 +129,20 @@ function loadGeoJSONTweets(geojson_source_URI, stripped){
         c3.style     = "min-width:100px !important;";
 
       if (t.geometry){
-        geoTweets.push(t)
+        if(stripped){
+          geoTweets.push(t)
+        }else{
+          geoTweets.push(
+            {type: "Feature",
+             geometry: t.geometry,
+             properties: {
+               'c' : t.properties.cluster,
+               's' : t.properties.speed,
+               'm' : t.properties.m,
+               'time' : t.properties.time
+             }
+          })
+        }
         row.className = "tweet-row bg-red-dark bg-gray-dark-on-hover"
         row.addEventListener('click',function(e){
           // map.getSource('selected').setData({"type":"FeatureCollection","features":[t]})
@@ -156,19 +165,20 @@ function loadGeoJSONTweets(geojson_source_URI, stripped){
       allMinutes.push(t.properties.m)
     })
 
-    if(stripped){
-      start = Date.parse(tweets[0].properties.time )
-      end   = Date.parse(tweets[tweets.length-1].properties.time)
-    }
+    // if(stripped){
+    //   start = Date.parse(tweets[0].properties.time )
+    //   end   = Date.parse(tweets[tweets.length-1].properties.time)
+    // }
 
-    else{
-      start = Date.parse(tweets[0].properties.date )
-      end   = Date.parse(tweets[tweets.length-1].properties.date)
-    }
+    end   = Date.parse(tweets[tweets.length-1].properties.time)
 
-    if(stripped){
-      startInteraction(start, end)
-    }
+    startInteraction(start, end)
+
+    cleanedFeatureCollection['features'] = geoTweets;
+
+    console.log(cleanedFeatureCollection)
+
+    map.getSource('geojson-source').setData( cleanedFeatureCollection );
 
   };
   oReq.open('GET', geojson_source_URI, true);

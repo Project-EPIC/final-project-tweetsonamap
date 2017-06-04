@@ -30,7 +30,7 @@
     <div id="left" class="col col--3 bg-darken75 prose prose--dark">
       <header class="p12">
         <h3 class="txt-h3 pb0 mb6">Twitter Movement Explorer</h3>
-        <h5 class="username"><em>User:</em> <span class="mr12" id="this_user"></span><em>Tweets:</em> <span id="tCount"></span></h5>
+        <h5 class="username"><em>User:</em> <span class="mr12" id="this_user"></span><em>Tweets:</em> <span id="tCount"></span><a target="_blank" id="twitLink" class="btn btn--s ml12">View Profile on Twitter</a></h5>
         <button id="homeLocationbutton" class="btn btn--s">Toggle Calculated Home Location</button>
         <button id="movementLines" class="btn btn--s">Build Movement Lines</button>
         <button id="clusterDetail" class="btn btn--s">Toggle Null Clusters</button>
@@ -134,20 +134,19 @@ var geoTweets  = []
 
 if (geojson_source){
   map.once('load',function(){
-    addGeoJSONLayerToMap(geojson_source, true)
+    addGeoJSONLayerToMap(geojson_source)
     loadGeoJSONTweets(geojson_source, true)
   })
 };
 
 if (full_geojson_source){
   map.once('load',function(){
-    addGeoJSONLayerToMap(full_geojson_source, false)
+    addGeoJSONLayerToMap({type: "FeatureCollection","features":[]})
     loadGeoJSONTweets(full_geojson_source, false)
   })
 }
 
 var ts
-
 
 /*
   Map enhancements & extras
