@@ -1,0 +1,18 @@
+#tweet-table thead, tbody{display:block;}
+
+#tweet-table-body {
+  max-height:500px;
+  overflow-y:scroll;
+}
+
+.tweet-row:hover{
+  cursor:pointer;
+}
+
+.selected{
+  background-color:darkblue;
+}
+
+.mapboxgl-popup-content{
+  max-width:200px;
+}
