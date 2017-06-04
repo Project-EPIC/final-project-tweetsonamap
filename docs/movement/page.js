@@ -94,8 +94,6 @@ function loadGeoJSONTweets(geojson_source_URI, stripped){
     var count = document.getElementById('tCount').innerHTML = tweets.length;
 
     tweets.forEach(function(t){
-
-      console.log(t)
       var row = table.insertRow(-1);
       row.className = "tweet-row bg-gray-dark-on-hover"
 
