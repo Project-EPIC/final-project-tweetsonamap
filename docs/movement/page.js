@@ -97,6 +97,7 @@ function loadGeoJSONTweets(geojson_source_URI, stripped){
     }else{
       start = Date.parse(tweets[0].properties.date)
       var home_cluster = Number(tweets[0].properties.home_cluster_id)
+      console.log(tweets[0].properties)
     }
 
     tweets.forEach(function(t){
@@ -146,7 +147,8 @@ function loadGeoJSONTweets(geojson_source_URI, stripped){
                'c' : t.properties.cluster,
                's' : t.properties.speed,
                'm' : t.properties.m,
-               'time' : t.properties.time
+               'time' : t.properties.time,
+               'text' : t.properties.text
              }
           })
         }
@@ -155,7 +157,7 @@ function loadGeoJSONTweets(geojson_source_URI, stripped){
           // map.getSource('selected').setData({"type":"FeatureCollection","features":[t]})
           globalPopUp.remove()
             .setLngLat(t.geometry.coordinates)
-            .setHTML(`${t.properties.user}<br>${t.properties.time}<br>${extractLink(t.properties.text)}<br>${t.properties.h},${t.properties.m},${t.properties.s},${t.properties.c}`)
+            .setHTML(`${t.properties.time}<br>${extractLink(t.properties.text)}<br>${t.properties.h},${t.properties.m},${t.properties.s},${t.properties.c}`)
             .addTo(map);
           var zoom = map.getZoom() > 10 ? map.getZoom() : 12
 
