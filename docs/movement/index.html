@@ -25,7 +25,8 @@
 
 <body>
 
-  <section class="grid grid--gut12" style="height:800px !important;">
+  <section class="grid grid--gut12" style="height
+  :800px !important;">
 
     <div id="left" class="col col--3 bg-darken75 prose prose--dark">
       <header class="p12">
@@ -177,10 +178,10 @@ document.getElementById("clusterDetail").addEventListener('click',function(e){
   }
 })
 
-function loadMetaData(uname){
+function loadMetaData(uname, data){
   map.addSource('metadata', {
     type: 'geojson',
-    data: "https://s3-us-west-1.amazonaws.com/movement-derivation/cdn/user-metadata/"+uname+".geojson"
+    data: data
    })
   map.addLayer({
      "id": "metadata-layer",
@@ -201,7 +202,21 @@ var homeOn = false;
 function toggleHomeLocation(uName){
   if(!homeOn){
     if(map.getLayer('metadata-layer')==undefined){
-      loadMetaData(uName)
+      var d = "https://s3-us-west-1.amazonaws.com/movement-derivation/cdn/user-metadata/"+uName+".geojson"
+      if (full_geojson_source){
+        d = {type:"FeatureCollection",
+             features: [
+              {"type":"Feature",
+               "properties":{
+                  "name":uName,
+                  "home":true
+                 },
+               "geometry":HOME_LOCATION
+               }
+            ]}
+      }
+      //console.log(d)
+      loadMetaData(uName, d)
     }
     map.setLayoutProperty('metadata-layer','visibility','visible')
     homeOn = true;

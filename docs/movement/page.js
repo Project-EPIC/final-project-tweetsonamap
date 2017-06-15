@@ -14,6 +14,8 @@ var clusterColorStops = [
  [34,'#300059'],[35,'#4c0014'], [36,'#fffbbf'], [37,'#002b40'], [38,'#bf73e6'], [39,'#b3868c']
 ]
 
+var HOME_LOCATION;
+
 /*
   PAGE FUNCTIONS
 */
@@ -82,7 +84,7 @@ function loadGeoJSONTweets(geojson_source_URI, stripped){
     var tweets = e.target.response.features
     loaded_geojson = e.target.response
     var uName = document.getElementById('this_user').innerHTML = tweets[0].properties.user
-    document.getElementById('twitLink').href = "http://twitter.com/"+uName 
+    document.getElementById('twitLink').href = "http://twitter.com/"+uName
     document.getElementById('homeLocationbutton').addEventListener('click',function(){
       toggleHomeLocation(uName.toLowerCase())
     })
@@ -94,6 +96,7 @@ function loadGeoJSONTweets(geojson_source_URI, stripped){
       end   = Date.parse(tweets[tweets.length-1].properties.time)
     }else{
       start = Date.parse(tweets[0].properties.date)
+      var home_cluster = Number(tweets[0].properties.home_cluster_id)
     }
 
     tweets.forEach(function(t){
@@ -104,6 +107,10 @@ function loadGeoJSONTweets(geojson_source_URI, stripped){
         t.properties.time = t.properties.date
         t.properties.s    = t.properties.speed
         t.properties.m    = Math.round( (Date.parse(t.properties.time) - start) / 60000)
+
+        if ((t.properties.cluster==home_cluster) && (HOME_LOCATION==undefined)){
+          HOME_LOCATION = JSON.parse(t.properties.cluster_center)
+        }
       }
 
       var d, speed;
@@ -176,7 +183,7 @@ function loadGeoJSONTweets(geojson_source_URI, stripped){
 
     cleanedFeatureCollection['features'] = geoTweets;
 
-    console.log(cleanedFeatureCollection)
+    // console.log(cleanedFeatureCollection)
 
     map.getSource('geojson-source').setData( cleanedFeatureCollection );
 
