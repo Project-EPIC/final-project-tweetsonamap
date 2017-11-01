@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset='utf-8' />
-  <title>Earthquakes</title>
+  <title>What Are these Tweets About?</title>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
   <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.js'></script>
@@ -59,7 +59,7 @@ map.once('load',function(){
     "type": "circle",
     "source" : "earthquake-tweets-source",
     "source-layer": "earthquaketweetsgeojsonl",
-    "minzoom":9,
+    "minzoom":8,
     "paint": {
       "circle-color": "salmon",
       "circle-radius": {
