@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8' />
+  <title>Earthquakes</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.css' rel='stylesheet' />
+
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <link href="https://api.mapbox.com/mapbox-assembly/v0.18.0/assembly.min.css" rel="stylesheet">
+  <script async defer src="https://api.mapbox.com/mapbox-assembly/v0.18.0/assembly.js"></script>
+
+  <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.1.1/mapbox-gl-geocoder.min.js'></script>
+  <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.1.1/mapbox-gl-geocoder.css' type='text/css' />
+
+  <link href="site.css" rel="stylesheet">
+
+</head>
+<body>
+<div id='timeline' class='flex-parent flex-parent--center-main'>
+  <svg class="flex-child" id='timeline-svg' width="1200" height="100"></svg>
+</div>
+<div id='map'></div>
+
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiamVubmluZ3NhbmRlcnNvbiIsImEiOiIzMHZndnpvIn0.PS-j7fRK3HGU7IE8rbLT9A';
+
+var map = new mapboxgl.Map({
+    container: 'map',
+    zoom: 2,
+    center: [-147.81, 36.93],
+    style: 'mapbox://styles/mapbox/satellite-streets-v9',
+    hash: true
+});
+
+// Convert seconds to dates (return Date object?)
+var parseDate = d3.timeParse("%Y-%m-%d");
+function type(d) {
+  d.date = parseDate(d.date);
+  d.count = +d.count;
+  return d;
+}
+
+var startTime
+var endTime
+
+map.once('load',function(){
+  console.log('map loaded')
+
+  map.addSource('earthquake-tweets-source',{
+      type: 'vector',
+      url: 'mapbox://jenningsanderson.earthquake-tweets'
+  })
+
+  map.addLayer({
+    "id": "tweets",
+    "type": "circle",
+    "source" : "earthquake-tweets-source",
+    "source-layer": "earthquaketweetsgeojsonl",
+    "minzoom":9,
+    "paint": {
+      "circle-color": "salmon",
+      "circle-radius": {
+        'stops':[[0,5],[10,4]]
+      }
+    }
+  });
+
+  map.addLayer({
+    "id": "earthquakes-heat",
+    "type": "heatmap",
+    "source": "earthquake-tweets-source",
+    "source-layer": "earthquaketweetsgeojsonl",
+    "maxzoom": 9,
+    "paint": {
+      //Increase the heatmap color weight weight by zoom level
+      //heatmap-intensity is a multiplier on top of heatmap-weight
+      "heatmap-intensity": {
+          "stops": [
+              [0, 1],
+              [9, 3]
+          ]
+      },
+      //Color ramp for heatmap.  Domain is 0 (low) to 1 (high).
+      //Begin color ramp at 0-stop with a 0-transparancy color
+      //to create a blur-like effect.
+      "heatmap-color": {
+          "stops": [
+              [0, "rgba(33,102,172,0)"],
+              [0.1, "rgb(103,169,207)"],
+              [0.2, "rgb(209,229,240)"],
+              [0.6, "rgb(253,219,199)"],
+              [0.8, "rgb(239,138,98)"],
+              [1, "rgb(178,24,43)"]
+          ]
+      },
+      //Adjust the heatmap radius by zoom level
+      "heatmap-radius": {
+        "stops": [
+          [0, 1],
+          [9, 10]
+        ]
+      },
+      //Transition from heatmap to circle layer by zoom level
+      "heatmap-opacity": {
+        "default": 1,
+        "stops": [
+          [7, 1],
+          [9, 0]
+        ]
+      }
+    }
+  })
+
+  d3.csv("earthquakes-meta.csv", type, function(error, data) {
+    if (error) throw error;
+
+    createD3Timeline({
+      docID: "timeline-svg",
+      //minDate:   new Date(2000,0,1),
+      //maxDate:   new Date(2016,0,1),
+      data:      data
+    },function(brushEvent){
+      startTime = Math.floor(brushEvent[0].getTime()/1000)
+      endTime   = Math.floor(brushEvent[1].getTime()/1000)
+      console.log("Updating the map with", brushEvent)
+      console.warn(startTime, endTime)
+      map.setFilter('tweets',[
+        'all',
+        ['>=','timestamp',startTime],
+        ['<=','timestamp',endTime]
+      ])
+      map.setFilter('earthquakes-heat',[
+        'all',
+        ['>=','timestamp',startTime],
+        ['<=','timestamp',endTime]
+      ])
+    })
+  })
+
+  //Interaction
+  map.on('mousemove', function(e){
+    if (map.getZoom() > 9){
+      var features = map.queryRenderedFeatures(e.point, {layers: ['tweets']})
+      map.getCanvas().style.cursor = (features.length>0)? 'pointer' : '';
+    }
+  });
+
+  map.on('click', function(e){
+    if (map.getZoom() > 9){
+      var features = map.queryRenderedFeatures(e.point, {layers: ['tweets']})
+      if(!features.length){return};
+      var props = features[0].properties
+
+      var html = "<table>"
+      html += `<tr><td><span style="margin-right:10px; font-weight:700;">User</span></td><td>${props.user}</td></tr>`
+      html += `<tr><td><span style="margin-right:10px; font-weight:700;">Time</span></td><td>${new Date(props.timestamp*1000)}</td></tr>`
+      html += `<tr><td><span style="margin-right:10px; font-weight:700;">Text</span></td><td>${decodeURIComponent( props.text.replace(/\+/g,' '))}</td></tr>`
+      html += `<tr><td><span style="margin-right:10px; font-weight:700;">timestamp</span></td><td>${props.timestamp}</td></tr>
+      </table>`
+
+      new mapboxgl.Popup({'closeOnClick':true})
+        .setLngLat(e.lngLat)
+        .setHTML(html)
+        .addTo(map);
+    }
+  });
+})
+
+// Add zoom and rotation controls to the map.
+map.addControl(new mapboxgl.NavigationControl(),'top-left');
+
+map.addControl(new MapboxGeocoder({
+  accessToken: mapboxgl.accessToken
+}));
+
+map.addControl(new mapboxgl.ScaleControl({
+    maxWidth: 80,
+    unit: 'imperial'
+}));
+
+</script>
+
+<script src="site.js"></script>
+<script src="d3-timeline.js"></script>
+<script></script>
+
+</body>
+</html>
