@@ -1,0 +1,1133 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 0,
+        "clusterCenter": true,
+        "tweetCount": 3176
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5811889546285,
+          28.030459638224194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 0,
+        "tweetCount": 3176
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.583117,
+              27.997693
+            ],
+            [
+              -82.599382,
+              28.041768
+            ],
+            [
+              -82.599286,
+              28.042197
+            ],
+            [
+              -82.596775,
+              28.044373
+            ],
+            [
+              -82.582617,
+              28.051038
+            ],
+            [
+              -82.582016,
+              28.05117
+            ],
+            [
+              -82.540278,
+              28.031074
+            ],
+            [
+              -82.53401,
+              28.02617
+            ],
+            [
+              -82.533769,
+              28.025565
+            ],
+            [
+              -82.546024,
+              27.978215
+            ],
+            [
+              -82.546941,
+              27.97696
+            ],
+            [
+              -82.564854,
+              27.981948
+            ],
+            [
+              -82.567811,
+              27.983202
+            ],
+            [
+              -82.570156,
+              27.985331
+            ],
+            [
+              -82.583117,
+              27.997693
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 1,
+        "clusterCenter": true,
+        "tweetCount": 66
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.67227574242425,
+          27.894718260606055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 1,
+        "tweetCount": 66
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.666065,
+              27.893947
+            ],
+            [
+              -82.67651,
+              27.89374
+            ],
+            [
+              -82.672776,
+              27.894907
+            ],
+            [
+              -82.67259,
+              27.8949
+            ],
+            [
+              -82.659179,
+              27.894198
+            ],
+            [
+              -82.666065,
+              27.893947
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 2,
+        "clusterCenter": true,
+        "tweetCount": 53
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.57658975471699,
+          27.932340433962263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 2,
+        "tweetCount": 53
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.527478,
+              27.944827
+            ],
+            [
+              -82.642614,
+              27.895997
+            ],
+            [
+              -82.6419,
+              27.897221
+            ],
+            [
+              -82.636057,
+              27.903112
+            ],
+            [
+              -82.631318,
+              27.90766
+            ],
+            [
+              -82.623623,
+              27.913218
+            ],
+            [
+              -82.546241,
+              27.966203
+            ],
+            [
+              -82.539635,
+              27.959442
+            ],
+            [
+              -82.52801,
+              27.947408
+            ],
+            [
+              -82.527478,
+              27.944827
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 3,
+        "clusterCenter": true,
+        "tweetCount": 2225
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.73867556000015,
+          27.872685359101165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 3,
+        "tweetCount": 2225
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.744863,
+              27.871711
+            ],
+            [
+              -82.751427,
+              27.872227
+            ],
+            [
+              -82.740501,
+              27.876609
+            ],
+            [
+              -82.740289,
+              27.876694
+            ],
+            [
+              -82.736706,
+              27.877264
+            ],
+            [
+              -82.733038,
+              27.877828
+            ],
+            [
+              -82.649911,
+              27.88882
+            ],
+            [
+              -82.650249,
+              27.88802
+            ],
+            [
+              -82.65196,
+              27.885473
+            ],
+            [
+              -82.660367,
+              27.877219
+            ],
+            [
+              -82.73047,
+              27.871912
+            ],
+            [
+              -82.739517,
+              27.871316
+            ],
+            [
+              -82.744863,
+              27.871711
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 4,
+        "clusterCenter": true,
+        "tweetCount": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.44577825,
+          28.054432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 4,
+        "tweetCount": 4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.445784,
+              28.054402
+            ],
+            [
+              -82.445991,
+              28.054517
+            ],
+            [
+              -82.445613,
+              28.054406
+            ],
+            [
+              -82.445725,
+              28.054403
+            ],
+            [
+              -82.445784,
+              28.054402
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 5,
+        "clusterCenter": true,
+        "tweetCount": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4552724,
+          28.0354922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 5,
+        "tweetCount": 5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.455455,
+              28.025103
+            ],
+            [
+              -82.459338,
+              28.039999
+            ],
+            [
+              -82.451014,
+              28.039993
+            ],
+            [
+              -82.451323,
+              28.032393
+            ],
+            [
+              -82.455455,
+              28.025103
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 6,
+        "clusterCenter": true,
+        "tweetCount": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.55228558333333,
+          28.0623125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 6,
+        "tweetCount": 12
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.55226,
+              28.062126
+            ],
+            [
+              -82.552798,
+              28.062732
+            ],
+            [
+              -82.552572,
+              28.062856
+            ],
+            [
+              -82.55222,
+              28.062506
+            ],
+            [
+              -82.552085,
+              28.062075
+            ],
+            [
+              -82.55226,
+              28.062126
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 7,
+        "clusterCenter": true,
+        "tweetCount": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5497054,
+          28.045453600000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 7,
+        "tweetCount": 5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.549951,
+              28.040491
+            ],
+            [
+              -82.549956,
+              28.040474
+            ],
+            [
+              -82.549817,
+              28.050041
+            ],
+            [
+              -82.548961,
+              28.05155
+            ],
+            [
+              -82.549951,
+              28.040491
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 8,
+        "clusterCenter": true,
+        "tweetCount": 39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.48385973256411,
+          27.94291094307692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 8,
+        "tweetCount": 39
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.483342,
+              27.94044
+            ],
+            [
+              -82.484901,
+              27.943403
+            ],
+            [
+              -82.484864,
+              27.944777
+            ],
+            [
+              -82.481925,
+              27.945523
+            ],
+            [
+              -82.483061,
+              27.940408
+            ],
+            [
+              -82.483116,
+              27.940299
+            ],
+            [
+              -82.483201,
+              27.94022
+            ],
+            [
+              -82.483342,
+              27.94044
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 9,
+        "clusterCenter": true,
+        "tweetCount": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5060167142857,
+          27.957478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 9,
+        "tweetCount": 7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.50558,
+              27.951541
+            ],
+            [
+              -82.506348,
+              27.958993
+            ],
+            [
+              -82.506141,
+              27.959267
+            ],
+            [
+              -82.505875,
+              27.959398
+            ],
+            [
+              -82.50558,
+              27.951541
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 10,
+        "clusterCenter": true,
+        "tweetCount": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.51109660000002,
+          27.996112600000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 10,
+        "tweetCount": 5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.510073,
+              27.995913
+            ],
+            [
+              -82.512871,
+              27.996079
+            ],
+            [
+              -82.512871,
+              27.99633
+            ],
+            [
+              -82.508339,
+              27.996247
+            ],
+            [
+              -82.510073,
+              27.995913
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 11,
+        "clusterCenter": true,
+        "tweetCount": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.451206875,
+          28.013844374999998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 11,
+        "tweetCount": 8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.451171,
+              28.013138
+            ],
+            [
+              -82.451533,
+              28.016625
+            ],
+            [
+              -82.451495,
+              28.016592
+            ],
+            [
+              -82.451049,
+              28.013002
+            ],
+            [
+              -82.451105,
+              28.012736
+            ],
+            [
+              -82.451171,
+              28.013138
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 12,
+        "clusterCenter": true,
+        "tweetCount": 94
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.40239101063834,
+          27.97009882978724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 12,
+        "tweetCount": 94
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.401253,
+              27.963364
+            ],
+            [
+              -82.405584,
+              27.965774
+            ],
+            [
+              -82.404007,
+              27.970271
+            ],
+            [
+              -82.402267,
+              27.971588
+            ],
+            [
+              -82.401688,
+              27.970246
+            ],
+            [
+              -82.401379,
+              27.966904
+            ],
+            [
+              -82.401253,
+              27.963364
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 13,
+        "clusterCenter": true,
+        "tweetCount": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4493997777778,
+          27.944084814814815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 13,
+        "tweetCount": 27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.449486,
+              27.94339
+            ],
+            [
+              -82.450876,
+              27.943711
+            ],
+            [
+              -82.44889,
+              27.951863
+            ],
+            [
+              -82.448448,
+              27.943974
+            ],
+            [
+              -82.448769,
+              27.943675
+            ],
+            [
+              -82.449486,
+              27.94339
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 14,
+        "clusterCenter": true,
+        "tweetCount": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.50651264705883,
+          27.90214152941176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 14,
+        "tweetCount": 17
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.508384,
+              27.905558
+            ],
+            [
+              -82.508415,
+              27.905648
+            ],
+            [
+              -82.505826,
+              27.901786
+            ],
+            [
+              -82.505605,
+              27.901348
+            ],
+            [
+              -82.506398,
+              27.900424
+            ],
+            [
+              -82.508384,
+              27.905558
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 15,
+        "clusterCenter": true,
+        "tweetCount": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.32543833333334,
+          25.88397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 15,
+        "tweetCount": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.32183,
+              25.883741
+            ],
+            [
+              -80.327249,
+              25.884039
+            ],
+            [
+              -80.327236,
+              25.88413
+            ],
+            [
+              -80.32183,
+              25.883741
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 16,
+        "clusterCenter": true,
+        "tweetCount": 45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.13151138022222,
+          25.77797080000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 16,
+        "tweetCount": 45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.132147,
+              25.777278
+            ],
+            [
+              -80.13626111,
+              25.781875
+            ],
+            [
+              -80.130809,
+              25.780335
+            ],
+            [
+              -80.128864,
+              25.777223
+            ],
+            [
+              -80.129236,
+              25.776795
+            ],
+            [
+              -80.132147,
+              25.777278
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 17,
+        "clusterCenter": true,
+        "tweetCount": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.14654200000001,
+          25.95841675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 17,
+        "tweetCount": 4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.146886,
+              25.957384
+            ],
+            [
+              -80.154242,
+              25.963057
+            ],
+            [
+              -80.14208,
+              25.95673
+            ],
+            [
+              -80.14296,
+              25.956496
+            ],
+            [
+              -80.146886,
+              25.957384
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 18,
+        "clusterCenter": true,
+        "tweetCount": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.38276470588235,
+          26.096482647058824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 18,
+        "tweetCount": 17
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.382832,
+              26.096413
+            ],
+            [
+              -80.383077,
+              26.096377
+            ],
+            [
+              -80.382973,
+              26.096441
+            ],
+            [
+              -80.382798,
+              26.096546
+            ],
+            [
+              -80.382445,
+              26.096629
+            ],
+            [
+              -80.382379,
+              26.096573
+            ],
+            [
+              -80.382832,
+              26.096413
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 19,
+        "clusterCenter": true,
+        "tweetCount": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.87505830769231,
+          26.546672615384615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 19,
+        "tweetCount": 13
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.87504,
+              26.546576
+            ],
+            [
+              -81.875155,
+              26.546618
+            ],
+            [
+              -81.875133,
+              26.546668
+            ],
+            [
+              -81.875058,
+              26.546745
+            ],
+            [
+              -81.874953,
+              26.546724
+            ],
+            [
+              -81.874823,
+              26.546639
+            ],
+            [
+              -81.87504,
+              26.546576
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

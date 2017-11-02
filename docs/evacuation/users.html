@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Investigate Some Evacuation Behavior</title>
+
+<link href="https://api.mapbox.com/mapbox-assembly/v0.19.0/assembly.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="flex-parent flex-parent--center-main">
+
+    <div class="flex-child w360 mr60">
+      <h2 class="txt-h2">Hurricane Sandy: New Jersey</h2>
+
+      <h4 class="mt12 txt-h4">Brigantine</h4>
+      <ol id="new-jersey-brig">
+      </ol>
+
+      <h4 class="mt12 txt-h4">Atlantic City</h4>
+      <ol id="new-jersey-ac">
+      </ol>
+    </div>
+
+    <div class="flex-child w240 mr60">
+      <h2 class="txt-h2">Hurricane Sandy: New York</h2>
+      <h4 class="mt12 txt-h4">New York City: Evac Zone A</h4>
+      <ol id="nyc-zone-a">
+      </ol>
+    </div>
+
+    <div class="flex-child w360">
+      <h2 class="txt-h2">Hurricane Matthew</h2>
+      <h4 class="mt12 txt-h4">Florida</h4>
+      <ol id="matthew-fl">
+      </ol>
+
+      <h4 class="mt12 txt-h4">Savannah, GA</h4>
+      <ol id="savannah">
+      </ol>
+    </div>
+
+  </div>
+</body>
+
+<script>
+
+// var MATTHEW_FL = [
+//   '48hippo','zoo757','onairjana','octaviabooks','bloverose','bftdawg'
+// ]
+
+var MATTHEW_FL = [
+'babesnunez','haleyraedancer','herrea','ij04n','jabhill','jimananimal','justfiberoptics','katejahelka','kevinwoodin','lvachna','malcolmdenemark','mslmw','octaviodiaz','southof5thmiami','sryland1987','todd4sheno']
+
+var MATTHEW_SAVANNAH = [
+'1markfootball','_bethanyballard','_catiecat_','_meggknogood','alesharpton','annlutz2','aptbphoto','arielleruggiero','armennofficial','backnthdaybakry','bfordham','biancafeistyb','bloverose','blufftontea','brewdrinkrun','briamgaharvix','bronxdanceparty','chelseaamichael','christyjordal','chuckcourtenay','crazbeau','crushisland','davidgmiley','dbv57','delegatez','dj_arod','djxtreme4dbt','exithiltonhead','eyez2you','gravyfarce','heathb115','huntie_27','isaac_a_smith','jakew843','jennschmidt6','jhgraphx','jillystjohn','jimhhire','jpennsy','jrpatrick','juliavaldes_','jwsavh','kevinjmellis','khen06','kintetaylor','krayolakidd1973','labodegaman','laikenlove','libbiesummers','lineupgreek','mandadimarco','mandymatney','maredatruth2500','markelsgift','mgibbons1013','missprivatehc','mojocmo','mrradrc','ms_cece__','myhandsareblank','nadeausavannah','nathelton','nerdbirdfitness','newbrownsmusic','nspgroupllc','obediah76','oldcitywalks','oldsouthgolfhh','olegirlkym','oorchids','palmettorunco','parkplazacinema','peachy92','peircekellyhunt','phrozenwind','radrc','ravenforbeer','realsavyjenny','riossarah96','rockett_c','savannahidoctor','savannahlime','savannahlodging','sbsavannahdeals','scadarch','scasavannah','terrencemyles','thebutcherbrand','thejuicelive_','thincsavannah','vacationontybee','woodvillesav','wwitkopf','yogafitter']
+
+var SANDY_NY_USERS = [
+  '831tobias','_an_oak_tree_','adrianamisoul','aeclearwater','afranks3','agate86','agreatbigcity','aladesnr','amanda_xtelle','anessava','annyrr_','antgetsbitches','ariramku','arnellmilton','arojass','aviva4ever','azzi_84','beatzzzz','beliebinfinate','bencashfarouq','bennygordo','bigjoe1022','bobspivak1','bohunkca','brendad1121','brianaaanicolee','bridgetekelly','britescrnmedia','broyumad','bryanfuhr','byronbradshaw','carlysamp','carminenyc','cavemanrobles','celinejade_','cem3','chissyn','chris_legaspi','chrisrodemeyer','cindychipz','ckanal','cnysurvivor1','continuumcycles','cooper_smith','coreybhale','damianmonzillo','danaamathews','danialvarezpr','dargamogirl','dark_iceberg','dcamz5','dee9996','dem_callmi_tutu','diogomontes','dj2020','dj_vasquezz','dommydom24','downtownmag','drewgould','drwho131','e_m0n3y','eddiegeenyc','edelsingh','eelain212','elisesp','emmarocks','ericabrooke12','erinfetherston','ethanfixell','explicit_clutch','fanlyeduardo','faridkader','fdnybagpiper','followmdm','g0ttalov3him','gabesantacruz10','garyalonynyc','georgiaafowler','georgieeeninjaa','gkor29','goldjenna','gryffindor_kate','haileygilesacts','hairwelove','heatherjeanhd','homagebrooklyn','honeyberk','ianrios','ikebrooker','imryanelizabeth','ivanper4','jackedandtandan','jahmezzdagawd','jamesbruni','jameskiernan','jameslkimmel','jamesmarotta_','jamesshowell','jamiealexandraa','janaer64','japan2021','jcelona_','jennaylean','jeremyscong','jevicak','jlsykes','john_flip11','johnjschwarz','jojohankey','jonmcl','joshisagoodman','jotton','jsuk','julianandsara','justmealiseo','kaitlynohagan','kat_pugacheva','katcatoure','keisharose_','keniehuber','kevsall','kflow94','killerfemme','kmfmack','ladygaga11228','lalahearts','laumc822','laurakazam','lauren_morra','laurenatkiehls','lightoutsrock','liliyabdrakhman','lindsaykordik','lindseyhankes','lmoskus','loneladyrider','lucraze','lunaparkconeyis','lutherriggs_dj','m3lissasays','maderised','mallorymcmorrow','marisa_fuller','markmoravits','marky_mark34','marotin507','mastachand','masterjao','mattaningram','max_not_mark','mediadarwin','mikedizon','mikeviktorenko','missmochalatte2','mkduffy518','moishgeorge86','morgansteve','mrspuertorico','muchotoomucho','mzmimi_82','nemsfyl','nicholaspclarke','nick_jordan','nmassa1208','noahsussman','notliterallysho','nrmstyles','nyicecream','nyloves_1d','nzavaa','objorionto','oceanofminds','omargotkicks','onicadiana','paigedietz','porcelina1023','princessdds','pullacky','qtwiddaboot','rafat','raydelrae','readyrock7','realjustinkim','realkathattack','realsarp','reginaontheroad','robertkohr','robyntomlin','rockawaytrading','rollingstoned40','samispolished','sandeeglam','sarahphara_tw','sean_manion','sephology','sfloridia98','shaila','skiftnews','smoshysydney','solomonliou','sotnakny','squish108','steketee','stepliana','sweterlitsch','t_o_m_3','tabeek','taftcard','therealgowanus','therealjeffeis','thisisdanstweet','tiffhere','tigerthedj','typewrighter','umakhouny','unclonghorn','univer_soul','uthmanbaksh','vdonikian','vivalajenna2012','whistlesandbeer','wizbyf','wsb66','ygross','zacrivera','zaffi']
+
+var SANDY_NJ_BRIG_USERS = ['b_mazzz','deelooch','djsonatra','ikhoibui','joseph_maurer','lexi_derrickson']
+
+var SANDY_NJ_AC_USERS = [
+  'aclive35','adalicandro','alanjonesbeats','alreadywifedup1','anniexdarling','bellax3','chuck430','chugggss','coachhollywoodp','eazy_sims','elfilosofo92','eyeofh','gacafone','inspired_view','jerodlhoward','jl092479','jockeymajorac','joeythefox323','jpr021','keithpwhite','leeuhbfab','lynd5969','maarieemaariee_','markamccormack','mmmmarguerite','newjerseymma','newjerseypoker','nyr11messier','phantasmosphere','redjazz43','rif_raff13','seanplanesmusic','skinnyminnieee_','summershinystar','tabriahthough','thejkinz','tonyventnor']
+
+function populateList(id, users, root){
+  var ol = document.getElementById(id)
+
+  for (var i in users){
+    var user = users[i]
+    var el = document.createElement('li')
+    el.className += 'mr12 px6'
+    el.innerHTML =  `<a target="_blank" href="index.html?user=${user}&amp;root=${root}" class="link">${(Number(i)+1)}. ${user}</a>`
+    ol.appendChild(el)
+  }
+}
+
+populateList('nyc-zone-a',
+  SANDY_NY_USERS,
+  'http://epic-analytics.cs.colorado.edu:9001/NEW/NYC_ZONEA/&amp;#5.73/40.126/-72.083'
+)
+
+populateList('new-jersey-brig',
+  SANDY_NJ_BRIG_USERS,
+  'http://epic-analytics.cs.colorado.edu:9001/NEW/NJ_BRIGANTINE/&amp;#5.73/40.126/-72.083'
+)
+
+populateList('new-jersey-ac',
+  SANDY_NJ_AC_USERS,
+  'http://epic-analytics.cs.colorado.edu:9001/NEW/NJ_ATLANTIC_CITY_STAGE3/&amp;#5.73/40.126/-72.083'
+)
+
+populateList('savannah',
+  MATTHEW_SAVANNAH,
+  'http://epic-analytics.cs.colorado.edu:9001/NEW/GA_SAVANNAH_STAGE3/&amp;#5.28/30.560/-76.043'
+)
+
+populateList('matthew-fl',
+  MATTHEW_FL,
+  'http://epic-analytics.cs.colorado.edu:9001/NEW/FL/&amp;#5.28/30.560/-76.043'
+)
+
+</script>
+</html>

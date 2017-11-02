@@ -1,0 +1,5083 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": -4348176,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "771333589875253249",
+        "date": "2016-09-01T13:07:13.000Z",
+        "speed": null,
+        "text": "Red and black is the wardrobe until Saturday. #GoDawgs",
+        "user": "BFTdawg",
+        "timestamp": 1472735233
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 6541,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "771361026436698112",
+        "date": "2016-09-01T14:56:14.000Z",
+        "speed": null,
+        "text": "I think she has a favorite color... https://t.co/6abrAMQX3z",
+        "user": "BFTdawg",
+        "timestamp": 1472741774,
+        "timeDelta": 6541
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 46736,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "771557052086747136",
+        "date": "2016-09-02T03:55:10.000Z",
+        "speed": null,
+        "text": "RT @MWoods_BigDawg: I would love to know who does Josh Dobbs homework because he doesn't seem to understand air or space at all.",
+        "user": "BFTdawg",
+        "timestamp": 1472788510,
+        "timeDelta": 46736
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "I'm at Gray, GA in Gray, GA https://t.co/bxLi44MHaB",
+        "date": "2016-09-02T19:06:16.000Z",
+        "speed": null,
+        "timeD": "",
+        "cluster": 1,
+        "dbscan": "edge",
+        "timestamp": 1472843176,
+        "timeDelta": 54666
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5338378,
+          33.00959919
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 59335,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "771805919537541121",
+        "date": "2016-09-02T20:24:05.000Z",
+        "speed": null,
+        "text": "#NowPlaying Guerilla Radio by Rage Against The Machine ♫ https://t.co/ZHIH98Cdkb",
+        "user": "BFTdawg",
+        "timestamp": 1472847845,
+        "timeDelta": 4669
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "Been a while... @ Georgia Military College https://t.co/tOzCHF6LGx",
+        "date": "2016-09-03T00:28:21.000Z",
+        "speed": null,
+        "timeD": 19325,
+        "dbscan": "noise",
+        "timestamp": 1472862501,
+        "timeDelta": 14656
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2244,
+          33.07865
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 54493,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "772034482161483776",
+        "date": "2016-09-03T11:32:18.000Z",
+        "speed": null,
+        "text": "Game day. Go Dawgs. ATL bound.",
+        "user": "BFTdawg",
+        "timestamp": 1472902338,
+        "timeDelta": 39837
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 10670,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "772079233187340289",
+        "date": "2016-09-03T14:30:08.000Z",
+        "speed": null,
+        "text": "RT @UGA365Gameday: Woke up this morning like... https://t.co/SaRF3JUDeM",
+        "user": "BFTdawg",
+        "timestamp": 1472913008,
+        "timeDelta": 10670
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 30,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "772079361499561988",
+        "date": "2016-09-03T14:30:38.000Z",
+        "speed": null,
+        "text": "RT @jordanOLB: It's a great day to be a Georgia Bulldog #GoDawgs #AtlantaTakeover",
+        "user": "BFTdawg",
+        "timestamp": 1472913038,
+        "timeDelta": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "Go Dawgs! (at @GeorgiaDome for Georgia Bulldogs vs North Carolina Tar Heels in Atlanta, GA) https://t.co/39YUTz57lG",
+        "date": "2016-09-03T16:16:07.000Z",
+        "speed": null,
+        "timeD": 56866,
+        "cluster": 0,
+        "dbscan": "core",
+        "timestamp": 1472919367,
+        "timeDelta": 6329
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.40106034,
+          33.75761738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "Go Dawgs! (at @GeorgiaDome for Georgia Bulldogs vs North Carolina Tar Heels in Atlanta, GA) https://t.co/L7xY9Orkmw",
+        "date": "2016-09-03T22:10:36.000Z",
+        "speed": 0,
+        "timeD": 21269,
+        "cluster": 0,
+        "dbscan": "core",
+        "timestamp": 1472940636,
+        "timeDelta": 21269
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.40106034,
+          33.75761738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "I'll take it. Welcome back Chubb. Go Dawgs. @ The Georgia Dome https://t.co/smSJZuMJro",
+        "date": "2016-09-04T01:29:18.000Z",
+        "speed": 0.004341088195522994,
+        "timeD": 11922,
+        "cluster": 0,
+        "dbscan": "core",
+        "timestamp": 1472952558,
+        "timeDelta": 11922
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.40081326,
+          33.75765006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "Go Dawgs! @ The Georgia Dome https://t.co/7LeoybP2fu",
+        "date": "2016-09-04T01:36:32.000Z",
+        "speed": 0,
+        "timeD": 434,
+        "cluster": 0,
+        "dbscan": "core",
+        "timestamp": 1472952992,
+        "timeDelta": 434
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.40081326,
+          33.75765006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "Somebody's tired... @ Gray, Georgia https://t.co/ArwXP4U5KV",
+        "date": "2016-09-05T00:28:31.000Z",
+        "speed": 3.1479601444379774,
+        "timeD": 82319,
+        "cluster": 1,
+        "dbscan": "core",
+        "timestamp": 1473035311,
+        "timeDelta": 82319
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5342,
+          33.0086
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 124571,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "772601848259809280",
+        "date": "2016-09-05T01:06:49.000Z",
+        "speed": null,
+        "text": "RT @KirbySmartUGA: Go Dawgs!",
+        "user": "BFTdawg",
+        "timestamp": 1473037609,
+        "timeDelta": 2298
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 3093,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "772614819472105472",
+        "date": "2016-09-05T01:58:22.000Z",
+        "speed": null,
+        "text": "Loving this game so far. As my grandpa used to say: I'd cheer for the Russians before I pull for Notre Dame.",
+        "user": "BFTdawg",
+        "timestamp": 1473040702,
+        "timeDelta": 3093
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "Just some Bro-in-law love. Go Dawgs. @bsimpsonla @ The Georgia Dome https://t.co/dfl7CX3mWl",
+        "date": "2016-09-06T01:18:04.000Z",
+        "speed": null,
+        "timeD": 89373,
+        "cluster": 0,
+        "dbscan": "core",
+        "timestamp": 1473124684,
+        "timeDelta": 83982
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.40081326,
+          33.75765006
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 84332,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "772968536952168448",
+        "date": "2016-09-06T01:23:54.000Z",
+        "speed": null,
+        "text": "Ate a lot of GLUTEN this weekend...and it was awesome.",
+        "user": "BFTdawg",
+        "timestamp": 1473125034,
+        "timeDelta": 350
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 30,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "772968660684144645",
+        "date": "2016-09-06T01:24:24.000Z",
+        "speed": null,
+        "text": "Bought new washer and dryer today....was WAY too excited about it. #adulting",
+        "user": "BFTdawg",
+        "timestamp": 1473125064,
+        "timeDelta": 30
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 9694,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "773009319071744000",
+        "date": "2016-09-06T04:05:58.000Z",
+        "speed": null,
+        "text": "I guess Chad Kelly was lying about how awesome and clutch Chad Kelly is...",
+        "user": "BFTdawg",
+        "timestamp": 1473134758,
+        "timeDelta": 9694
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 49352,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "773216319357550592",
+        "date": "2016-09-06T17:48:30.000Z",
+        "speed": null,
+        "text": "Theme of today is deed drafting...",
+        "user": "BFTdawg",
+        "timestamp": 1473184110,
+        "timeDelta": 49352
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 95,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "773216715324940290",
+        "date": "2016-09-06T17:50:05.000Z",
+        "speed": null,
+        "text": "RT @ENOUGHSENOUGH24: #UGA back in the top 10! Congrats #Kirby! Rock Sanford this Saturday! Come early. Stay late. Be loud! #GoDawgs #GATA",
+        "user": "BFTdawg",
+        "timestamp": 1473184205,
+        "timeDelta": 95
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "I'm at Eversole Law Firm in Beaufort, SC https://t.co/lOwAWZwX8l",
+        "date": "2016-09-06T18:36:02.000Z",
+        "speed": null,
+        "timeD": 62278,
+        "cluster": 2,
+        "dbscan": "core",
+        "timestamp": 1473186962,
+        "timeDelta": 2757
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.67359832,
+          32.4314222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "I'm at @AnytimeFitness in Beaufort, SC https://t.co/RROfYAAAlw",
+        "date": "2016-09-07T02:08:33.000Z",
+        "speed": 0.4091419528254936,
+        "timeD": 27151,
+        "dbscan": "noise",
+        "timestamp": 1473214113,
+        "timeDelta": 27151
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.726297,
+          32.427578
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 32270,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "773352064546181120",
+        "date": "2016-09-07T02:47:55.000Z",
+        "speed": null,
+        "text": "RT @bsimpsonla: This is awesome! My bro-in-law did a story on UGA for the R&amp;B while in school, but this is WAY next level. #GoDawgs  https:…",
+        "user": "BFTdawg",
+        "timestamp": 1473216475,
+        "timeDelta": 2362
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 103,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "773352499700981763",
+        "date": "2016-09-07T02:49:38.000Z",
+        "speed": null,
+        "text": "Just do the next right thing.",
+        "user": "BFTdawg",
+        "timestamp": 1473216578,
+        "timeDelta": 103
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 9504,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "773392362341097476",
+        "date": "2016-09-07T05:28:02.000Z",
+        "speed": null,
+        "text": "Pages, pages, and more pages...",
+        "user": "BFTdawg",
+        "timestamp": 1473226082,
+        "timeDelta": 9504
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 28217,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "773510711469346816",
+        "date": "2016-09-07T13:18:19.000Z",
+        "speed": null,
+        "text": "Sibling class. https://t.co/EhCzyi864P",
+        "user": "BFTdawg",
+        "timestamp": 1473254299,
+        "timeDelta": 28217
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "I'm at Eversole Law Firm in Beaufort, SC https://t.co/4xrZwSACxl",
+        "date": "2016-09-07T14:02:35.000Z",
+        "speed": null,
+        "timeD": 42842,
+        "cluster": 2,
+        "dbscan": "core",
+        "timestamp": 1473256955,
+        "timeDelta": 2656
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.67359832,
+          32.4314222
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 3934,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "773527210862993408",
+        "date": "2016-09-07T14:23:53.000Z",
+        "speed": null,
+        "text": "Striving for excellence...",
+        "user": "BFTdawg",
+        "timestamp": 1473258233,
+        "timeDelta": 1278
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "I'm at Savannah Law School - @savannahlawsch in Savannah, GA https://t.co/xjOKP4iz3e",
+        "date": "2016-09-07T21:51:30.000Z",
+        "speed": null,
+        "timeD": 28135,
+        "cluster": 3,
+        "dbscan": "core",
+        "timestamp": 1473285090,
+        "timeDelta": 26857
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.09375426,
+          32.06930598
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 41770,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "773702409562488833",
+        "date": "2016-09-08T02:00:03.000Z",
+        "speed": null,
+        "text": "At sibling class Penelope made a happy birthday card for the baby....and immediately scratched… https://t.co/Ffkhrlzwbc",
+        "user": "BFTdawg",
+        "timestamp": 1473300003,
+        "timeDelta": 14913
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 828,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "773705880156143616",
+        "date": "2016-09-08T02:13:51.000Z",
+        "speed": null,
+        "text": "Evidence class tonight now finish prepping for Con Law tomorrow... #thegrind",
+        "user": "BFTdawg",
+        "timestamp": 1473300831,
+        "timeDelta": 828
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "I'm at Awesomeness, Inc. in Lady's Island, SC https://t.co/8Fcixao0oc",
+        "date": "2016-09-08T02:20:54.000Z",
+        "speed": null,
+        "timeD": 16164,
+        "dbscan": "noise",
+        "timestamp": 1473301254,
+        "timeDelta": 423
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6382413,
+          32.46517058
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 1352,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "773711551937257472",
+        "date": "2016-09-08T02:36:23.000Z",
+        "speed": null,
+        "text": "RT @SavannahLawSch: Savannah Law Review presents its colloquium, \"American Legal Fictions,\" on Friday the 16th. Join us! https://t.co/jWEdv…",
+        "user": "BFTdawg",
+        "timestamp": 1473302183,
+        "timeDelta": 929
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 37626,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "773869366794420228",
+        "date": "2016-09-08T13:03:29.000Z",
+        "speed": null,
+        "text": "@bsimpsonla \"Super why....he's a super guy...sssuuuppperrr wwhhy.\" Stuck in my head lol. #parentprobs",
+        "user": "BFTdawg",
+        "timestamp": 1473339809,
+        "timeDelta": 37626
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "#workflow (@ Eversole Law Firm in Beaufort, SC) https://t.co/1f3UORNBL1",
+        "date": "2016-09-08T13:13:06.000Z",
+        "speed": null,
+        "timeD": 39132,
+        "cluster": 2,
+        "dbscan": "core",
+        "timestamp": 1473340386,
+        "timeDelta": 577
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.67359832,
+          32.4314222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "I'm at Beaufort County Courthouse in Beaufort, SC https://t.co/yzhaz3UrEU",
+        "date": "2016-09-08T19:57:19.000Z",
+        "speed": 0.13473287612586574,
+        "timeD": 24253,
+        "dbscan": "noise",
+        "timestamp": 1473364639,
+        "timeDelta": 24253
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.68645753,
+          32.4388171
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 89793,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "774245985245474816",
+        "date": "2016-09-09T14:00:02.000Z",
+        "speed": null,
+        "text": "RT @SavannahLawSch: Professor McGee’s recent blog post on @msjdorg  https://t.co/qa4sM16ate",
+        "user": "BFTdawg",
+        "timestamp": 1473429602,
+        "timeDelta": 64963
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 10,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "774246029117919232",
+        "date": "2016-09-09T14:00:12.000Z",
+        "speed": null,
+        "text": "RT @iajunwa: Savannah Law easily takes title of most literary law school. #law #penumbra  https://t.co/uETEuZYIn2",
+        "user": "BFTdawg",
+        "timestamp": 1473429612,
+        "timeDelta": 10
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 12,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "774246076572323842",
+        "date": "2016-09-09T14:00:24.000Z",
+        "speed": null,
+        "text": "RT @SavannahLawSch: Thinking about #lawschool? You could study by this sunrise! Attend our webinar on 9/15 https://t.co/gVqI1Hgybm  https:/…",
+        "user": "BFTdawg",
+        "timestamp": 1473429624,
+        "timeDelta": 12
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 151,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "774246710876839936",
+        "date": "2016-09-09T14:02:55.000Z",
+        "speed": null,
+        "text": "Emergency Friday run for toner...#lawfirmprobs",
+        "user": "BFTdawg",
+        "timestamp": 1473429775,
+        "timeDelta": 151
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 6123,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "774272393267339264",
+        "date": "2016-09-09T15:44:58.000Z",
+        "speed": null,
+        "text": "Drastic emergency toner measures. https://t.co/Okrh4HJ1z8",
+        "user": "BFTdawg",
+        "timestamp": 1473435898,
+        "timeDelta": 6123
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 1495,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "774278662405357569",
+        "date": "2016-09-09T16:09:53.000Z",
+        "speed": null,
+        "text": "RT @SavannahLawSch: Professor Sneirson’s book, Sustainability and Business Law, will be available January 2017.\nhttps://t.co/sYq4VV5mQ9\n@ju…",
+        "user": "BFTdawg",
+        "timestamp": 1473437393,
+        "timeDelta": 1495
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 5,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "774278686589775877",
+        "date": "2016-09-09T16:09:58.000Z",
+        "speed": null,
+        "text": "RT @SavannahLawSch: Professor Wright’s recent blog post @just_security  https://t.co/mat7Aef7AB",
+        "user": "BFTdawg",
+        "timestamp": 1473437398,
+        "timeDelta": 5
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 5,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "774278704604278789",
+        "date": "2016-09-09T16:10:03.000Z",
+        "speed": null,
+        "text": "RT @SavannahLawSch: Dean Hicks’s interview on #WTOC in response to the GA Bar Exam issue: https://t.co/VPWE87C9DS",
+        "user": "BFTdawg",
+        "timestamp": 1473437403,
+        "timeDelta": 5
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 5,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "774278728549601284",
+        "date": "2016-09-09T16:10:08.000Z",
+        "speed": null,
+        "text": "RT @SavannahLawSch: Thinking about #LawSchool?   #SavannahLawSchool is accepting applications for #Fall2017 Apply now! https://t.co/c8kvUAM…",
+        "user": "BFTdawg",
+        "timestamp": 1473437408,
+        "timeDelta": 5
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 32,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "774278858824704000",
+        "date": "2016-09-09T16:10:40.000Z",
+        "speed": null,
+        "text": "RT @TheEthicsProf: #Savannah is 32 of the Best College Towns https://t.co/q8YufCwf8p \n@SavannahLawSch",
+        "user": "BFTdawg",
+        "timestamp": 1473437440,
+        "timeDelta": 32
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 74341,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "774590668966617088",
+        "date": "2016-09-10T12:49:41.000Z",
+        "speed": null,
+        "text": "Go Dawgs.",
+        "user": "BFTdawg",
+        "timestamp": 1473511781,
+        "timeDelta": 74341
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 21265,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "774679861998804992",
+        "date": "2016-09-10T18:44:06.000Z",
+        "speed": null,
+        "text": "@AlexGeorge5 Gotta let him learn.",
+        "user": "BFTdawg",
+        "timestamp": 1473533046,
+        "timeDelta": 21265
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 2434,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "774690069743558656",
+        "date": "2016-09-10T19:24:40.000Z",
+        "speed": null,
+        "text": "Practice gonna be rough this week.",
+        "user": "BFTdawg",
+        "timestamp": 1473535480,
+        "timeDelta": 2434
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 51,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "774690282994601984",
+        "date": "2016-09-10T19:25:31.000Z",
+        "speed": null,
+        "text": "RT @ugafan13: #UGA is 2-0. It is what it is. Two games into the season a lot has been learned. Hunker down, and #GoDawgs.",
+        "user": "BFTdawg",
+        "timestamp": 1473535531,
+        "timeDelta": 51
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 20221,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "774775099023101952",
+        "date": "2016-09-11T01:02:32.000Z",
+        "speed": null,
+        "text": "If I was on the field in Bristol I'd be a worried about that huge screen dangling over the field. I mean who strung that up? U don't know.",
+        "user": "BFTdawg",
+        "timestamp": 1473555752,
+        "timeDelta": 20221
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 1198,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "774780121559498752",
+        "date": "2016-09-11T01:22:30.000Z",
+        "speed": null,
+        "text": "Me: Penelope, look Tennessee's on TV.\n2 yr old: That's gross.\n#parentwin",
+        "user": "BFTdawg",
+        "timestamp": 1473556950,
+        "timeDelta": 1198
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 1302,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "774785583151546368",
+        "date": "2016-09-11T01:44:12.000Z",
+        "speed": null,
+        "text": "I'd be pissed if I had paid for a lower level ticket for this VT game. Like 50 yards from the game.",
+        "user": "BFTdawg",
+        "timestamp": 1473558252,
+        "timeDelta": 1302
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 4656,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "774805111541563393",
+        "date": "2016-09-11T03:01:48.000Z",
+        "speed": null,
+        "text": "Too many times to count. The always dangerous \"strung up big ass Jumbotron situation\".  https://t.co/J6yaGXQonX",
+        "user": "BFTdawg",
+        "timestamp": 1473562908,
+        "timeDelta": 4656
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "#workflow (@ Eversole Law Firm in Beaufort, SC) https://t.co/pG5i8h1ye7",
+        "date": "2016-09-12T13:17:11.000Z",
+        "speed": null,
+        "timeD": 321592,
+        "cluster": 2,
+        "dbscan": "core",
+        "timestamp": 1473686231,
+        "timeDelta": 123323
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.67359832,
+          32.4314222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "I'm at Savannah Law School - @savannahlawsch in Savannah, GA https://t.co/vv3DGiQ164",
+        "date": "2016-09-12T21:58:21.000Z",
+        "speed": 4.036860328173831,
+        "timeD": 31270,
+        "cluster": 3,
+        "dbscan": "core",
+        "timestamp": 1473717501,
+        "timeDelta": 31270
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.09375426,
+          32.06930598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "I'm at @AnytimeFitness in Beaufort, SC https://t.co/XUyWLdFk7J",
+        "date": "2016-09-13T01:57:28.000Z",
+        "speed": 8.225190830699667,
+        "timeD": 14347,
+        "dbscan": "noise",
+        "timestamp": 1473731848,
+        "timeDelta": 14347
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.726297,
+          32.427578
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 180676,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "775562921292201984",
+        "date": "2016-09-13T05:13:04.000Z",
+        "speed": null,
+        "text": "RT @StephenAtHome: You know the controversy over Hillary's health is bad when it drowns out the controversy over Trump's mental health.",
+        "user": "BFTdawg",
+        "timestamp": 1473743584,
+        "timeDelta": 11736
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "I'm at Eversole Law Firm in Beaufort, SC https://t.co/UpGImrO6Lf",
+        "date": "2016-09-13T13:07:49.000Z",
+        "speed": null,
+        "timeD": 40221,
+        "cluster": 2,
+        "dbscan": "core",
+        "timestamp": 1473772069,
+        "timeDelta": 28485
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.67359832,
+          32.4314222
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 41602,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "775737413243117568",
+        "date": "2016-09-13T16:46:26.000Z",
+        "speed": null,
+        "text": "Coffee...",
+        "user": "BFTdawg",
+        "timestamp": 1473785186,
+        "timeDelta": 13117
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "I'm at Eversole Law Firm in Beaufort, SC https://t.co/vOZhGrJ3e2",
+        "date": "2016-09-15T15:09:01.000Z",
+        "speed": null,
+        "timeD": 180072,
+        "cluster": 2,
+        "dbscan": "core",
+        "timestamp": 1473952141,
+        "timeDelta": 166955
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.67359832,
+          32.4314222
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 178931,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "776487904575127552",
+        "date": "2016-09-15T18:28:37.000Z",
+        "speed": null,
+        "text": "@bsimpsonla Just noticed today I can see the water from my office window. #dontbejealous",
+        "user": "BFTdawg",
+        "timestamp": 1473964117,
+        "timeDelta": 11976
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 1318,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "776493430813892608",
+        "date": "2016-09-15T18:50:35.000Z",
+        "speed": null,
+        "text": "@bsimpsonla Lol. Sorry. Hopefully there are no clowns hanging around out there! https://t.co/XbfFdkoMab",
+        "user": "BFTdawg",
+        "timestamp": 1473965435,
+        "timeDelta": 1318
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "I'm at Eversole Law Firm in Beaufort, SC https://t.co/sw5QinAXcD",
+        "date": "2016-09-16T13:02:51.000Z",
+        "speed": null,
+        "timeD": 78830,
+        "cluster": 2,
+        "dbscan": "core",
+        "timestamp": 1474030971,
+        "timeDelta": 65536
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.67359832,
+          32.4314222
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 74779,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "776807079134765056",
+        "date": "2016-09-16T15:36:54.000Z",
+        "speed": null,
+        "text": "Perusing contracts at work...",
+        "user": "BFTdawg",
+        "timestamp": 1474040214,
+        "timeDelta": 9243
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 2592,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "776817949583798272",
+        "date": "2016-09-16T16:20:06.000Z",
+        "speed": null,
+        "text": "Thoughts I've never had:\nI need to check out this Big Ten blog.",
+        "user": "BFTdawg",
+        "timestamp": 1474042806,
+        "timeDelta": 2592
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 17468,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "776891215522500608",
+        "date": "2016-09-16T21:11:14.000Z",
+        "speed": null,
+        "text": "RT @UgaRecruitNews: All of these 🐐🐐's were in the SAME BACKFIELD at one time. Best Running Back core of all time. No doubt.🐶🐾👀 https://t.co…",
+        "user": "BFTdawg",
+        "timestamp": 1474060274,
+        "timeDelta": 17468
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "Diaper Dawg. @ Lady's Island https://t.co/I2lDQA5Zta",
+        "date": "2016-09-16T21:22:39.000Z",
+        "speed": null,
+        "timeD": 29988,
+        "cluster": 4,
+        "dbscan": "core",
+        "timestamp": 1474060959,
+        "timeDelta": 685
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6357,
+          32.4532
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 1570,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "776897800638492672",
+        "date": "2016-09-16T21:37:24.000Z",
+        "speed": null,
+        "text": "Shoutout to @SavLawRev @capricelroberts @MarcLaneRoark @lawprofblawg for keeping the students at work up to speed!!! #alf",
+        "user": "BFTdawg",
+        "timestamp": 1474061844,
+        "timeDelta": 885
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 10188,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "776940532736094208",
+        "date": "2016-09-17T00:27:12.000Z",
+        "speed": null,
+        "text": "2 year old to wife: what are u drinking? Wife: Water what are u drinking? 2 year old: Liquor.                    Um...",
+        "user": "BFTdawg",
+        "timestamp": 1474072032,
+        "timeDelta": 10188
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "Getting real. @ Lady's Island https://t.co/KMkUS3doSj",
+        "date": "2016-09-17T14:56:29.000Z",
+        "speed": null,
+        "timeD": 63230,
+        "cluster": 4,
+        "dbscan": "core",
+        "timestamp": 1474124189,
+        "timeDelta": 52157
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6357,
+          32.4532
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 53116,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "777163315382460416",
+        "date": "2016-09-17T15:12:28.000Z",
+        "speed": null,
+        "text": "RT @alynch1788: Go Dawgs!\n\nhttps://t.co/jTbWIhh2hw",
+        "user": "BFTdawg",
+        "timestamp": 1474125148,
+        "timeDelta": 959
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 36353,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "777315794430590976",
+        "date": "2016-09-18T01:18:21.000Z",
+        "speed": null,
+        "text": "RT @davidpollack47: Georgia's Oline in passing situations 😬😬😬😬😬😬😬😬😬😬😬",
+        "user": "BFTdawg",
+        "timestamp": 1474161501,
+        "timeDelta": 36353
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 699,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "777318725502443520",
+        "date": "2016-09-18T01:30:00.000Z",
+        "speed": null,
+        "text": "@MarcLaneRoark Tigers found a QB? Things looking up...",
+        "user": "BFTdawg",
+        "timestamp": 1474162200,
+        "timeDelta": 699
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 173,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "777319451591073792",
+        "date": "2016-09-18T01:32:53.000Z",
+        "speed": null,
+        "text": "This chicken is FABULOUS. https://t.co/Hl8LFpr4fN",
+        "user": "BFTdawg",
+        "timestamp": 1474162373,
+        "timeDelta": 173
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 54,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "777319677102096386",
+        "date": "2016-09-18T01:33:47.000Z",
+        "speed": null,
+        "text": "Pickles and Clementine. https://t.co/PXOS19DqV0",
+        "user": "BFTdawg",
+        "timestamp": 1474162427,
+        "timeDelta": 54
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 1043,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "777324051454918656",
+        "date": "2016-09-18T01:51:10.000Z",
+        "speed": null,
+        "text": "I'm 110% sure I strongly dislike Mizzou's QB",
+        "user": "BFTdawg",
+        "timestamp": 1474163470,
+        "timeDelta": 1043
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 820,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "777327489693716481",
+        "date": "2016-09-18T02:04:50.000Z",
+        "speed": null,
+        "text": "Hunker down D",
+        "user": "BFTdawg",
+        "timestamp": 1474164290,
+        "timeDelta": 820
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 664,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "777330274191441920",
+        "date": "2016-09-18T02:15:54.000Z",
+        "speed": null,
+        "text": "Need to put one in here. Come on boys.",
+        "user": "BFTdawg",
+        "timestamp": 1474164954,
+        "timeDelta": 664
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 590,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "777332749627785216",
+        "date": "2016-09-18T02:25:44.000Z",
+        "speed": null,
+        "text": "Dude...opportunities. HAVE TO CAPITALIZE.",
+        "user": "BFTdawg",
+        "timestamp": 1474165544,
+        "timeDelta": 590
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 3489,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "777347383810195456",
+        "date": "2016-09-18T03:23:53.000Z",
+        "speed": null,
+        "text": "Hell of a throw!",
+        "user": "BFTdawg",
+        "timestamp": 1474169033,
+        "timeDelta": 3489
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 5201,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "777369198960009216",
+        "date": "2016-09-18T04:50:34.000Z",
+        "speed": null,
+        "text": "RT @BrandonBoykin2: Glory Glory. Amen. Goodnight.",
+        "user": "BFTdawg",
+        "timestamp": 1474174234,
+        "timeDelta": 5201
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 303,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "777370470794526720",
+        "date": "2016-09-18T04:55:37.000Z",
+        "speed": null,
+        "text": "RT @RedditCFB: Now this is a rare specimen indeed... A triple #SurrenderCobra including the amazing reverse cobra 🐍 https://t.co/cYTBe5LFiH",
+        "user": "BFTdawg",
+        "timestamp": 1474174537,
+        "timeDelta": 303
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "I'm at Hunting Island Beach in St Helena Island, SC https://t.co/IpA5YVYHGI",
+        "date": "2016-09-18T21:09:46.000Z",
+        "speed": null,
+        "timeD": 108797,
+        "cluster": 5,
+        "dbscan": "core",
+        "timestamp": 1474232986,
+        "timeDelta": 58449
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.43822343,
+          32.37465605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "Beaching it up while we can... @ Hunting Island Beach / Lighthouse https://t.co/SOnysFp2M7",
+        "date": "2016-09-19T02:15:42.000Z",
+        "speed": 0.01317813625366941,
+        "timeD": 18356,
+        "cluster": 5,
+        "dbscan": "core",
+        "timestamp": 1474251342,
+        "timeDelta": 18356
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.43709297,
+          32.37483946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "Just posted a photo @ Hunting Island Beach / Lighthouse https://t.co/XF9GpKWi15",
+        "date": "2016-09-19T02:16:06.000Z",
+        "speed": 0,
+        "timeD": 24,
+        "cluster": 5,
+        "dbscan": "core",
+        "timestamp": 1474251366,
+        "timeDelta": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.43709297,
+          32.37483946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "I'm at Eversole Law Firm in Beaufort, SC https://t.co/xl9rc1ttGp",
+        "date": "2016-09-19T15:27:30.000Z",
+        "speed": 1.0875170696788679,
+        "timeD": 47484,
+        "cluster": 2,
+        "dbscan": "core",
+        "timestamp": 1474298850,
+        "timeDelta": 47484
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.67359832,
+          32.4314222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "I'm at Savannah Law School - @savannahlawsch in Savannah, GA https://t.co/k6HFzwf6bM",
+        "date": "2016-09-19T21:48:29.000Z",
+        "speed": 5.522228551642492,
+        "timeD": 22859,
+        "cluster": 3,
+        "dbscan": "core",
+        "timestamp": 1474321709,
+        "timeDelta": 22859
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.09375426,
+          32.06930598
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 224412,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "778311721161285632",
+        "date": "2016-09-20T19:15:49.000Z",
+        "speed": null,
+        "text": "Just to make this clear: refugees and skittles aren't the same thing. #NeverTrump",
+        "user": "BFTdawg",
+        "timestamp": 1474398949,
+        "timeDelta": 77240
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 442,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "778313574821269505",
+        "date": "2016-09-20T19:23:11.000Z",
+        "speed": null,
+        "text": "RT @GovGaryJohnson: 62% of Americans want real debates. Sign the petition to #LetGaryDebate https://t.co/4WVTFoGuRY",
+        "user": "BFTdawg",
+        "timestamp": 1474399391,
+        "timeDelta": 442
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "I'm at Eversole Law Firm in Beaufort, SC https://t.co/Yy0T7Nfdyb",
+        "date": "2016-09-20T20:48:17.000Z",
+        "speed": null,
+        "timeD": 82788,
+        "cluster": 2,
+        "dbscan": "core",
+        "timestamp": 1474404497,
+        "timeDelta": 5106
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.67359832,
+          32.4314222
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 23745,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "778413169723269121",
+        "date": "2016-09-21T01:58:56.000Z",
+        "speed": null,
+        "text": "Lady Gaga....you're just redoing Madonna",
+        "user": "BFTdawg",
+        "timestamp": 1474423136,
+        "timeDelta": 18639
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 1461,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "778419299111342081",
+        "date": "2016-09-21T02:23:17.000Z",
+        "speed": null,
+        "text": "@rockstar0982 Don't get me wrong, I like the music...without getting too technical - I just hear Madonna when it's on.",
+        "user": "BFTdawg",
+        "timestamp": 1474424597,
+        "timeDelta": 1461
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 446,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "778421167703068672",
+        "date": "2016-09-21T02:30:43.000Z",
+        "speed": null,
+        "text": "How do you spell \"ninjas\"?\n\"S\".....the 'ninja' is silent.\n#hhheeeyyyyyo",
+        "user": "BFTdawg",
+        "timestamp": 1474425043,
+        "timeDelta": 446
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 74703,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "778734495008632832",
+        "date": "2016-09-21T23:15:46.000Z",
+        "speed": null,
+        "text": "@SnoozinAnTreats Thanks! I don't have ole miss tix but do for Tennessee. Needless to say I won't be attending lol",
+        "user": "BFTdawg",
+        "timestamp": 1474499746,
+        "timeDelta": 74703
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 94624,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779131376599719940",
+        "date": "2016-09-23T01:32:50.000Z",
+        "speed": null,
+        "text": "RT @SBNationGIF: Just another Georgia Tech football game. https://t.co/M7NV4t9aCl",
+        "user": "BFTdawg",
+        "timestamp": 1474594370,
+        "timeDelta": 94624
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 46,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779131571618115584",
+        "date": "2016-09-23T01:33:36.000Z",
+        "speed": null,
+        "text": "RT @SavannahLawSch: Congratulations, @VinayHarpalani, recipient of the SALT 2016 Junior Faculty Teaching Award. https://t.co/Ofs70o8Vl5",
+        "user": "BFTdawg",
+        "timestamp": 1474594416,
+        "timeDelta": 46
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 18,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779131647207809024",
+        "date": "2016-09-23T01:33:54.000Z",
+        "speed": null,
+        "text": "RT @capricelroberts: Come see what @SavannahLawSch has waiting for you.\n@SavLawRev can't wait for our next Colloquium: brainstorming ide… ",
+        "user": "BFTdawg",
+        "timestamp": 1474594434,
+        "timeDelta": 18
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 203,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779132495493300229",
+        "date": "2016-09-23T01:37:17.000Z",
+        "speed": null,
+        "text": "RT @capricelroberts: SALT Jr Fac Teaching Award @VinayHarpalani: \"demonstrates commitment to justice, equality &amp; academic excellence.\" C… ",
+        "user": "BFTdawg",
+        "timestamp": 1474594637,
+        "timeDelta": 203
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 4382,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779150876715941888",
+        "date": "2016-09-23T02:50:19.000Z",
+        "speed": null,
+        "text": "Little dude's first Sportscenter. Glad it's Neil and Stan! @stanverrett @espn https://t.co/E7XqMhrreZ",
+        "user": "BFTdawg",
+        "timestamp": 1474599019,
+        "timeDelta": 4382
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 1116,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779155557852807168",
+        "date": "2016-09-23T03:08:55.000Z",
+        "speed": null,
+        "text": "RT @stanverrett: Awesome! Congrats. We are honored. https://t.co/kN865KPZgF",
+        "user": "BFTdawg",
+        "timestamp": 1474600135,
+        "timeDelta": 1116
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 2832,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779167435265937408",
+        "date": "2016-09-23T03:56:07.000Z",
+        "speed": null,
+        "text": "@stanverrett On it!",
+        "user": "BFTdawg",
+        "timestamp": 1474602967,
+        "timeDelta": 2832
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 520,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779169617264648192",
+        "date": "2016-09-23T04:04:47.000Z",
+        "speed": null,
+        "text": "Baby Jones living out my dream of being on Sportscenter on day one. Lol. Thanks guys! #boss @stanverrett  https://t.co/HQ0pcNjScP",
+        "user": "BFTdawg",
+        "timestamp": 1474603487,
+        "timeDelta": 520
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "Jones makes Sportscenter 1 day after being born. I've been trying to do it for 30 years lol. Not… https://t.co/4y16dalVIG",
+        "date": "2016-09-23T11:51:29.000Z",
+        "speed": null,
+        "timeD": 226992,
+        "dbscan": "noise",
+        "timestamp": 1474631489,
+        "timeDelta": 28002
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.68779628,
+          32.41711167
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 29678,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779294094505967616",
+        "date": "2016-09-23T12:19:25.000Z",
+        "speed": null,
+        "text": "@carolinacouture He already has a bog head about it lol",
+        "user": "BFTdawg",
+        "timestamp": 1474633165,
+        "timeDelta": 1676
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 16101,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779361628701790208",
+        "date": "2016-09-23T16:47:46.000Z",
+        "speed": null,
+        "text": "If anybody has last nights 11:00 pm Sportscenter recorded could u please let me know...",
+        "user": "BFTdawg",
+        "timestamp": 1474649266,
+        "timeDelta": 16101
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 76038,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779680553746464768",
+        "date": "2016-09-24T13:55:04.000Z",
+        "speed": null,
+        "text": "RT @missiwimberly: Good Morning, Dawgnation! Hope everybody's up and ready to cheer our boys on to victory! It's time to #BeatOleMiss! #GoD…",
+        "user": "BFTdawg",
+        "timestamp": 1474725304,
+        "timeDelta": 76038
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 9628,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779720935020593152",
+        "date": "2016-09-24T16:35:32.000Z",
+        "speed": null,
+        "text": "Jones' first Georgia game. Go Dawgs! #GoDawgs #UGAvsMISS @ESPNCFB @ESPN_SEC @SECNetwork https://t.co/w96Eql36N5",
+        "user": "BFTdawg",
+        "timestamp": 1474734932,
+        "timeDelta": 9628
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 533,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779723170504933377",
+        "date": "2016-09-24T16:44:25.000Z",
+        "speed": null,
+        "text": "Go Dawgs! https://t.co/ZuDWPH36Px",
+        "user": "BFTdawg",
+        "timestamp": 1474735465,
+        "timeDelta": 533
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 8605,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779759262486634498",
+        "date": "2016-09-24T19:07:50.000Z",
+        "speed": null,
+        "text": "RT @Wgazaway: I love Twitter on Saturdays. So many coaches, quarterbacks, and play callers",
+        "user": "BFTdawg",
+        "timestamp": 1474744070,
+        "timeDelta": 8605
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "I'm at Eversole Law Firm in Beaufort, SC https://t.co/Kt8GSn3zR8",
+        "date": "2016-09-26T13:54:59.000Z",
+        "speed": null,
+        "timeD": 266610,
+        "cluster": 2,
+        "dbscan": "core",
+        "timestamp": 1474898099,
+        "timeDelta": 154029
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.67359832,
+          32.4314222
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 197544,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "780587825922203650",
+        "date": "2016-09-27T02:00:14.000Z",
+        "speed": null,
+        "text": "RT @GovGaryJohnson: .@realDonaldTrump, #stopandfrisk adversely affects the black community #debates",
+        "user": "BFTdawg",
+        "timestamp": 1474941614,
+        "timeDelta": 43515
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 63966,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "780856117689741312",
+        "date": "2016-09-27T19:46:20.000Z",
+        "speed": null,
+        "text": "Mother In Law has been here since new baby was born Wednesday. Huge help. She leaves today. Tonight is gonna be make or break lol",
+        "user": "BFTdawg",
+        "timestamp": 1475005580,
+        "timeDelta": 63966
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 238,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "780857114436759554",
+        "date": "2016-09-27T19:50:18.000Z",
+        "speed": null,
+        "text": "2nd child: going from double coverage to man is difficult lol.",
+        "user": "BFTdawg",
+        "timestamp": 1475005818,
+        "timeDelta": 238
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "I'm at Eversole Law Firm in Beaufort, SC https://t.co/pxFYgWIJVT",
+        "date": "2016-09-27T20:26:33.000Z",
+        "speed": null,
+        "timeD": 109894,
+        "cluster": 2,
+        "dbscan": "core",
+        "timestamp": 1475007993,
+        "timeDelta": 2175
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.67359832,
+          32.4314222
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 9854,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "780898446312108032",
+        "date": "2016-09-27T22:34:32.000Z",
+        "speed": null,
+        "text": "RT @splcenter: Tomorrow Alabama Chief Justice Roy Moore will stand trial for defying the legalization of same-sex marriage:… ",
+        "user": "BFTdawg",
+        "timestamp": 1475015672,
+        "timeDelta": 7679
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 99137,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "781314257883455488",
+        "date": "2016-09-29T02:06:49.000Z",
+        "speed": null,
+        "text": "Tattoo twins. https://t.co/eEDXrDZsAv",
+        "user": "BFTdawg",
+        "timestamp": 1475114809,
+        "timeDelta": 99137
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 100,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "781314674377777152",
+        "date": "2016-09-29T02:08:29.000Z",
+        "speed": null,
+        "text": "#JonesLeeWhitaker https://t.co/cGBSBhq61N",
+        "user": "BFTdawg",
+        "timestamp": 1475114909,
+        "timeDelta": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "Midnight jams. @ Ladys Island, SC https://t.co/NOx1BBhT6T",
+        "date": "2016-09-29T03:37:20.000Z",
+        "speed": null,
+        "timeD": 112247,
+        "dbscan": "noise",
+        "timestamp": 1475120240,
+        "timeDelta": 5331
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.65131665,
+          32.4606481
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 52500,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "781534875350364160",
+        "date": "2016-09-29T16:43:29.000Z",
+        "speed": null,
+        "text": "Let me think about it... https://t.co/YkCcQHckSw",
+        "user": "BFTdawg",
+        "timestamp": 1475167409,
+        "timeDelta": 47169
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "I'm at Eversole Law Firm in Beaufort, SC https://t.co/i5PVEv4iJ4",
+        "date": "2016-09-29T16:47:14.000Z",
+        "speed": null,
+        "timeD": 47394,
+        "cluster": 2,
+        "dbscan": "core",
+        "timestamp": 1475167634,
+        "timeDelta": 225
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.67359832,
+          32.4314222
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 577,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "781537298542460928",
+        "date": "2016-09-29T16:53:06.000Z",
+        "speed": null,
+        "text": "@JackBlizo To start Blake Bortles or not? That is the question. #jagssuck Lol",
+        "user": "BFTdawg",
+        "timestamp": 1475167986,
+        "timeDelta": 352
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 137,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "781537871366918145",
+        "date": "2016-09-29T16:55:23.000Z",
+        "speed": null,
+        "text": "@carolinacouture Hard to make those choices. Bandit, our tripod epileptic dog's been gone almost a year. Like to think he's happier now",
+        "user": "BFTdawg",
+        "timestamp": 1475168123,
+        "timeDelta": 137
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "George Washington lecture tonight and Coach Dooley hanging out. #GoDawgs @ First Baptist Church… https://t.co/6hlCZbARmh",
+        "date": "2016-09-29T23:23:47.000Z",
+        "speed": null,
+        "timeD": 23793,
+        "cluster": 3,
+        "dbscan": "core",
+        "timestamp": 1475191427,
+        "timeDelta": 23304
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0939099,
+          32.0762
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 29282,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "781660688792055808",
+        "date": "2016-09-30T01:03:25.000Z",
+        "speed": null,
+        "text": "@AndyMcCanse Awesome discussion tonight! Thanks for that opportunity! #ConLaw",
+        "user": "BFTdawg",
+        "timestamp": 1475197405,
+        "timeDelta": 5978
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 89241,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "782034994483097601",
+        "date": "2016-10-01T01:50:46.000Z",
+        "speed": null,
+        "text": "RT @MarshallM13: Nothing sounds worse to my ears than that abominable rocky top song 🔇 #UGA #Dawgs",
+        "user": "BFTdawg",
+        "timestamp": 1475286646,
+        "timeDelta": 89241
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 4271,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "782052908066017280",
+        "date": "2016-10-01T03:01:57.000Z",
+        "speed": null,
+        "text": "Dang. Stanford studied too much this week.",
+        "user": "BFTdawg",
+        "timestamp": 1475290917,
+        "timeDelta": 4271
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 265,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "782054019019702272",
+        "date": "2016-10-01T03:06:22.000Z",
+        "speed": null,
+        "text": "RT @SuperJCSS: The 12th Man &amp; Barking Lot are rocking tonight. We appreciate your support. Go Hounds! https://t.co/C3R4Tmzhfe",
+        "user": "BFTdawg",
+        "timestamp": 1475291182,
+        "timeDelta": 265
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 57980,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "782297205650690048",
+        "date": "2016-10-01T19:12:42.000Z",
+        "speed": null,
+        "text": "Can't wait to hear Gary and Verne...😒",
+        "user": "BFTdawg",
+        "timestamp": 1475349162,
+        "timeDelta": 57980
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 2952,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "782309587168989184",
+        "date": "2016-10-01T20:01:54.000Z",
+        "speed": null,
+        "text": "Go Dawgs. https://t.co/uqZJy84e1y",
+        "user": "BFTdawg",
+        "timestamp": 1475352114,
+        "timeDelta": 2952
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 14228,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "782369264049283072",
+        "date": "2016-10-01T23:59:02.000Z",
+        "speed": null,
+        "text": "To quote the great Ron Burgundy:\n\n\"I'm in a glass case of emotion.\"\n\n#goodgame",
+        "user": "BFTdawg",
+        "timestamp": 1475366342,
+        "timeDelta": 14228
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 3392,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "782383488175575040",
+        "date": "2016-10-02T00:55:34.000Z",
+        "speed": null,
+        "text": "RT @Truthh4: I hate Tennessee",
+        "user": "BFTdawg",
+        "timestamp": 1475369734,
+        "timeDelta": 3392
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 6,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "782383515128193024",
+        "date": "2016-10-02T00:55:40.000Z",
+        "speed": null,
+        "text": "RT @alynch1788: If that doesn't sum up being a georgia fan, then I don't know what does. #ugh",
+        "user": "BFTdawg",
+        "timestamp": 1475369740,
+        "timeDelta": 6
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 48210,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "782585721873920000",
+        "date": "2016-10-02T14:19:10.000Z",
+        "speed": null,
+        "text": "@KatelynRAshton #fashionstatement",
+        "user": "BFTdawg",
+        "timestamp": 1475417950,
+        "timeDelta": 48210
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 16551,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "782655143351291904",
+        "date": "2016-10-02T18:55:01.000Z",
+        "speed": null,
+        "text": "RT @algore: Building on their #climateaction, India ratified the #ParisAgreement, a major step toward our sustainable future!",
+        "user": "BFTdawg",
+        "timestamp": 1475434501,
+        "timeDelta": 16551
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 20777,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "782742285091868672",
+        "date": "2016-10-03T00:41:18.000Z",
+        "speed": null,
+        "text": "@lawprofblawg The Sunday blues struggle is REAL.",
+        "user": "BFTdawg",
+        "timestamp": 1475455278,
+        "timeDelta": 20777
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 47921,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "782943282674434049",
+        "date": "2016-10-03T13:59:59.000Z",
+        "speed": null,
+        "text": ".06 Points = Difference between Great and Mmmm just okay. lol that's crazy! https://t.co/2iAWlHAcDs",
+        "user": "BFTdawg",
+        "timestamp": 1475503199,
+        "timeDelta": 47921
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 261,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "782944378813837312",
+        "date": "2016-10-03T14:04:20.000Z",
+        "speed": null,
+        "text": "@JackBlizo I feel your pain from previous weeks. I needed Jeremy Maclin to get like 7.73 points and he got 7.80 last night. Crazy",
+        "user": "BFTdawg",
+        "timestamp": 1475503460,
+        "timeDelta": 261
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 1020,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "782948656957784064",
+        "date": "2016-10-03T14:21:20.000Z",
+        "speed": null,
+        "text": "@JackBlizo Dude, since Baby #2 came I have done minimal physical activity. I haven't seen the gym in 3 weeks lmao.",
+        "user": "BFTdawg",
+        "timestamp": 1475504480,
+        "timeDelta": 1020
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 5343,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "782971067111530496",
+        "date": "2016-10-03T15:50:23.000Z",
+        "speed": null,
+        "text": "I agree. https://t.co/fFJGPHn3Y4",
+        "user": "BFTdawg",
+        "timestamp": 1475509823,
+        "timeDelta": 5343
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 4672,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "782990663063396352",
+        "date": "2016-10-03T17:08:15.000Z",
+        "speed": null,
+        "text": "Just posted a photo https://t.co/obCIVVPgPl",
+        "user": "BFTdawg",
+        "timestamp": 1475514495,
+        "timeDelta": 4672
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 9000,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783028407810584576",
+        "date": "2016-10-03T19:38:15.000Z",
+        "speed": null,
+        "text": "RT @KatelynRAshton: @AndyMcCanse's latest Article: Congressional Due Process \n\nAwesome.\n@MSLawJournal https://t.co/uK8MdjKuo3",
+        "user": "BFTdawg",
+        "timestamp": 1475523495,
+        "timeDelta": 9000
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 21005,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783116510562746368",
+        "date": "2016-10-04T01:28:20.000Z",
+        "speed": null,
+        "text": "RT @TheAuburnJokes: JUST IN: CBS will televise Tennessee's annual loss to Alabama at 2:30 pm central on October 15.",
+        "user": "BFTdawg",
+        "timestamp": 1475544500,
+        "timeDelta": 21005
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 6589,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783144146802442240",
+        "date": "2016-10-04T03:18:09.000Z",
+        "speed": null,
+        "text": "Well, this kid broke my 30 year streak of never being directly peed on. #JonesLee #allgoodthoughbuddy https://t.co/o6rXKXKpDX",
+        "user": "BFTdawg",
+        "timestamp": 1475551089,
+        "timeDelta": 6589
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "#workflow (@ Eversole Law Firm in Beaufort, SC) https://t.co/35K2H3tOHh",
+        "date": "2016-10-04T13:02:35.000Z",
+        "speed": null,
+        "timeD": 394728,
+        "cluster": 2,
+        "dbscan": "core",
+        "timestamp": 1475586155,
+        "timeDelta": 35066
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.67359832,
+          32.4314222
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 35739,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783294048387866624",
+        "date": "2016-10-04T13:13:48.000Z",
+        "speed": null,
+        "text": "This morning my 2 year old told me she wanted to listen to Drake. #getyourlife Lol.",
+        "user": "BFTdawg",
+        "timestamp": 1475586828,
+        "timeDelta": 673
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 26566,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783405473613619200",
+        "date": "2016-10-04T20:36:34.000Z",
+        "speed": null,
+        "text": "Prepping for hurricane evacuation...",
+        "user": "BFTdawg",
+        "timestamp": 1475613394,
+        "timeDelta": 26566
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 16070,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783472875592413185",
+        "date": "2016-10-05T01:04:24.000Z",
+        "speed": null,
+        "text": "@bsimpsonla Gas stations are nuts and people acting like it's a disaster movie. #HurricaneMatthew",
+        "user": "BFTdawg",
+        "timestamp": 1475629464,
+        "timeDelta": 16070
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 282,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783474057446588417",
+        "date": "2016-10-05T01:09:06.000Z",
+        "speed": null,
+        "text": "@bsimpsonla Can't wait for the drive tomorrow with a 2 week old lol. #HurricaneMatthew",
+        "user": "BFTdawg",
+        "timestamp": 1475629746,
+        "timeDelta": 282
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 2235,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783483431439179781",
+        "date": "2016-10-05T01:46:21.000Z",
+        "speed": null,
+        "text": "Check this out @ClownsSightings @bsimpsonla",
+        "user": "BFTdawg",
+        "timestamp": 1475631981,
+        "timeDelta": 2235
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 7457,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783514710117322753",
+        "date": "2016-10-05T03:50:38.000Z",
+        "speed": null,
+        "text": "@SnoozinAnTreats #truth",
+        "user": "BFTdawg",
+        "timestamp": 1475639438,
+        "timeDelta": 7457
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 60925,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783770249862733828",
+        "date": "2016-10-05T20:46:03.000Z",
+        "speed": null,
+        "text": "Evacuating with a 2 year old and a 2 week old...not the most fun I’ve ever had.",
+        "user": "BFTdawg",
+        "timestamp": 1475700363,
+        "timeDelta": 60925
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "Just posted a photo @ Jones County, Georgia https://t.co/mh1JqQ595n",
+        "date": "2016-10-06T15:24:48.000Z",
+        "speed": null,
+        "timeD": 181333,
+        "cluster": 6,
+        "dbscan": "core",
+        "timestamp": 1475767488,
+        "timeDelta": 67125
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.57,
+          33.03
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "I'm at Elite Fitness in Gray, GA https://t.co/3Dwu8Pr2Ot",
+        "date": "2016-10-06T23:10:54.000Z",
+        "speed": 0.29014343063469267,
+        "timeD": 27966,
+        "cluster": 1,
+        "dbscan": "core",
+        "timestamp": 1475795454,
+        "timeDelta": 27966
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.54412834,
+          33.00565062
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 144562,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784376585252208640",
+        "date": "2016-10-07T12:55:25.000Z",
+        "speed": null,
+        "text": "@carolinacouture Be safe. How is it so far?",
+        "user": "BFTdawg",
+        "timestamp": 1475844925,
+        "timeDelta": 49471
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 1246,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784381809983455232",
+        "date": "2016-10-07T13:16:11.000Z",
+        "speed": null,
+        "text": "My daughter calls drumsticks \"poodads\". It's hilarious to me. #toddler #madeitup",
+        "user": "BFTdawg",
+        "timestamp": 1475846171,
+        "timeDelta": 1246
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 46144,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784575352534425600",
+        "date": "2016-10-08T02:05:15.000Z",
+        "speed": null,
+        "text": "Hunker down home peeps. https://t.co/bph6BunbzY",
+        "user": "BFTdawg",
+        "timestamp": 1475892315,
+        "timeDelta": 46144
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 40341,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784744557426737152",
+        "date": "2016-10-08T13:17:36.000Z",
+        "speed": null,
+        "text": "Just want to see the house...you know...to make sure it's still there. #HurricaneMatthew",
+        "user": "BFTdawg",
+        "timestamp": 1475932656,
+        "timeDelta": 40341
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 47150,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784942317727776768",
+        "date": "2016-10-09T02:23:26.000Z",
+        "speed": null,
+        "text": "@KatelynRAshton Luck ran out. Sorry Anthony. Lol.",
+        "user": "BFTdawg",
+        "timestamp": 1475979806,
+        "timeDelta": 47150
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 59166,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785190475670192129",
+        "date": "2016-10-09T18:49:32.000Z",
+        "speed": null,
+        "text": "Jesse \"The Name Dropper\" Palmer.",
+        "user": "BFTdawg",
+        "timestamp": 1476038972,
+        "timeDelta": 59166
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "UGA football on Sunday. GO DAWGS! @ Jones County, Georgia https://t.co/jkhVupHGmo",
+        "date": "2016-10-09T19:30:07.000Z",
+        "speed": null,
+        "timeD": 245953,
+        "cluster": 6,
+        "dbscan": "core",
+        "timestamp": 1476041407,
+        "timeDelta": 2435
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.57,
+          33.03
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 2623,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785201479233708032",
+        "date": "2016-10-09T19:33:15.000Z",
+        "speed": null,
+        "text": "GO DAWGS! https://t.co/HcaGWqFY2D",
+        "user": "BFTdawg",
+        "timestamp": 1476041595,
+        "timeDelta": 188
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 19657,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785283927992897536",
+        "date": "2016-10-10T01:00:52.000Z",
+        "speed": null,
+        "text": "RT @BassinDawg: #Dawgs If you look a little closer at Muschamp's Mysterious Upper Lip...\n#GoDawgs #RingTheBell https://t.co/qGqExxueVh",
+        "user": "BFTdawg",
+        "timestamp": 1476061252,
+        "timeDelta": 19657
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 566,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785286300324732930",
+        "date": "2016-10-10T01:10:18.000Z",
+        "speed": null,
+        "text": "Answer the question dude.",
+        "user": "BFTdawg",
+        "timestamp": 1476061818,
+        "timeDelta": 566
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 743,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785289418051579904",
+        "date": "2016-10-10T01:22:41.000Z",
+        "speed": null,
+        "text": "RT @AndyMcCanse: I know lawyers aren't a sympathetic demographic, but we need criminal defense lawyers on that wall. They safeguard all of…",
+        "user": "BFTdawg",
+        "timestamp": 1476062561,
+        "timeDelta": 743
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 24,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785289518450638848",
+        "date": "2016-10-10T01:23:05.000Z",
+        "speed": null,
+        "text": "RT @GovGaryJohnson: An apology does not include shifting this to Bill Clinton. #debate",
+        "user": "BFTdawg",
+        "timestamp": 1476062585,
+        "timeDelta": 24
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 9,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785289554039283712",
+        "date": "2016-10-10T01:23:14.000Z",
+        "speed": null,
+        "text": "RT @michaelianblack: How is it that I'm more embarrassed by Trump than Trump?",
+        "user": "BFTdawg",
+        "timestamp": 1476062594,
+        "timeDelta": 9
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 51,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785289767013511173",
+        "date": "2016-10-10T01:24:05.000Z",
+        "speed": null,
+        "text": "This is so middle school...",
+        "user": "BFTdawg",
+        "timestamp": 1476062645,
+        "timeDelta": 51
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 116,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785290255696101376",
+        "date": "2016-10-10T01:26:01.000Z",
+        "speed": null,
+        "text": "RT @GovGaryJohnson: 23 minutes in, and we still have had no serious discussion about #jobs, #debt, or our security. #debate",
+        "user": "BFTdawg",
+        "timestamp": 1476062761,
+        "timeDelta": 116
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 20,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785290339389177857",
+        "date": "2016-10-10T01:26:21.000Z",
+        "speed": null,
+        "text": "@_flight17_ #middleschool",
+        "user": "BFTdawg",
+        "timestamp": 1476062781,
+        "timeDelta": 20
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 68,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785290624945811456",
+        "date": "2016-10-10T01:27:29.000Z",
+        "speed": null,
+        "text": "RT @_flight17_: Just for reference. I work in a locker room (every day)... that is not locker room talk. Just so you know...",
+        "user": "BFTdawg",
+        "timestamp": 1476062849,
+        "timeDelta": 68
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 193,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785291435528552448",
+        "date": "2016-10-10T01:30:42.000Z",
+        "speed": null,
+        "text": "My 2 year old is more capable than this...",
+        "user": "BFTdawg",
+        "timestamp": 1476063042,
+        "timeDelta": 193
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 98,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785291846272610304",
+        "date": "2016-10-10T01:32:20.000Z",
+        "speed": null,
+        "text": "Is Donald gonna wack her? #backupdude #creepy",
+        "user": "BFTdawg",
+        "timestamp": 1476063140,
+        "timeDelta": 98
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 3140,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785305016806547456",
+        "date": "2016-10-10T02:24:40.000Z",
+        "speed": null,
+        "text": "RT @DudeYouCrazy: Trying so hard to think of witty tweets to mask my tears. Also drinking Natty Light and eating Saltines to mask my tears.…",
+        "user": "BFTdawg",
+        "timestamp": 1476066280,
+        "timeDelta": 3140
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 15,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785305076906782723",
+        "date": "2016-10-10T02:24:55.000Z",
+        "speed": null,
+        "text": "RT @capricelroberts: HRC: Kurds have been our best friends. Know there's been concern. [She is super conversant on foreign pol; whether or…",
+        "user": "BFTdawg",
+        "timestamp": 1476066295,
+        "timeDelta": 15
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 29,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785305200055779329",
+        "date": "2016-10-10T02:25:24.000Z",
+        "speed": null,
+        "text": "RT @chelseahandler: #debate https://t.co/3ERWpyGoGb",
+        "user": "BFTdawg",
+        "timestamp": 1476066324,
+        "timeDelta": 29
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 281,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785306376553828352",
+        "date": "2016-10-10T02:30:05.000Z",
+        "speed": null,
+        "text": "RT @chelseahandler: Donald Trump is the Samsung Galaxy 7 of debaters. #Debates",
+        "user": "BFTdawg",
+        "timestamp": 1476066605,
+        "timeDelta": 281
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 153,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785307019737726977",
+        "date": "2016-10-10T02:32:38.000Z",
+        "speed": null,
+        "text": "Glad @GovGaryJohnson is tweeting. I was hoping for substance somewhere.",
+        "user": "BFTdawg",
+        "timestamp": 1476066758,
+        "timeDelta": 153
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 304,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785308295913504768",
+        "date": "2016-10-10T02:37:42.000Z",
+        "speed": null,
+        "text": "@thatGApeach Reminded me a lot of this argument I remember getting into when I was in 6th grade. Ugh...",
+        "user": "BFTdawg",
+        "timestamp": 1476067062,
+        "timeDelta": 304
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 62,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785308556048334848",
+        "date": "2016-10-10T02:38:44.000Z",
+        "speed": null,
+        "text": "RT @lawprofblawg: There's another debate?  NOOOOO.  #debate https://t.co/InXxg8ElXP",
+        "user": "BFTdawg",
+        "timestamp": 1476067124,
+        "timeDelta": 62
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 182,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785309317071249408",
+        "date": "2016-10-10T02:41:46.000Z",
+        "speed": null,
+        "text": "@thatGApeach Haha, and even the elementary two-word jabs you throw in when someone else just finished talking: \"Well, you smell bad so\"",
+        "user": "BFTdawg",
+        "timestamp": 1476067306,
+        "timeDelta": 182
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 731,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785312382360940544",
+        "date": "2016-10-10T02:53:57.000Z",
+        "speed": null,
+        "text": "@BeauWashburn17 @SnoozinAnTreats I also got sucked in...",
+        "user": "BFTdawg",
+        "timestamp": 1476068037,
+        "timeDelta": 731
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 367,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785313923314675713",
+        "date": "2016-10-10T03:00:04.000Z",
+        "speed": null,
+        "text": "Trying...I started googling anti-depressants but playoffs reeled me back in. https://t.co/r8pUW4bnA5",
+        "user": "BFTdawg",
+        "timestamp": 1476068404,
+        "timeDelta": 367
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 105,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785314363355914240",
+        "date": "2016-10-10T03:01:49.000Z",
+        "speed": null,
+        "text": "RT @kennethbone69: Still regretting the white tie/ red sweater combo",
+        "user": "BFTdawg",
+        "timestamp": 1476068509,
+        "timeDelta": 105
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 198,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785315196055281664",
+        "date": "2016-10-10T03:05:07.000Z",
+        "speed": null,
+        "text": "@capricelroberts Dude is crazy. I've been in many a locker room and sexual assault was never a topic of discussion.",
+        "user": "BFTdawg",
+        "timestamp": 1476068707,
+        "timeDelta": 198
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 173,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785315920545808385",
+        "date": "2016-10-10T03:08:00.000Z",
+        "speed": null,
+        "text": "RT @michaelianblack: The Constitution is just words, too. https://t.co/kiFBv9rTXj",
+        "user": "BFTdawg",
+        "timestamp": 1476068880,
+        "timeDelta": 173
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 417,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785317667708235776",
+        "date": "2016-10-10T03:14:57.000Z",
+        "speed": null,
+        "text": "RT @kennethbone69: One day I hope @Lin_Manuel makes a hip-hopera about me",
+        "user": "BFTdawg",
+        "timestamp": 1476069297,
+        "timeDelta": 417
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 116,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785318154453061632",
+        "date": "2016-10-10T03:16:53.000Z",
+        "speed": null,
+        "text": "RT @AustinHunt: Ken Bone is carrying around a disposable camera. Everything is happening tonight. https://t.co/5wQUCVRQIh",
+        "user": "BFTdawg",
+        "timestamp": 1476069413,
+        "timeDelta": 116
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 569,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785320543423692800",
+        "date": "2016-10-10T03:26:22.000Z",
+        "speed": null,
+        "text": "RT @Matt_Campbe: Ken Bone rides off into the sunset \n\n#debate \n#kenbone https://t.co/4BjaI985zr",
+        "user": "BFTdawg",
+        "timestamp": 1476069982,
+        "timeDelta": 569
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 817,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785323969457033216",
+        "date": "2016-10-10T03:39:59.000Z",
+        "speed": null,
+        "text": "RT @kennethbone69: Getting bus home now. Cats to feed. Please respect my privacy as a #celebrity #debate2016 #bone2020 #ThrowAmericaABone",
+        "user": "BFTdawg",
+        "timestamp": 1476070799,
+        "timeDelta": 817
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "Cookie date. @ Goodie Gallery https://t.co/Eb0Lg7iggv",
+        "date": "2016-10-10T18:53:07.000Z",
+        "speed": null,
+        "timeD": 84180,
+        "dbscan": "noise",
+        "timestamp": 1476125587,
+        "timeDelta": 54788
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.23670532,
+          33.0903483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "Taking the kid through the old hood... (@ Carrington Woods in Milledgeville, GA) https://t.co/HQSD1hAZOv",
+        "date": "2016-10-10T19:26:16.000Z",
+        "speed": 2.0293594925537763,
+        "timeD": 1989,
+        "dbscan": "noise",
+        "timestamp": 1476127576,
+        "timeDelta": 1989
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2384226,
+          33.10650692
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 64860,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785596012433907713",
+        "date": "2016-10-10T21:40:59.000Z",
+        "speed": null,
+        "text": "House is good but driveway washed out. So, 60 yard walk to the house because of creek. Could've been way worse. #thankful",
+        "user": "BFTdawg",
+        "timestamp": 1476135659,
+        "timeDelta": 8083
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "Evacuee life. @ Jones County, Georgia https://t.co/uPnNcjBIBG",
+        "date": "2016-10-10T23:11:55.000Z",
+        "speed": null,
+        "timeD": 13539,
+        "cluster": 6,
+        "dbscan": "core",
+        "timestamp": 1476141115,
+        "timeDelta": 5456
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.57,
+          33.03
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 5881,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785620678808567808",
+        "date": "2016-10-10T23:19:00.000Z",
+        "speed": null,
+        "text": "@FrippDawg Yeah, can't imagine. Praying it's ok for you. I have a deputy friend whose been stationed at the Harbor Island Bridge for 3 days.",
+        "user": "BFTdawg",
+        "timestamp": 1476141540,
+        "timeDelta": 425
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 5235,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785642636136816640",
+        "date": "2016-10-11T00:46:15.000Z",
+        "speed": null,
+        "text": "Pretty pumped about Arrieta v. Bumgarner tonight. #duel",
+        "user": "BFTdawg",
+        "timestamp": 1476146775,
+        "timeDelta": 5235
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 6693,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785670707082592256",
+        "date": "2016-10-11T02:37:48.000Z",
+        "speed": null,
+        "text": "Whatevs, I bet Bumgarner can at least change a tire. Arrieta...I'm not so sure. #NLDS",
+        "user": "BFTdawg",
+        "timestamp": 1476153468,
+        "timeDelta": 6693
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 960,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785674732603604992",
+        "date": "2016-10-11T02:53:48.000Z",
+        "speed": null,
+        "text": "@carolinacouture I think you earned it. ;)",
+        "user": "BFTdawg",
+        "timestamp": 1476154428,
+        "timeDelta": 960
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "Guess I can say we bought an island. @ Lady's Island https://t.co/NIPgyLd9m6",
+        "date": "2016-10-11T18:51:32.000Z",
+        "speed": null,
+        "timeD": 70777,
+        "cluster": 4,
+        "dbscan": "core",
+        "timestamp": 1476211892,
+        "timeDelta": 57464
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6357,
+          32.4532
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 59719,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785925214550929408",
+        "date": "2016-10-11T19:29:07.000Z",
+        "speed": null,
+        "text": "@FrippDawg Any news yet? We don't have power still and just some siding damage on the house.",
+        "user": "BFTdawg",
+        "timestamp": 1476214147,
+        "timeDelta": 2255
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 619,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785927812058316800",
+        "date": "2016-10-11T19:39:26.000Z",
+        "speed": null,
+        "text": "@FrippDawg That is great I'm so glad no trees. Could've been much worse.",
+        "user": "BFTdawg",
+        "timestamp": 1476214766,
+        "timeDelta": 619
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 13902,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785986118487535616",
+        "date": "2016-10-11T23:31:08.000Z",
+        "speed": null,
+        "text": "Shoutout to @bsimpsonla for letting us ride out the hurricane with him &amp; for the generator use today. Lights on and cleaning up! #Fmatthew",
+        "user": "BFTdawg",
+        "timestamp": 1476228668,
+        "timeDelta": 13902
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "Mmm... (@ Taco-Burger in Beaufort-Port Royal, SC) https://t.co/OKJLgPLgcC",
+        "date": "2016-10-12T00:31:48.000Z",
+        "speed": null,
+        "timeD": 20416,
+        "dbscan": "noise",
+        "timestamp": 1476232308,
+        "timeDelta": 3640
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.69528818,
+          32.38405287
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 11580,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786034689316360192",
+        "date": "2016-10-12T02:44:08.000Z",
+        "speed": null,
+        "text": "Waiting on generator to run out of gas &amp; lights to turn off. Like a grown up game of jack in the box...just a bit more scary. #nopower",
+        "user": "BFTdawg",
+        "timestamp": 1476240248,
+        "timeDelta": 7940
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 8601,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786070763157721088",
+        "date": "2016-10-12T05:07:29.000Z",
+        "speed": null,
+        "text": "@callme_raymond #sadtruth",
+        "user": "BFTdawg",
+        "timestamp": 1476248849,
+        "timeDelta": 8601
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 124,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786071283096252416",
+        "date": "2016-10-12T05:09:33.000Z",
+        "speed": null,
+        "text": "RT @BobNewhart: Cubs, I am 87 and I am getting too old for this... #GoCubsGo #FlyTheW https://t.co/d4tnkgRCl0",
+        "user": "BFTdawg",
+        "timestamp": 1476248973,
+        "timeDelta": 124
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 260,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786072376081604610",
+        "date": "2016-10-12T05:13:53.000Z",
+        "speed": null,
+        "text": "RT @KateHarrisJay: #Verizon expands counties &amp; days it will take care of talk/text/data charges over regular plans.#HurricaneMatthew… ",
+        "user": "BFTdawg",
+        "timestamp": 1476249233,
+        "timeDelta": 260
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 33,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786072515592458240",
+        "date": "2016-10-12T05:14:26.000Z",
+        "speed": null,
+        "text": "@bsimpsonla  https://t.co/dj6s9xMu5p",
+        "user": "BFTdawg",
+        "timestamp": 1476249266,
+        "timeDelta": 33
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 57084,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786311940968677380",
+        "date": "2016-10-12T21:05:50.000Z",
+        "speed": null,
+        "text": "Trees: for now, I’m over you.",
+        "user": "BFTdawg",
+        "timestamp": 1476306350,
+        "timeDelta": 57084
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 2515,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786322489886539776",
+        "date": "2016-10-12T21:47:45.000Z",
+        "speed": null,
+        "text": "RT @2DayInGAHistory: #ThisDayInGAHistory in 1929 the @universityofga's Sanford Stadium hosted its formal dedication and first game with… ",
+        "user": "BFTdawg",
+        "timestamp": 1476308865,
+        "timeDelta": 2515
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 384,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786324098989248515",
+        "date": "2016-10-12T21:54:09.000Z",
+        "speed": null,
+        "text": "#NowPlaying Barton Hollow by The Civil Wars ♫ https://t.co/p2O6xppGtY",
+        "user": "BFTdawg",
+        "timestamp": 1476309249,
+        "timeDelta": 384
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 2115,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786332972173496320",
+        "date": "2016-10-12T22:29:24.000Z",
+        "speed": null,
+        "text": "Took a shower in my daughter's bathroom cuz it has more light...come out covered in glitter. #how",
+        "user": "BFTdawg",
+        "timestamp": 1476311364,
+        "timeDelta": 2115
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 14079,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786392021464412162",
+        "date": "2016-10-13T02:24:03.000Z",
+        "speed": null,
+        "text": "No power &amp; cutting up trees all day = dinner of all the meats. Channeling my inner Ron Swanson. #HurricaneMatthew #woodsman @Nick_Offerman",
+        "user": "BFTdawg",
+        "timestamp": 1476325443,
+        "timeDelta": 14079
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "Back at it. #workflow (@ Eversole Law Firm in Beaufort, SC) https://t.co/SUQdvvuAFD",
+        "date": "2016-10-13T13:20:58.000Z",
+        "speed": null,
+        "timeD": 132550,
+        "cluster": 2,
+        "dbscan": "core",
+        "timestamp": 1476364858,
+        "timeDelta": 39415
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.67359832,
+          32.4314222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "I'm at Moe's Southwest Grill - @moes_hq in Beaufort, SC https://t.co/j25r982oi0",
+        "date": "2016-10-13T16:32:56.000Z",
+        "speed": 0.3371355264124648,
+        "timeD": 11518,
+        "dbscan": "noise",
+        "timestamp": 1476376376,
+        "timeDelta": 11518
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.68817988,
+          32.44101958
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 63710,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786659241834713088",
+        "date": "2016-10-13T20:05:53.000Z",
+        "speed": null,
+        "text": "RT @POTUS: Congratulations to one of my favorite poets, Bob Dylan, on a well-deserved Nobel. https://t.co/c9cnANWPCS",
+        "user": "BFTdawg",
+        "timestamp": 1476389153,
+        "timeDelta": 12777
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 13,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786659296755023872",
+        "date": "2016-10-13T20:06:06.000Z",
+        "speed": null,
+        "text": "RT @AndyMcCanse: Good piece by @brianbeutler: Delusion, Projection, Revenge: Donald Trump and the GOP Are Indistinguishable  https://t.co/v…",
+        "user": "BFTdawg",
+        "timestamp": 1476389166,
+        "timeDelta": 13
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 2908,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786671494218874885",
+        "date": "2016-10-13T20:54:34.000Z",
+        "speed": null,
+        "text": "Ugh...better start deleting. #howdoesthathappen https://t.co/hYzzno4AFy",
+        "user": "BFTdawg",
+        "timestamp": 1476392074,
+        "timeDelta": 2908
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 407,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786673199387992065",
+        "date": "2016-10-13T21:01:21.000Z",
+        "speed": null,
+        "text": "Any woodworking tips? Bout to go ham on these trees. #RonSwanson #HurricaneMatthew @Nick_Offerman https://t.co/Upeia2XE24",
+        "user": "BFTdawg",
+        "timestamp": 1476392481,
+        "timeDelta": 407
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 13753,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786730884833697793",
+        "date": "2016-10-14T00:50:34.000Z",
+        "speed": null,
+        "text": "Josh Fields warming up... #GoDawgs",
+        "user": "BFTdawg",
+        "timestamp": 1476406234,
+        "timeDelta": 13753
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 5341,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786753289069133824",
+        "date": "2016-10-14T02:19:35.000Z",
+        "speed": null,
+        "text": "Harold, was it a balk?",
+        "user": "BFTdawg",
+        "timestamp": 1476411575,
+        "timeDelta": 5341
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 7325,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786784012584955904",
+        "date": "2016-10-14T04:21:40.000Z",
+        "speed": null,
+        "text": "@SnoozinAnTreats So disappointed it's not Kershaw. Maybe in a sec...",
+        "user": "BFTdawg",
+        "timestamp": 1476418900,
+        "timeDelta": 7325
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 185,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786784787801382913",
+        "date": "2016-10-14T04:24:45.000Z",
+        "speed": null,
+        "text": "Lol. Had to bring it up.  https://t.co/fa8v1auWTk",
+        "user": "BFTdawg",
+        "timestamp": 1476419085,
+        "timeDelta": 185
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 85,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786785143021113344",
+        "date": "2016-10-14T04:26:10.000Z",
+        "speed": null,
+        "text": "Hmm...wonder if Harper thought he was gonna see Kershaw...#mindgames",
+        "user": "BFTdawg",
+        "timestamp": 1476419170,
+        "timeDelta": 85
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 162,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786785822540300289",
+        "date": "2016-10-14T04:28:52.000Z",
+        "speed": null,
+        "text": "If my generator runs out now...#stillnopower #playoffs",
+        "user": "BFTdawg",
+        "timestamp": 1476419332,
+        "timeDelta": 162
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 305,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786787099823448064",
+        "date": "2016-10-14T04:33:57.000Z",
+        "speed": null,
+        "text": "It went out. Time to gas up...",
+        "user": "BFTdawg",
+        "timestamp": 1476419637,
+        "timeDelta": 305
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 621,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786789705828306944",
+        "date": "2016-10-14T04:44:18.000Z",
+        "speed": null,
+        "text": "@SnoozinAnTreats Had to Gamecast it like some medieval peasant lol. Thanks @scegnews",
+        "user": "BFTdawg",
+        "timestamp": 1476420258,
+        "timeDelta": 621
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 59677,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "787040008339415041",
+        "date": "2016-10-14T21:18:55.000Z",
+        "speed": null,
+        "text": "RT @chelseahandler: If anyone missed Michelle Obama’s speech, you can catch Melania performing it next weekend at the the Trump Taj Mahal.",
+        "user": "BFTdawg",
+        "timestamp": 1476479935,
+        "timeDelta": 59677
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 19826,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "787123164266565632",
+        "date": "2016-10-15T02:49:21.000Z",
+        "speed": null,
+        "text": "RT @LpcProf: Why scholars like to write about Bob Dylan / https://t.co/E5DPfUWqS0",
+        "user": "BFTdawg",
+        "timestamp": 1476499761,
+        "timeDelta": 19826
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 172,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "787123886940909568",
+        "date": "2016-10-15T02:52:13.000Z",
+        "speed": null,
+        "text": "RT @UGAAthletics: Alma Mater, thee we'll honor,\nTrue and loyal be,\nEver crowned with praise and glory,\nGeorgia, hail to thee. https://t.co/…",
+        "user": "BFTdawg",
+        "timestamp": 1476499933,
+        "timeDelta": 172
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 139,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "787124468636409856",
+        "date": "2016-10-15T02:54:32.000Z",
+        "speed": null,
+        "text": "Power finally back on. Woot woot. #Fmatthew",
+        "user": "BFTdawg",
+        "timestamp": 1476500072,
+        "timeDelta": 139
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 72,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "787124771339243520",
+        "date": "2016-10-15T02:55:44.000Z",
+        "speed": null,
+        "text": "RT @BunkiePerkins: So much Mountain Dew Code red being consumed in Starkville right now.  Stay woke, literally.",
+        "user": "BFTdawg",
+        "timestamp": 1476500144,
+        "timeDelta": 72
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 1982,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "787133084458180608",
+        "date": "2016-10-15T03:28:46.000Z",
+        "speed": null,
+        "text": "@bsimpsonla  https://t.co/seuU9i0KCv",
+        "user": "BFTdawg",
+        "timestamp": 1476502126,
+        "timeDelta": 1982
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 40582,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "787303298239860736",
+        "date": "2016-10-15T14:45:08.000Z",
+        "speed": null,
+        "text": "#NowPlaying Undone - The Sweater Song by Weezer ♫ https://t.co/nUjGfJjRRD",
+        "user": "BFTdawg",
+        "timestamp": 1476542708,
+        "timeDelta": 40582
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 39811,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "787470280105062400",
+        "date": "2016-10-16T01:48:39.000Z",
+        "speed": null,
+        "text": "The birth of my son has saved me from personally being at 3 losses so far and especially having to walk the hills from Sanford after a loss.",
+        "user": "BFTdawg",
+        "timestamp": 1476582519,
+        "timeDelta": 39811
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 897,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "787474040835411969",
+        "date": "2016-10-16T02:03:36.000Z",
+        "speed": null,
+        "text": "1-3 in his little life but he's still diehard #GoDawgs https://t.co/zXdhpw730f",
+        "user": "BFTdawg",
+        "timestamp": 1476583416,
+        "timeDelta": 897
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 523,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "787476233672126464",
+        "date": "2016-10-16T02:12:19.000Z",
+        "speed": null,
+        "text": "@chiefdog10 Just 2. He's already learning heartbreak as a UGA fan, lol. Better get used to it.",
+        "user": "BFTdawg",
+        "timestamp": 1476583939,
+        "timeDelta": 523
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "Jones is getting a lecture on Evidence rules. He's thrilled. @ Lady's Island https://t.co/51gpqauf2E",
+        "date": "2016-10-16T17:49:35.000Z",
+        "speed": null,
+        "timeD": 263799,
+        "cluster": 4,
+        "dbscan": "core",
+        "timestamp": 1476640175,
+        "timeDelta": 56236
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6357,
+          32.4532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "I'm at Eversole Law Firm in Beaufort, SC https://t.co/M5n9RihhCx",
+        "date": "2016-10-17T13:23:24.000Z",
+        "speed": 0.13669947753806339,
+        "timeD": 70429,
+        "cluster": 2,
+        "dbscan": "core",
+        "timestamp": 1476710604,
+        "timeDelta": 70429
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.67359832,
+          32.4314222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "I'm at Savannah Law School - @savannahlawsch in Savannah, GA https://t.co/bJFTdT811O",
+        "date": "2016-10-17T21:40:41.000Z",
+        "speed": 4.23074110875744,
+        "timeD": 29837,
+        "cluster": 3,
+        "dbscan": "core",
+        "timestamp": 1476740441,
+        "timeDelta": 29837
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.09375426,
+          32.06930598
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 172734,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "788200734336614400",
+        "date": "2016-10-18T02:11:13.000Z",
+        "speed": null,
+        "text": "Great article. #GoDawgs  https://t.co/1IhOGIt527",
+        "user": "BFTdawg",
+        "timestamp": 1476756673,
+        "timeDelta": 16232
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 46,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "788200924787400704",
+        "date": "2016-10-18T02:11:59.000Z",
+        "speed": null,
+        "text": "@KatelynRAshton #toddlerstruggle",
+        "user": "BFTdawg",
+        "timestamp": 1476756719,
+        "timeDelta": 46
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "Mold remediation for clients. Fun times #workflow (@ Dataw Island in Dataw Island, SC) https://t.co/xfj4mXSiDE",
+        "date": "2016-10-18T14:25:03.000Z",
+        "speed": null,
+        "timeD": 60262,
+        "dbscan": "noise",
+        "timestamp": 1476800703,
+        "timeDelta": 43984
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.58296854,
+          32.43652933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "Juicing it up... (@ Herban Marketplace in Beaufort, SC) https://t.co/5e6dsdnNrP",
+        "date": "2016-10-18T15:30:07.000Z",
+        "speed": 4.88353805540599,
+        "timeD": 3904,
+        "cluster": 2,
+        "dbscan": "core",
+        "timestamp": 1476804607,
+        "timeDelta": 3904
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.67365249,
+          32.44024991
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 52802,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "788422394255900672",
+        "date": "2016-10-18T16:52:01.000Z",
+        "speed": null,
+        "text": "RT @_flight17_: People are so sleep on how powerful Vader really is... only because you don't see a lot of him in the movies.",
+        "user": "BFTdawg",
+        "timestamp": 1476809521,
+        "timeDelta": 4914
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 31306,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "788553701489254400",
+        "date": "2016-10-19T01:33:47.000Z",
+        "speed": null,
+        "text": "RT @michaelianblack: Any word yet on whether Michael Moore's surprise documentary is pro or anti Trump?",
+        "user": "BFTdawg",
+        "timestamp": 1476840827,
+        "timeDelta": 31306
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "#Jones @ Lady's Island https://t.co/GtiYgoCZdV",
+        "date": "2016-10-19T01:57:01.000Z",
+        "speed": null,
+        "timeD": 37614,
+        "cluster": 4,
+        "dbscan": "core",
+        "timestamp": 1476842221,
+        "timeDelta": 1394
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6357,
+          32.4532
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 6727,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "788581915725004800",
+        "date": "2016-10-19T03:25:54.000Z",
+        "speed": null,
+        "text": "Pages and pages...hearsay...rather be in bed. #Evidence #lawschool probs",
+        "user": "BFTdawg",
+        "timestamp": 1476847554,
+        "timeDelta": 5333
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 106,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "788582361504051200",
+        "date": "2016-10-19T03:27:40.000Z",
+        "speed": null,
+        "text": "Can't even #hashtag properly. #the struggle lol https://t.co/yDLDpzX0mu",
+        "user": "BFTdawg",
+        "timestamp": 1476847660,
+        "timeDelta": 106
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 188,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "788583147978027008",
+        "date": "2016-10-19T03:30:48.000Z",
+        "speed": null,
+        "text": "Driving today we saw a Gator sticker on the back of a car. My 2 year old said \"gross\". #proud",
+        "user": "BFTdawg",
+        "timestamp": 1476847848,
+        "timeDelta": 188
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "#workflow (@ Eversole Law Firm in Beaufort, SC) https://t.co/S3EZ3b5qeF",
+        "date": "2016-10-19T13:02:34.000Z",
+        "speed": null,
+        "timeD": 39933,
+        "cluster": 2,
+        "dbscan": "core",
+        "timestamp": 1476882154,
+        "timeDelta": 34306
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.67359832,
+          32.4314222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "Hooked on the smoothies... (@ Herban Marketplace in Beaufort, SC) https://t.co/LNgnHNXofC",
+        "date": "2016-10-19T16:43:20.000Z",
+        "speed": 0.16582277764238884,
+        "timeD": 13246,
+        "cluster": 2,
+        "dbscan": "core",
+        "timestamp": 1476895400,
+        "timeDelta": 13246
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.67365249,
+          32.44024991
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 85573,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "788942069394014208",
+        "date": "2016-10-20T03:17:01.000Z",
+        "speed": null,
+        "text": "By my calculations I'll be done with this Con Law reading by...Sunday. #classtomorrowthough",
+        "user": "BFTdawg",
+        "timestamp": 1476933421,
+        "timeDelta": 38021
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 4876,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "788962518744129536",
+        "date": "2016-10-20T04:38:17.000Z",
+        "speed": null,
+        "text": "RT @paulkrugman: So, four debates; four shout-outs by moderators to deficit scolds; not one question about climate change. It's really disg…",
+        "user": "BFTdawg",
+        "timestamp": 1476938297,
+        "timeDelta": 4876
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 90,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "788962896793497600",
+        "date": "2016-10-20T04:39:47.000Z",
+        "speed": null,
+        "text": "RT @StatsBritain: 98% of Britons know that a single US senator can't change a law but somehow Donald Trump doesn't.",
+        "user": "BFTdawg",
+        "timestamp": 1476938387,
+        "timeDelta": 90
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "I'm at Eversole Law Firm in Beaufort, SC https://t.co/qZ4OtEBGeb",
+        "date": "2016-10-20T15:50:29.000Z",
+        "speed": null,
+        "timeD": 83229,
+        "cluster": 2,
+        "dbscan": "core",
+        "timestamp": 1476978629,
+        "timeDelta": 40242
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.67359832,
+          32.4314222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "I'm at Savannah Law School - @savannahlawsch in Savannah, GA https://t.co/ZRYZmOO20H",
+        "date": "2016-10-20T21:54:32.000Z",
+        "speed": 5.7790881500707645,
+        "timeD": 21843,
+        "cluster": 3,
+        "dbscan": "core",
+        "timestamp": 1477000472,
+        "timeDelta": 21843
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.09375426,
+          32.06930598
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 83167,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "789311726454005760",
+        "date": "2016-10-21T03:45:54.000Z",
+        "speed": null,
+        "text": "@thatGApeach I got 2 on the way home. #instantregret lol",
+        "user": "BFTdawg",
+        "timestamp": 1477021554,
+        "timeDelta": 21082
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "BFTdawg",
+        "text": "I'm at Awesomeness, Inc. in Lady's Island, SC https://t.co/PI5Egg4wnS",
+        "date": "2016-10-21T20:56:49.000Z",
+        "speed": null,
+        "timeD": 82937,
+        "dbscan": "noise",
+        "timestamp": 1477083409,
+        "timeDelta": 61855
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6382413,
+          32.46517058
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "433529121",
+        "cluster_center": "null",
+        "time_delta": 62253,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "789572833554948096",
+        "date": "2016-10-21T21:03:27.000Z",
+        "speed": null,
+        "text": "@MarcLaneRoark  https://t.co/x8FVVNZfya",
+        "user": "BFTdawg",
+        "timestamp": 1477083807,
+        "timeDelta": 398
+      }
+    }
+  ]
+}
