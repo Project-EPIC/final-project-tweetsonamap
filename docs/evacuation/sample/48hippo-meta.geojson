@@ -382,7 +382,8 @@
         "firstTimestamp": 1474226768,
         "lastTimestamp": 1474627460,
         "tweetCount": 24,
-        "likelyHome": true
+        "likelyHome": true,
+        "likelyWork": true
       },
       "geometry": {
         "type": "Point",

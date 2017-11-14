@@ -59,7 +59,8 @@
         "clusterCenter": true,
         "firstTimestamp": 1473545035,
         "lastTimestamp": 1474323870,
-        "tweetCount": 6
+        "tweetCount": 6,
+        "likelyWork": true
       },
       "geometry": {
         "type": "Point",

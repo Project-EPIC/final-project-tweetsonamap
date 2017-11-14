@@ -12,8 +12,8 @@ function getUserFiles(urlString){
   console.warn(urlVars)
 
   var rootP = urlVars['root'] || 'sample/';
-  var uName = urlVars['user'] || '48hippo'
+  var uName = urlVars['user'] || 'noneck'
 
-  return [rootP, uName+'.geojson',uName+'-meta.geojson']
+  return [rootP, uName+'.geojson',uName+'-meta.geojson',uName]
 
 }
