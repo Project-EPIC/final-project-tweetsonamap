@@ -2,12 +2,10 @@ body{
     padding-left:10px;
 }
 #map{
-    position:fixed;
-    top:75px;
     width:100%;
+    height:calc(100vh - 75px);
 }
-    
-    
+       
 #userList{
     height:calc(100vh - 60px);
     overflow-y:scroll;

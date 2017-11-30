@@ -13,15 +13,15 @@
     
     <body>
         
-        <h1 class='txt-h1'>{1}</h1>
+        <h1 class='txt-h1'>
+            <a class="link" href="index.html"><span class='mr6 triangle-l triangle-l--l color-blue inline-block'></span> All Events</a> | {1}</h1>
         
-        <section class='grid grid--gut12'>
+        <section class='grid grid--gut12 px24'>
             <div id='userList' class='col col--3'>
                 {2}   
             </div>
             
-            <div class='col col--9'>
-            <div class='viewport-full' id="map"></div>
+            <div id="map" class='col col--9 mt12'>
         </section>
         
         <script src="events.js"></script>

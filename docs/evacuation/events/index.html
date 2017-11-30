@@ -13,29 +13,107 @@
     
     <body>
         
-        <h1 class='txt-h1'>Events Processed for Interctive Viewing (Movement Derivation)</h1>
+        <h1 class='txt-h1'>Events Processed for Interactive Viewing (Movement Derivation)</h1>
         
-        <section class='ml6 grid grid--gut12'>
+        <section class='px24 grid grid--gut12'>
             
             <div class="col col--4" id='eventList' >
                 
-                <p class="prose">Processed from the geo collections, below are links to pages with lists of users active during each event.</p>
-              
-                <a target="_blank" href="harvey.html" class="mt24 txt-h3 link block">Harvey</a>
+                <p class="mt12 prose">The links below open pages with lists of users active during each event. The map on the right shows the "collection boxes" that were queried for each event. Once collected, the tweets are grouped by user. If a user has more than 5 geotagged tweets in the collection boxes, they appear in the lists on the following pages: </p>
+                <br>              
+                <a href="harvey.html#5.28/28.127/-93.919" class="txt-h3 link">Hurricane Harvey <span class='ml12 triangle-l triangle-l--r color-yellow inline-block'></span></a>
+                <h3 class="mt24 txt-h3 mb12 block">Hurricane Irma</h3>
+
+                <a href="irma-stormpath.html#4/19.13/-67" class="ml24 txt-h3 link">Storm Path <span class='ml12 triangle-l triangle-l--r color-green inline-block'></span></a><br>
+                    
+                <br><a href="irma-inland.html#6/32.202/-83.018" class="ml24 txt-h3 link">Inland Flooding <span class='ml12 triangle-l triangle-l--r color-blue inline-block'></span></a><br>
+
+                <br><a href="maria.html#5.24/16.609/-66.399" class="mt24 txt-h3 link">Hurricane Maria<span class='ml12 triangle-l triangle-l--r color-orange inline-block'></span></a>
                 
-                <h3 class="mt24 txt-h3 block">Irma</h3>
+                <p class="mt24 prose">Users are spatio-temporally clustered in an attempt to determine home/work locations.</p>
+                <p class="mt12 prose">The user lists on the associated pages link to an interactive dashboard to explore the Twitter activity of one user at a time.</p>
 
-                <a target="_blank" href="irma-stormpath.html" class="mt12 ml24 txt-h3 link block">Storm Path</a>
-
-                <a target="_blank" href="irma-inland.html" class="mt12 ml24 txt-h3 link block">Inland Flooding</a>
-
-                <a target="_blank" href="maria.html" class="mt24 txt-h3 link block">Maria</a>
             </div>
               
-            <div class='col col--8'>
-              <div class='viewport-full' id="map"></div>
+            <div id="map" class='col col--8 mt12'>
             </div>
         </section>
-        
+
+        <script>
+            mapboxgl.accessToken = 'pk.eyJ1IjoiamVubmluZ3NhbmRlcnNvbiIsImEiOiIzMHZndnpvIn0.PS-j7fRK3HGU7IE8rbLT9A';
+            var map = new mapboxgl.Map({
+                container: 'map', // container id
+                style: 'mapbox://styles/mapbox/dark-v9', // stylesheet location
+                center: [-79, 26], // starting position [lng, lat]
+                zoom: 3.3, // starting zoom
+                interactive: false
+            });
+            
+            const opacityDriven = {
+              'property': 'users',
+              'stops' : [
+                  [0,   0.1],
+                  [100, 0.3],
+                  [500, 0.6],
+                  [1000, 0.9]
+              ]
+            }
+            
+            map.on('load',function(){
+                
+                map.addLayer({
+                    id: "IrmaInland",
+                    source:{
+                        type: "geojson",
+                        data: "https://gist.githubusercontent.com/jenningsanderson/feba7fa38f906a7fde09a8475b1ae27e/raw/eb83e7037846504fa17ee0ecbb87dfde4ac6662d/irma-flood-tiles-res.geojson"
+                    },
+                    type: "fill",
+                    paint: {
+                        "fill-color" : 'steelblue',
+                        "fill-opacity" : opacityDriven
+                    }
+                });
+                
+                
+                map.addLayer({
+                    id: "irmaStormPath",
+                    source:{
+                        type: "geojson",
+                        data: "https://gist.githubusercontent.com/jenningsanderson/a2f069fddb11e01772ce75e8a58c2713/raw/7a136b747d2cea3f952d6b6220fa2dd601cb15d3/irma-tiles-res.geojson"
+                    },
+                    type: "fill",
+                    paint: {
+                        "fill-color" : 'green',
+                        "fill-opacity" : opacityDriven
+                    }
+                });
+                
+                map.addLayer({
+                    id: "harvey",
+                    source:{
+                        type: "geojson",
+                        data: "https://gist.githubusercontent.com/jenningsanderson/6213e9101572229e746860aa6c1ace54/raw/d532c796caed25163314dec5ffa9d2840ecbb6e7/harvey-tiles-res.geojson"
+                    },
+                    type: "fill",
+                    paint: {
+                        "fill-color" : 'yellow',
+                        "fill-opacity" : opacityDriven
+                    }
+                });
+                map.addLayer({
+                    id: "maria",
+                    source:{
+                        type: "geojson",
+                        data: "https://gist.githubusercontent.com/jenningsanderson/6ef52e597083eb596716c8481c79c4fe/raw/65d29e7925de71fd20e992f908ac3f5ddb6b1490/maria-tiles-res.geojson"
+                    },
+                    type: "fill",
+                    paint: {
+                        "fill-color" : 'orange',
+                        "fill-opacity" : opacityDriven
+                    }
+                });
+
+            });
+        </script>
     </body>
 </html>
