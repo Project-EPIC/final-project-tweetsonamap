@@ -39,7 +39,7 @@ function tweetToHTMLString(props){
 //    html += `<tr><td><span style="margin-right:10px; font-weight:700;">TimeDelta</span></td><td>${props.timeDelta}</td></tr>`
     html += `<tr><td><span style="margin-right:10px; font-weight:700;">Time (UTC)</span></td><td>${props.date}</td></tr>`
 //    html += `<tr><td><span style="margin-right:10px; font-weight:700;">timestamp</span></td><td>${props.timestamp}</td></tr>
-    html += `<tr><td></td><td>Cluster: ${props.cluster}, Speed: ${props.speed.toFixed(2)} mph</td></tr>`
+    html += `<tr><td></td><td>Cluster: ${props.cluster}, Speed: ${ ( (props.speed)? props.speed.toFixed(2) : "" )} mph</td></tr>`
     
     html += `<tr><td><span style="margin-right:10px; font-weight:700;">Link</span></td><td><a class="link" target="_blank" href="http://twitter.com/statuses/${props.tweetID}">twitter.com/statuses/${props.tweetID}</a></td></tr></table>`
 
@@ -62,7 +62,7 @@ function tweetToTRElement(f){
   tr.dataset.tweetid = f.properties.tweetID;
   
   tr.innerHTML += `<td class="date">${(new Date(f.properties.date)).toLocaleString("en-US",{'timeZone':'America/New_York'})}</td>`
-  tr.innerHTML += `<td class="date">${f.properties.user}</td>`
+  tr.innerHTML += `<td class="date">${f.properties.user}<br><a target="_blank" href="http://twitter.com/statuses/${f.properties.tweetID}" class="btn btn--xs cursor-pointer">Link</a></td>`
   tr.innerHTML += `<td class="text">${linkify(f.properties.text)}</td>`
   tr.innerHTML += `<td class="speed">${(f.properties.speed)? f.properties.speed.toFixed(2) : ""}</td>`
   tr.innerHTML += "</td>"

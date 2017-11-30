@@ -16,7 +16,7 @@
         <h1 class='txt-h1'>{1}</h1>
         
         <section class='grid grid--gut12'>
-            <div class='col col--3'>
+            <div id='userList' class='col col--3'>
                 {2}   
             </div>
             
