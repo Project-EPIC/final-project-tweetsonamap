@@ -257,7 +257,7 @@ map.once('load',function(){
       if (f.geometry){
         geoCount++;
         //We can add a line here
-        if(prevGeoTweet){
+        if(prevGeoTweet && (f.properties.user.toLowerCase()===userFiles[3].toLowerCase())){
           lineFeatures.push({
             'type':'Feature',
             'properties':{
@@ -271,7 +271,9 @@ map.once('load',function(){
             ]}
           })
         }
-        prevGeoTweet = f;
+        if (f.properties.user.toLowerCase()===userFiles[3].toLowerCase()){
+          prevGeoTweet = f;
+        }
       }
 
       tweetTable.appendChild( tweetToTRElement(f) )

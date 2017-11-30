@@ -32,6 +32,16 @@ function linkify(text){
 }
 
 function tweetToHTMLString(props){
+    console.log(props)
+    var speed = ""
+    if (props.speed){
+      try{
+        speed = props.speed.toFixed(2) + " mph"
+      }catch(e){
+        speed = ""
+      }
+    }
+    
     var html = "<table>"
     html += `<tr><td><span style="margin-right:10px; font-weight:700;">User</span></td><td>${props.user}</td></tr>`
     html += `<tr><td><span style="margin-right:10px; font-weight:700;">Time (EST)</span></td><td>${(new Date(props.date)).toLocaleString("en-US",{'timeZone':'America/New_York'})}</td></tr>`
@@ -39,7 +49,7 @@ function tweetToHTMLString(props){
 //    html += `<tr><td><span style="margin-right:10px; font-weight:700;">TimeDelta</span></td><td>${props.timeDelta}</td></tr>`
     html += `<tr><td><span style="margin-right:10px; font-weight:700;">Time (UTC)</span></td><td>${props.date}</td></tr>`
 //    html += `<tr><td><span style="margin-right:10px; font-weight:700;">timestamp</span></td><td>${props.timestamp}</td></tr>
-    html += `<tr><td></td><td>Cluster: ${props.cluster}, Speed: ${ ( (props.speed)? props.speed.toFixed(2) : "" )} mph</td></tr>`
+    html += `<tr><td></td><td>Cluster: ${props.cluster}, Speed: ${ speed }</td></tr>`
     
     html += `<tr><td><span style="margin-right:10px; font-weight:700;">Link</span></td><td><a class="link" target="_blank" href="http://twitter.com/statuses/${props.tweetID}">twitter.com/statuses/${props.tweetID}</a></td></tr></table>`
 
