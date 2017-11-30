@@ -1,7 +1,7 @@
 body { margin:0; padding:0; }
 #map {
   width:100%;
-  height: calc(100% - 100px);
+  height: calc(100vh - 100px);
 }
 #timeline {
   height:100px;
@@ -19,6 +19,12 @@ body { margin:0; padding:0; }
   pointer-events: all;
 }
 
+.tweet-table-body{
+  display:block;
+  overflow-y:scroll;
+  height: calc(100vh - 150px);
+}
+
 #tweet-table{
   margin-top:10px;
   overflow:scroll;
@@ -26,11 +32,6 @@ body { margin:0; padding:0; }
 
 #tweet-table-head{
   display:block;
-}
-
-#tweet-table-body{
-  display:block;
-  overflow-y:scroll;
 }
 
 #tweet-table td.text{
@@ -59,4 +60,8 @@ body { margin:0; padding:0; }
 
 #tweet-table-body tr.hasGeo:hover{
   background-color: gray;
+}
+
+.mapboxgl-popup-content{
+  max-width:300px;
 }

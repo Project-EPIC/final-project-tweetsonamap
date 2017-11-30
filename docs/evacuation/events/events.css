@@ -1,0 +1,10 @@
+body{
+    padding-left:10px;
+}
+#map{
+    position:fixed;
+    top:75px;
+    width:100%;
+}
+    
+    

@@ -23,19 +23,43 @@
   <div class='col col--4'>
 
     <div id="left-sidebar" class="ml6">
-      <h2 class="txt-h2 mb6">User: <span id='userName-span'></span></h2>
+      <h2 class="txt-h2 mb6">User: <a target="_blank" class="link" href="#" id='userName-span'></a></h2>
       <h4 class="txt-h4 mb12">Tweet Count: <span id='tweetCount-span'></span> total, <span id='geoTweetCount-span'></span> geotagged</h4>
+        
+      <div class='toggle-group mr18'>
+        <label class='toggle-container'>
+          <input id="all-tweets-toggle" checked name='toggle' type='radio' />
+          <div class='toggle'>All Tweets</div>
+        </label>
+        <label class='toggle-container'>
+          <input id="tweets-in-view" name='toggle' type='radio' />
+          <div id='tweetsInViewLabel' class='toggle'>Tweets in View</div>
+        </label>
+      </div>
+        
       <div id="tweet-table-container">
-        <table id="tweet-table">
-          <thead id="tweet-table-head">
+        <table id="tweet-table" style="display:block;">
+          <thead id="tweet-table-head" class="loading">
             <tr><td style="padding-left:10px; width:100px;" class="date">Time (EST)</td>
               <td class="date">User</td>
               <td class="text">Text</td>
               <td class="speed">Speed</td>
             </tr>
           </thead>
-          <tbody id="tweet-table-body" class="viewport-twothirds"></tbody>
+          <tbody id="tweet-table-body" class="tweet-table-body"></tbody>
         </table>
+          
+        <!--<table id="in-view-tweet-table" style="display:none;">
+          <thead id="in-view-tweet-table-head">
+            <tr><td style="padding-left:10px; width:100px;" class="date">Time (EST)</td>
+              <td class="date">User</td>
+              <td class="text">Text</td>
+              <td class="speed">Speed</td>
+            </tr>
+          </thead>
+          <tbody id="in-view-tweet-table-body" class="tweet-table-body"></tbody>
+        </table>-->
+          
       </div>
     </div>
   </div>
@@ -62,7 +86,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiamVubmluZ3NhbmRlcnNvbiIsImEiOiIzMHZndnpvIn0.P
 var map = new mapboxgl.Map({
     container: 'map',
     zoom: 2,
-    center: [-147.81, 36.93],
+    center: [-97, 33],
     style: 'mapbox://styles/mapbox/light-v9',
     hash: true
 });
@@ -74,7 +98,9 @@ map.once('load',function(){
   var userFiles = getUserFiles(window.location.href)
   console.warn(userFiles)
 
-  document.getElementById('userName-span').innerHTML = userFiles[1].substring(0,userFiles[1].indexOf('.'))
+  var uNameLink = document.getElementById('userName-span')
+  uNameLink.innerHTML = userFiles[3]
+  uNameLink.href = "http://twitter.com/"+userFiles[3]
 
   map.addSource('tweets-meta',{
       type: 'geojson',
@@ -226,9 +252,6 @@ map.once('load',function(){
         prevDate = {date: parseDate(prevDateStr), count:1}
       }
 
-      //How about adding it to the table
-      var tr = document.createElement('tr')
-      tr.setAttribute('id','timestamp-'+f.properties.timestamp)
       allTimestamps.push(f.properties.timestamp)
 
       if (f.geometry){
@@ -249,18 +272,9 @@ map.once('load',function(){
           })
         }
         prevGeoTweet = f;
-
-        tr.classList.add('hasGeo')
-        tr.addEventListener('click',function(e){
-          map.flyTo({zoom: 14, center: f.geometry.coordinates})
-        })
       }
-      tr.innerHTML += `<td class="date">${d.toLocaleString("en-US",{'timeZone':'America/New_York'})}</td>`
-      tr.innerHTML += `<td class="date">${f.properties.user}</td>`
-      tr.innerHTML += `<td class="text">${f.properties.text}</td>`
-      tr.innerHTML += `<td class="speed">${(f.properties.speed)? f.properties.speed.toFixed(2) : ""}</td>`
-      tr.innerHTML += "</td>"
-      tweetTable.appendChild(tr)
+
+      tweetTable.appendChild( tweetToTRElement(f) )
     })
 
     if (lineFeatures.length>0){
@@ -313,6 +327,7 @@ map.once('load',function(){
       //])
       document.getElementById("tweet-table-body").scrollTop = (findPerfectTimestamp(startTime) - 200);
     })
+    document.getElementById('tweet-table-head').classList = "";  
   })
 
   //Interaction
@@ -326,20 +341,9 @@ map.once('load',function(){
     if(!features.length){return};
     var props = features[0].properties
 
-    var html = "<table>"
-    html += `<tr><td><span style="margin-right:10px; font-weight:700;">User</span></td><td>${props.user}</td></tr>`
-    html += `<tr><td><span style="margin-right:10px; font-weight:700;">Time (EST)</span></td><td>${(new Date(props.date)).toLocaleString("en-US",{'timeZone':'America/New_York'})}</td></tr>`
-    html += `<tr><td><span style="margin-right:10px; font-weight:700;">Text</span></td><td>${decodeURIComponent( props.text.replace(/\+/g,' '))}</td></tr>`
-    html += `<tr><td><span style="margin-right:10px; font-weight:700;">Speed</span></td><td>${props.speed}</td></tr>`
-    html += `<tr><td><span style="margin-right:10px; font-weight:700;">Cluster</span></td><td>${props.cluster}</td></tr>`
-    html += `<tr><td><span style="margin-right:10px; font-weight:700;">TimeDelta</span></td><td>${props.timeDelta}</td></tr>`
-    html += `<tr><td><span style="margin-right:10px; font-weight:700;">Time (UTC)</span></td><td>${props.date}</td></tr>`
-    html += `<tr><td><span style="margin-right:10px; font-weight:700;">timestamp</span></td><td>${props.timestamp}</td></tr>
-    </table>`
-
     new mapboxgl.Popup({'closeOnClick':true})
       .setLngLat(e.lngLat)
-      .setHTML(html)
+      .setHTML(tweetToHTMLString(props))
       .addTo(map);
   });
 
@@ -412,6 +416,53 @@ document.getElementById('toggleOtherUsers').addEventListener('click',function(e)
     map.setLayoutProperty('tweets-other-users','visibility','visible')
   }
 })
+
+var tweetTable = 'allTweets'
+
+function filterTableForInView(){
+  var tweets = getUniqueFeatures( map.queryRenderedFeatures({layers: ['tweets']}), 'tweetID');
+//  console.log("Found " + tweets.length + " tweets" );
+    
+  var visibleTweetIDs = tweets.map(function(t){return t.properties.tweetID});
+    
+  var table = document.getElementById('tweet-table-body');
+  for (var i = 0, row; row = table.rows[i]; i++) {
+    if (visibleTweetIDs.indexOf( table.rows[i].dataset.tweetid ) < 0 ){
+      table.rows[i].style.display='none';  
+    }else{
+      table.rows[i].style.display='block';
+    }
+  }
+  document.getElementById('tweet-table-head').classList = "";  
+  document.getElementById('tweetsInViewLabel').innerHTML = 'Tweets In View ('+visibleTweetIDs.length+')'
+}
+
+document.getElementById('tweets-in-view').addEventListener('click',function(e){
+  if (tweetTable==='allTweets'){
+    tweetTable = 'inView'
+    console.log("Switching to inView Tweets");
+    document.getElementById('tweet-table-head').classList += ' loading'
+    
+    map.on('moveend',function(){
+      if (tweetTable==='inView'){
+        filterTableForInView();
+      }
+    });
+    filterTableForInView();
+  }
+});
+
+document.getElementById('all-tweets-toggle').addEventListener('click',function(e){
+  if (tweetTable==='inView'){
+    tweetTable = 'allTweets'
+    console.log("Switching to allTweets");
+    var table = document.getElementById('tweet-table-body');
+    for (var i = 0, row; row = table.rows[i]; i++) {
+      table.rows[i].style.display='block';
+    }
+    document.getElementById('tweetsInViewLabel').innerHTML = 'Tweets In View'
+  }
+});
 
 
 function findPerfectTimestamp(second){
