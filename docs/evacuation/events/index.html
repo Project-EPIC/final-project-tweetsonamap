@@ -1,53 +1,53 @@
 <html>
     <head>
         <link href="https://api.mapbox.com/mapbox-assembly/v0.19.0/assembly.min.css" rel="stylesheet">
-        
+
         <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.js'></script>
         <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.css' rel='stylesheet' />
-        
+
         <link href="events.css" rel="stylesheet" type="text/css" />
-        
+
         <title>Processed Events</title>
-                
+
     </head>
-    
+
     <body>
-        
+
         <h1 class='txt-h1'>Events Processed for Interactive Viewing (Movement Derivation)</h1>
-        
+
         <section class='px24 grid grid--gut12'>
-            
+
             <div class="col col--4" id='eventList' >
-                
+
                 <p class="mt12 prose">The links below open pages with lists of users active during each event. The map on the right shows the "collection boxes" that were queried for each event. Once collected, the tweets are grouped by user. If a user has more than 5 geotagged tweets in the collection boxes, they appear in the lists on the following pages: </p>
-                <br>              
+                <br>
                 <a href="harvey.html#5.28/28.127/-93.919" class="txt-h3 link">Hurricane Harvey <span class='ml12 triangle-l triangle-l--r color-yellow inline-block'></span></a>
                 <h3 class="mt24 txt-h3 mb12 block">Hurricane Irma</h3>
 
                 <a href="irma-stormpath.html#4/19.13/-67" class="ml24 txt-h3 link">Storm Path <span class='ml12 triangle-l triangle-l--r color-green inline-block'></span></a><br>
-                    
+
                 <br><a href="irma-inland.html#6/32.202/-83.018" class="ml24 txt-h3 link">Inland Flooding <span class='ml12 triangle-l triangle-l--r color-blue inline-block'></span></a><br>
 
                 <br><a href="maria.html#5.24/16.609/-66.399" class="mt24 txt-h3 link">Hurricane Maria<span class='ml12 triangle-l triangle-l--r color-orange inline-block'></span></a>
-                
+
                 <p class="mt24 prose">Users are spatio-temporally clustered in an attempt to determine home/work locations.</p>
                 <p class="mt12 prose">The user lists on the associated pages link to an interactive dashboard to explore the Twitter activity of one user at a time.</p>
-                
+
                 <h2 class='txt-h2 mt12'>Others: </h2>
-                                
+
                 <br><a href="brunswick-contextual.html#4.3/32.717/-78.019" class="mt24 txt-h4 link">
                 <span class='ml12 triangle triangle--r color-orange inline-block'></span>
                 Brunswick, GA: Hurricane Matthew
                 </a><br>
-                
+
                 <br><a href="redhook.html#1.97/9.3/-43.3" class="mt24 txt-h4 link">
                     <span class='ml12 triangle triangle--r color-orange inline-block'></span>
                     Hurricane Sandy: Red Hook Contextual Plus
                 </a>
-                
+
 
             </div>
-              
+
             <div id="map" class='col col--8 mt12'>
             </div>
         </section>
@@ -59,9 +59,9 @@
                 style: 'mapbox://styles/mapbox/dark-v9', // stylesheet location
                 center: [-79, 26], // starting position [lng, lat]
                 zoom: 3.3, // starting zoom
-                interactive: false
+                hash:true
             });
-            
+
             const opacityDriven = {
               'property': 'users',
               'stops' : [
@@ -71,9 +71,9 @@
                   [1000, 0.9]
               ]
             }
-            
+
             map.on('load',function(){
-                
+
                 map.addLayer({
                     id: "IrmaInland",
                     source:{
@@ -86,8 +86,8 @@
                         "fill-opacity" : opacityDriven
                     }
                 });
-                
-                
+
+
                 map.addLayer({
                     id: "irmaStormPath",
                     source:{
@@ -100,7 +100,7 @@
                         "fill-opacity" : opacityDriven
                     }
                 });
-                
+
                 map.addLayer({
                     id: "harvey",
                     source:{
@@ -126,6 +126,35 @@
                     }
                 });
 
+                var layers = ['IrmaInland', 'irmaStormPath', 'harvey', 'maria']
+
+                map.on('mousemove', function (e) {
+                  var features = map.queryRenderedFeatures(e.point, {layers:layers});
+                  if (features.length){
+                    map.getCanvas().style.cursor = 'pointer';
+                  }
+                  else{
+                    map.getCanvas().style.cursor = '';
+                  }
+                });
+
+                function featToDOM(feat){
+                  return "<div class='mb24'><p>Collection: <strong>" + feat.layer.id + "</strong></p>" +
+                         "<p>Users: <strong>" + feat.properties.users + "</strong></p>"+
+                         "<p>Tweets: <strong>" + feat.properties.tweets + "</strong></p></div>"
+                }
+
+                map.on('click', function (e){
+                  var features = map.queryRenderedFeatures(e.point, {layers:layers});
+                  if (features.length){
+                    var popup = new mapboxgl.Popup({
+                      closeButton: false,
+                      closeOnClick: true
+                    }).setLngLat(e.lngLat)
+                      .setHTML(features.map(function(x){return featToDOM(x)}).join(""))
+                      .addTo(map);
+                  }
+                });
             });
         </script>
     </body>
