@@ -30,6 +30,8 @@
 
                 <br><a href="maria.html#5.24/16.609/-66.399" class="mt24 txt-h3 link">Hurricane Maria<span class='ml12 triangle-l triangle-l--r color-orange inline-block'></span></a>
 
+                <br><br><a href="" class="mt24 txt-h3">Hurricane Nate (Coming)<span class='ml12 triangle-l triangle-l--r color-purple inline-block'></span></a>
+
                 <p class="mt24 prose">Users are spatio-temporally clustered in an attempt to determine home/work locations.</p>
                 <p class="mt12 prose">The user lists on the associated pages link to an interactive dashboard to explore the Twitter activity of one user at a time.</p>
 
@@ -126,7 +128,20 @@
                     }
                 });
 
-                var layers = ['IrmaInland', 'irmaStormPath', 'harvey', 'maria']
+                map.addLayer({
+                  id: "nate",
+                  source:{
+                      type: "geojson",
+                      data: "https://gist.githubusercontent.com/jenningsanderson/ff1541f61e4f24d603c7594afa4ed885/raw/c275a9bbdb93d1125ae15ab87a48f11b48961a14/nate-tiles-res.geojson"
+                  },
+                  type: "fill",
+                  paint: {
+                      "fill-color" : 'purple',
+                      "fill-opacity" : opacityDriven
+                    }
+                })
+
+                var layers = ['IrmaInland', 'irmaStormPath', 'harvey', 'maria', 'nate']
 
                 map.on('mousemove', function (e) {
                   var features = map.queryRenderedFeatures(e.point, {layers:layers});
