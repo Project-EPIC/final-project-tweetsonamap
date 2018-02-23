@@ -15,13 +15,14 @@ function getUserFiles(urlString){
 
   var rootP = urlVars['root'] || 'sample/';
   var uName = urlVars['user'] || 'noneck'
+  var meta  = urlVars['meta'] || true;
 
-  return [rootP, uName+'.geojson',uName+'-meta.geojson',uName]
+  return [rootP, uName+'.geojson',uName+'-meta.geojson',uName, meta]
 }
 
 function linkify(text){
   var parts = text.split(" ");
-  
+
   for(var idx in parts){
     if (parts[idx].startsWith("http://") || parts[idx].startsWith("https://")){
       parts[idx] = "<a class='link' target='_blank' href='"+parts[idx]+"'>"+parts[idx]+"</a>"
@@ -41,7 +42,7 @@ function tweetToHTMLString(props){
         speed = ""
       }
     }
-    
+
     var html = "<table>"
     html += `<tr><td><span style="margin-right:10px; font-weight:700;">User</span></td><td>${props.user}</td></tr>`
     html += `<tr><td><span style="margin-right:10px; font-weight:700;">Time (EST)</span></td><td>${(new Date(props.date)).toLocaleString("en-US",{'timeZone':'America/New_York'})}</td></tr>`
@@ -50,7 +51,7 @@ function tweetToHTMLString(props){
     html += `<tr><td><span style="margin-right:10px; font-weight:700;">Time (UTC)</span></td><td>${props.date}</td></tr>`
 //    html += `<tr><td><span style="margin-right:10px; font-weight:700;">timestamp</span></td><td>${props.timestamp}</td></tr>
     html += `<tr><td></td><td>Cluster: ${props.cluster}, Speed: ${ speed }</td></tr>`
-    
+
     html += `<tr><td><span style="margin-right:10px; font-weight:700;">Link</span></td><td><a class="link" target="_blank" href="http://twitter.com/statuses/${props.tweetID}">twitter.com/statuses/${props.tweetID}</a></td></tr></table>`
 
     return html
@@ -70,7 +71,7 @@ function tweetToTRElement(f){
     })
   }
   tr.dataset.tweetid = f.properties.tweetID;
-  
+
   tr.innerHTML += `<td class="date">${(new Date(f.properties.date)).toLocaleString("en-US",{'timeZone':'America/New_York'})}</td>`
   tr.innerHTML += `<td class="date">${f.properties.user}<br><a target="_blank" href="http://twitter.com/statuses/${f.properties.tweetID}" class="btn btn--xs cursor-pointer">Link</a></td>`
   tr.innerHTML += `<td class="text">${linkify(f.properties.text)}</td>`
