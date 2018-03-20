@@ -1,0 +1,5539 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": -4381506,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "771146677113593862",
+        "date": "2016-09-01T00:44:29.000Z",
+        "speed": null,
+        "text": "RT @WESH: Orange County Public Schools cancels all outdoor afterschool activities for Thursday #WESHwx",
+        "user": "OnAirJana",
+        "timestamp": 1472690669
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 46478,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "771341619631157253",
+        "date": "2016-09-01T13:39:07.000Z",
+        "speed": null,
+        "text": "RT @MaureenMcCann13: Smoke from an explosion at the #CapeCanaveral AFS seen from our camera: https://t.co/FRzxAEajV0",
+        "user": "OnAirJana",
+        "timestamp": 1472737147,
+        "timeDelta": 46478
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 21,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "771341706432286720",
+        "date": "2016-09-01T13:39:28.000Z",
+        "speed": null,
+        "text": "RT @Hank_Hagen_: @Fox35Amy @Fox35News Explosions at Space X facility on Cape Canaveral. https://t.co/nRZ24L3XSi",
+        "user": "OnAirJana",
+        "timestamp": 1472737168,
+        "timeDelta": 21
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 35078,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "771488835901489152",
+        "date": "2016-09-01T23:24:06.000Z",
+        "speed": null,
+        "text": "#FYI a 5 yr old with a jump rope is dangerous. #thosehandlesareweapons #gonnaleaveabruise",
+        "user": "OnAirJana",
+        "timestamp": 1472772246,
+        "timeDelta": 35078
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 216,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "771489740382171137",
+        "date": "2016-09-01T23:27:42.000Z",
+        "speed": null,
+        "text": "RT @SpaceX: Thanks to @45thSpaceWing, @NASAKennedy and others for helping us respond to today's anomaly. Very grateful for your efforts.",
+        "user": "OnAirJana",
+        "timestamp": 1472772462,
+        "timeDelta": 216
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 49213,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "771696153268224000",
+        "date": "2016-09-02T13:07:55.000Z",
+        "speed": null,
+        "text": "I love a good #throwback #ClassaReunionWeekend @johnnyshouse https://t.co/n87gyFwyvA",
+        "user": "OnAirJana",
+        "timestamp": 1472821675,
+        "timeDelta": 49213
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 5831,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "771720613723451392",
+        "date": "2016-09-02T14:45:06.000Z",
+        "speed": null,
+        "text": "RT @NBCNightlyNews: NEW: FDA orders antibacterials removed from consumer soaps; says they do little or nothing to make soap work better. ht…",
+        "user": "OnAirJana",
+        "timestamp": 1472827506,
+        "timeDelta": 5831
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 809,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "771724005304770560",
+        "date": "2016-09-02T14:58:35.000Z",
+        "speed": null,
+        "text": "Love this! Thanks #harvestfestival @sunny1065lv Cant wait to shop! https://t.co/OEZyQZMZHT https://t.co/15F1mpjVG2",
+        "user": "OnAirJana",
+        "timestamp": 1472828315,
+        "timeDelta": 809
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 27,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "771724117913374720",
+        "date": "2016-09-02T14:59:02.000Z",
+        "speed": null,
+        "text": "RT @MarissaClark_: OMG these fools pierced their ears bc they thought they needed to go through a \"mid-life crisis\"......@JohnnysHouse http…",
+        "user": "OnAirJana",
+        "timestamp": 1472828342,
+        "timeDelta": 27
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 232,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "771725091268800512",
+        "date": "2016-09-02T15:02:54.000Z",
+        "speed": null,
+        "text": "RT @ScaryMommy: YUP. (via @LurkAtHomeMom) https://t.co/BFOeDtfYu6",
+        "user": "OnAirJana",
+        "timestamp": 1472828574,
+        "timeDelta": 232
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 897,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "771728853295169536",
+        "date": "2016-09-02T15:17:51.000Z",
+        "speed": null,
+        "text": "I saw this on my FB feed this morning and it made me CRAZY!\nHow does this make you feel? https://t.co/mAnt3pMd2p https://t.co/l2o09QKz3F",
+        "user": "OnAirJana",
+        "timestamp": 1472829471,
+        "timeDelta": 897
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 15653,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "771794506828156928",
+        "date": "2016-09-02T19:38:44.000Z",
+        "speed": null,
+        "text": "In fact... having some right now. You are all safe. #CaffeineIsYourFriend #coffee https://t.co/XLcWF9Euh7",
+        "user": "OnAirJana",
+        "timestamp": 1472845124,
+        "timeDelta": 15653
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "OnAirJana",
+        "text": "The new Friday night. #beourguest #disneyonice #followyourdreams @amwaycenter @johnnyshouse… https://t.co/MdBktpNQV8",
+        "date": "2016-09-02T23:46:07.000Z",
+        "speed": null,
+        "timeD": "",
+        "dbscan": "noise",
+        "timestamp": 1472859967,
+        "timeDelta": 14843
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3835461,
+          28.5388627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "OnAirJana",
+        "text": "#impressive #disneyonice #followyourdreams @ Amway Center - Disney on Ice - Follow Your Heart… https://t.co/OFeuZEndCG",
+        "date": "2016-09-02T23:59:18.000Z",
+        "speed": 0,
+        "timeD": 791,
+        "dbscan": "noise",
+        "timestamp": 1472860758,
+        "timeDelta": 791
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3835461,
+          28.5388627
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 29223,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "771917077284265984",
+        "date": "2016-09-03T03:45:47.000Z",
+        "speed": null,
+        "text": "My baby girls 1st intro gig. She prepped by eating popcorn. So proud. #momlife #radiolife… https://t.co/mlSe1QFbjC",
+        "user": "OnAirJana",
+        "timestamp": 1472874347,
+        "timeDelta": 13589
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 148570,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "772540226556293126",
+        "date": "2016-09-04T21:01:57.000Z",
+        "speed": null,
+        "text": "RT @Fox35Kirstin: Legoland &amp; the Orlando Eye making generous offers to first responders. All Sept. the 1st responders can get a free single…",
+        "user": "OnAirJana",
+        "timestamp": 1473022917,
+        "timeDelta": 148570
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 93872,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "772933954731114497",
+        "date": "2016-09-05T23:06:29.000Z",
+        "speed": null,
+        "text": "RT @CollegeGameDay: Casual... https://t.co/PsQrWVja6U",
+        "user": "OnAirJana",
+        "timestamp": 1473116789,
+        "timeDelta": 93872
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 44667,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "773121299988307968",
+        "date": "2016-09-06T11:30:56.000Z",
+        "speed": null,
+        "text": "Should have been out of bed 90 min.ago... but that was before my daughter woke up at 2, 3, and 4am. #ugh  #sleepydayahead",
+        "user": "OnAirJana",
+        "timestamp": 1473161456,
+        "timeDelta": 44667
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 23645,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "773220475128287232",
+        "date": "2016-09-06T18:05:01.000Z",
+        "speed": null,
+        "text": "RT @OrlandoFireDept: With the heavy rain we've seen this weekend, let's not forget to Tip, Toss and Cover to prevent mosquito breeding. htt…",
+        "user": "OnAirJana",
+        "timestamp": 1473185101,
+        "timeDelta": 23645
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 19361,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "773301679651450888",
+        "date": "2016-09-06T23:27:42.000Z",
+        "speed": null,
+        "text": "RT @Q1019: Your cat isn't grumpy.  He's bored!  But you can fix that.\nhttps://t.co/fUw5nTUT0U",
+        "user": "OnAirJana",
+        "timestamp": 1473204462,
+        "timeDelta": 19361
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 56089,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "773536934933082112",
+        "date": "2016-09-07T15:02:31.000Z",
+        "speed": null,
+        "text": "RT @HorrorNightsORL: You won't stand a Chance. https://t.co/hhyRi2Jp0M #HHN26 https://t.co/7CL0Ua92Jj",
+        "user": "OnAirJana",
+        "timestamp": 1473260551,
+        "timeDelta": 56089
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 205,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "773537792643039232",
+        "date": "2016-09-07T15:05:56.000Z",
+        "speed": null,
+        "text": "A great recap of the first week of working at Target. It's more amazing than you think... https://t.co/CFAWGKcc7q",
+        "user": "OnAirJana",
+        "timestamp": 1473260756,
+        "timeDelta": 205
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 33793,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "773679532293271552",
+        "date": "2016-09-08T00:29:09.000Z",
+        "speed": null,
+        "text": "Your cheat sheet to the latest slang terms... \nhttps://t.co/za2nluKLbB",
+        "user": "OnAirJana",
+        "timestamp": 1473294549,
+        "timeDelta": 33793
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 46322,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "773873820058980352",
+        "date": "2016-09-08T13:21:11.000Z",
+        "speed": null,
+        "text": "Um. Wow. #freetimemuch https://t.co/rjZMSUvDwk",
+        "user": "OnAirJana",
+        "timestamp": 1473340871,
+        "timeDelta": 46322
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 7345,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "773904627708235776",
+        "date": "2016-09-08T15:23:36.000Z",
+        "speed": null,
+        "text": "Tag your friend that always has to have that new iphone IMMEDIATELY!  https://t.co/AAO6TA1PO0",
+        "user": "OnAirJana",
+        "timestamp": 1473348216,
+        "timeDelta": 7345
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 168,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "773905332565188608",
+        "date": "2016-09-08T15:26:24.000Z",
+        "speed": null,
+        "text": "RT @brett7three: 80% on #GoForLaunch of #OSIRISREx tonight during 2 hour launch window from 7 PM - 9 PM (EST). Cumulus clouds remain the on…",
+        "user": "OnAirJana",
+        "timestamp": 1473348384,
+        "timeDelta": 168
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 3,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "773905343600406532",
+        "date": "2016-09-08T15:26:27.000Z",
+        "speed": null,
+        "text": "Does your kid have WAY TOO MUCH homework?\nIs it good or bad for our kids? https://t.co/YcZYgIr8dA",
+        "user": "OnAirJana",
+        "timestamp": 1473348387,
+        "timeDelta": 3
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 7595,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "773937201939832832",
+        "date": "2016-09-08T17:33:02.000Z",
+        "speed": null,
+        "text": "About that time...  https://t.co/g9pUe4tgiX",
+        "user": "OnAirJana",
+        "timestamp": 1473355982,
+        "timeDelta": 7595
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 11018,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "773983412994605056",
+        "date": "2016-09-08T20:36:40.000Z",
+        "speed": null,
+        "text": "RT @alessiacara: thank u @theellenshow @tyleroakley for speaking about @iamthatgirl💙 so excited to be apart of this \n\n#IAMYOU https://t.co/…",
+        "user": "OnAirJana",
+        "timestamp": 1473367000,
+        "timeDelta": 11018
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 69151,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "774273456485519361",
+        "date": "2016-09-09T15:49:11.000Z",
+        "speed": null,
+        "text": "She never saw this coming. Watch as these footballers surprise this young girl in the fight of her life... https://t.co/SxBO0UmTHp",
+        "user": "OnAirJana",
+        "timestamp": 1473436151,
+        "timeDelta": 69151
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "OnAirJana",
+        "text": "Love this sexy woman! Thanks for hanging @tovelo Cant wait to see you @amwaycenter tonight!… https://t.co/KLeAdSxsXN",
+        "date": "2016-09-09T19:03:03.000Z",
+        "speed": null,
+        "timeD": 587025,
+        "cluster": 0,
+        "dbscan": "core",
+        "timestamp": 1473447783,
+        "timeDelta": 11632
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.39508739,
+          28.63335982
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 33777,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "774415126384435200",
+        "date": "2016-09-10T01:12:08.000Z",
+        "speed": null,
+        "text": "I have been doing this wrong my whole life... #fruit #wow \nhttps://t.co/Khf8cj1Jnt https://t.co/5DSwvqXLUF",
+        "user": "OnAirJana",
+        "timestamp": 1473469928,
+        "timeDelta": 22145
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 49128,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "774621183690039296",
+        "date": "2016-09-10T14:50:56.000Z",
+        "speed": null,
+        "text": "RT @OrlandoPolice: OPD rocked it this am running the Tunnel 2 Towers 5K, in memory of fallen first responders on September 11, 2001 https:/…",
+        "user": "OnAirJana",
+        "timestamp": 1473519056,
+        "timeDelta": 49128
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 8,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "774621215445180416",
+        "date": "2016-09-10T14:51:04.000Z",
+        "speed": null,
+        "text": "RT @Q1019: I cut a watermelon this way and it's awesome! https://t.co/aOqkOyVns8",
+        "user": "OnAirJana",
+        "timestamp": 1473519064,
+        "timeDelta": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "OnAirJana",
+        "text": "Off she goes. #happykid seaworld #momlife @ Sea World Orlando Florida https://t.co/wG5NeCQaHD",
+        "date": "2016-09-10T15:56:55.000Z",
+        "speed": null,
+        "timeD": 75232,
+        "dbscan": "noise",
+        "timestamp": 1473523015,
+        "timeDelta": 3951
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.46138059,
+          28.41202294
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 31257,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "774752318294228992",
+        "date": "2016-09-10T23:32:01.000Z",
+        "speed": null,
+        "text": "RT @realjoeyfatone: Thank you all who came to the opening  of @fatonedogs it was amazing to see all the love and support !! And thanks to a…",
+        "user": "OnAirJana",
+        "timestamp": 1473550321,
+        "timeDelta": 27306
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 48131,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "774954193379528704",
+        "date": "2016-09-11T12:54:12.000Z",
+        "speed": null,
+        "text": "RT @OrlandoPolice: 9/11 Remembrance Ceremony will begin soon. @SupportCam https://t.co/fY0B9wAkN0",
+        "user": "OnAirJana",
+        "timestamp": 1473598452,
+        "timeDelta": 48131
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 29,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "774954315140169728",
+        "date": "2016-09-11T12:54:41.000Z",
+        "speed": null,
+        "text": "RT @OrlandoPolice: Follow  @NYPDnews and see their feed today, listing each of their 9/11 LEO casualties individually.  #NeverForget  https…",
+        "user": "OnAirJana",
+        "timestamp": 1473598481,
+        "timeDelta": 29
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 2641,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "774965394050322432",
+        "date": "2016-09-11T13:38:42.000Z",
+        "speed": null,
+        "text": "#neverforget #Orlando #beautiful #tribute https://t.co/lVtKs72Izh",
+        "user": "OnAirJana",
+        "timestamp": 1473601122,
+        "timeDelta": 2641
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "OnAirJana",
+        "text": "Taking over the boss man's office. What should I do first? kissbmack @johnnyshouse @ Iheartmedia… https://t.co/3kTctFgHG5",
+        "date": "2016-09-12T15:56:35.000Z",
+        "speed": null,
+        "timeD": 172780,
+        "cluster": 0,
+        "dbscan": "core",
+        "timestamp": 1473695795,
+        "timeDelta": 94673
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.39508739,
+          28.63335982
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 173612,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "775693576000778240",
+        "date": "2016-09-13T13:52:14.000Z",
+        "speed": null,
+        "text": "RT @DCHomos: Another angle of Lochte protesters on #DWTS #DancingWiththeStars \n\nWhy does this remind me of a Trump rally 🤔 https://t.co/YKC…",
+        "user": "OnAirJana",
+        "timestamp": 1473774734,
+        "timeDelta": 78939
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 1089,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "775698142364708865",
+        "date": "2016-09-13T14:10:23.000Z",
+        "speed": null,
+        "text": "Publicity stunt? Here is another view of last night's \"protest.\"\nhttps://t.co/lmB0J2fkvm https://t.co/QFFScSG1CP",
+        "user": "OnAirJana",
+        "timestamp": 1473775823,
+        "timeDelta": 1089
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 461,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "775700075867623424",
+        "date": "2016-09-13T14:18:04.000Z",
+        "speed": null,
+        "text": "RT @xl1067: ONLY 10 DAYS til' #iHeartRadio Music Festival! Are you ready? https://t.co/q2HSY1Tkvl https://t.co/jgDy3Dpm9Z",
+        "user": "OnAirJana",
+        "timestamp": 1473776284,
+        "timeDelta": 461
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 2107,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "775708913098297349",
+        "date": "2016-09-13T14:53:11.000Z",
+        "speed": null,
+        "text": "RT @tkradio: Your life doesn't have to be perfect to be extraordinary.",
+        "user": "OnAirJana",
+        "timestamp": 1473778391,
+        "timeDelta": 2107
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 13317,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "775764770590863360",
+        "date": "2016-09-13T18:35:08.000Z",
+        "speed": null,
+        "text": "Why Disney decided to go with the \"Anti Princess.\"  \nHint: They are smart. https://t.co/xvYV23MAzr",
+        "user": "OnAirJana",
+        "timestamp": 1473791708,
+        "timeDelta": 13317
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 1654,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "775771706052849664",
+        "date": "2016-09-13T19:02:42.000Z",
+        "speed": null,
+        "text": "YAS!!! https://t.co/NscsAzm4if",
+        "user": "OnAirJana",
+        "timestamp": 1473793362,
+        "timeDelta": 1654
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 16463,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "775840757781442560",
+        "date": "2016-09-13T23:37:05.000Z",
+        "speed": null,
+        "text": "Put away the Rose'... Fall's hot new drink is a beer cocktail. Curious? Thirsty? https://t.co/Q5Mi7DbG6W",
+        "user": "OnAirJana",
+        "timestamp": 1473809825,
+        "timeDelta": 16463
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 1435,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "775846777471676416",
+        "date": "2016-09-14T00:01:00.000Z",
+        "speed": null,
+        "text": "RT @IyanlaVanzant: Until you wholeheartedly believe in your own value, worth, and worthiness, there will always be a void in your spirit.",
+        "user": "OnAirJana",
+        "timestamp": 1473811260,
+        "timeDelta": 1435
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 9067,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "775884804373876736",
+        "date": "2016-09-14T02:32:07.000Z",
+        "speed": null,
+        "text": "Quick... check to see if you have anything in this color in your closet!  https://t.co/4GYFgyPUNP",
+        "user": "OnAirJana",
+        "timestamp": 1473820327,
+        "timeDelta": 9067
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 41793,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "776060098892275713",
+        "date": "2016-09-14T14:08:40.000Z",
+        "speed": null,
+        "text": "Stop collecting gift cards you never use... trade them in for CASH! \nhttps://t.co/JV6j2L3I8x",
+        "user": "OnAirJana",
+        "timestamp": 1473862120,
+        "timeDelta": 41793
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 11063,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "776106497600319488",
+        "date": "2016-09-14T17:13:03.000Z",
+        "speed": null,
+        "text": "On a full plane... next to B.O.  I may not make it. #gag",
+        "user": "OnAirJana",
+        "timestamp": 1473873183,
+        "timeDelta": 11063
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 22682,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "776201634925785088",
+        "date": "2016-09-14T23:31:05.000Z",
+        "speed": null,
+        "text": "Do you sleep in the nude? Chances are you sleep better...\nhttps://t.co/rDsGN35Vw3",
+        "user": "OnAirJana",
+        "timestamp": 1473895865,
+        "timeDelta": 22682
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 7541,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "776233261982945280",
+        "date": "2016-09-15T01:36:46.000Z",
+        "speed": null,
+        "text": "This man gave me my first job in radio,  19 years ago. So thankful. So proud of all you have… https://t.co/qJEB9gaBgG",
+        "user": "OnAirJana",
+        "timestamp": 1473903406,
+        "timeDelta": 7541
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 51994,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "776451342147739649",
+        "date": "2016-09-15T16:03:20.000Z",
+        "speed": null,
+        "text": "Thank you @Delta .. smooth flight, wonderful crew. Great to be home #Orlando #jetset #work",
+        "user": "OnAirJana",
+        "timestamp": 1473955400,
+        "timeDelta": 51994
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 11705,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "776500437130371072",
+        "date": "2016-09-15T19:18:25.000Z",
+        "speed": null,
+        "text": "@shays0122 usually within the hour of texting in.  Good Luck!",
+        "user": "OnAirJana",
+        "timestamp": 1473967105,
+        "timeDelta": 11705
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 18989,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "776580084178255873",
+        "date": "2016-09-16T00:34:54.000Z",
+        "speed": null,
+        "text": "RT @Pop2Life: Submit a Weekly Roundup article - published every Friday! https://t.co/K8JQwn2otF by @Pop2Life https://t.co/lwon5OWzPm",
+        "user": "OnAirJana",
+        "timestamp": 1473986094,
+        "timeDelta": 18989
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 2391,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "776590110943023104",
+        "date": "2016-09-16T01:14:45.000Z",
+        "speed": null,
+        "text": "RT @CalvinHarris: 3 hours https://t.co/kSUWUvU8J6",
+        "user": "OnAirJana",
+        "timestamp": 1473988485,
+        "timeDelta": 2391
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 47536,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "776789491856007168",
+        "date": "2016-09-16T14:27:01.000Z",
+        "speed": null,
+        "text": "Just when you think the house is quiet... this happens. #truth \n #MomLife #Parenthood https://t.co/G9DqaurFFp",
+        "user": "OnAirJana",
+        "timestamp": 1474036021,
+        "timeDelta": 47536
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 30125,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "776915846379610112",
+        "date": "2016-09-16T22:49:06.000Z",
+        "speed": null,
+        "text": "Does this make you laugh... or get mad? Me? BOTH! - Jana\nhttps://t.co/2atzJDPRSz",
+        "user": "OnAirJana",
+        "timestamp": 1474066146,
+        "timeDelta": 30125
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "OnAirJana",
+        "text": "Let's get this party started! ##hopeandhelp #headdressball @ Orlando World Marriott Taste Of The… https://t.co/6nte3lRT6Z",
+        "date": "2016-09-17T23:26:40.000Z",
+        "speed": null,
+        "timeD": 459005,
+        "dbscan": "noise",
+        "timestamp": 1474154800,
+        "timeDelta": 88654
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.50687071,
+          28.36041847
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 89598,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "777291646291603457",
+        "date": "2016-09-17T23:42:24.000Z",
+        "speed": null,
+        "text": "Not your typical Saturday night... \n@johnnyshouse magic107.7 orlando #headdressball #hopeandhelp https://t.co/wyVCELOJ5I",
+        "user": "OnAirJana",
+        "timestamp": 1474155744,
+        "timeDelta": 944
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "OnAirJana",
+        "text": "@indietrainor #souncheck #whatsyourfavoritestarbucksdrink @ CFE Arena https://t.co/PE0Ds4GZfU",
+        "date": "2016-09-18T21:55:55.000Z",
+        "speed": null,
+        "timeD": 80955,
+        "dbscan": "noise",
+        "timestamp": 1474235755,
+        "timeDelta": 80011
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.19744062,
+          28.60712998
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 85403,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "777649853774041088",
+        "date": "2016-09-18T23:25:47.000Z",
+        "speed": null,
+        "text": "Get ready #Orlando #meghantrainor is feeling wild tonight! @cfearena #ucf @johnnyshouse. Thanks… https://t.co/iF2NDgaClQ",
+        "user": "OnAirJana",
+        "timestamp": 1474241147,
+        "timeDelta": 5392
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 55781,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "777883816320839680",
+        "date": "2016-09-19T14:55:28.000Z",
+        "speed": null,
+        "text": "Here is an amazing story to start the day. #Moving #Miracle \nhttps://t.co/99v2XqydcB https://t.co/HTYRD7YJH6",
+        "user": "OnAirJana",
+        "timestamp": 1474296928,
+        "timeDelta": 55781
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 5014,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "777904843650310145",
+        "date": "2016-09-19T16:19:02.000Z",
+        "speed": null,
+        "text": "No more flat ponytail! Check out this easy trick to pump it up!\nhttps://t.co/DU6r5ifCrE",
+        "user": "OnAirJana",
+        "timestamp": 1474301942,
+        "timeDelta": 5014
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 25084,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "778010053714468864",
+        "date": "2016-09-19T23:17:06.000Z",
+        "speed": null,
+        "text": "Ready for a new fall look? Here are the hottest hair cuts for fall.\nhttps://t.co/QLYNFWFuWh",
+        "user": "OnAirJana",
+        "timestamp": 1474327026,
+        "timeDelta": 25084
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 59776,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "778260775177625600",
+        "date": "2016-09-20T15:53:22.000Z",
+        "speed": null,
+        "text": "Apparently the #zodiac signs we grew up with are all wrong. WHAT?!  #ImStillALeo!  https://t.co/rdV2eIKs1Q",
+        "user": "OnAirJana",
+        "timestamp": 1474386802,
+        "timeDelta": 59776
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 748,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "778263912240123908",
+        "date": "2016-09-20T16:05:50.000Z",
+        "speed": null,
+        "text": "Just #3days away @iHeartRadio #LasVegas  @Xl1067 #soexcited https://t.co/uj6DmNYrLs",
+        "user": "OnAirJana",
+        "timestamp": 1474387550,
+        "timeDelta": 748
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 25876,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "778372441924001792",
+        "date": "2016-09-20T23:17:06.000Z",
+        "speed": null,
+        "text": "Ketchup lovers... prepare yourself. #Wow #frenchfries #please\nhttps://t.co/skiRk7sOzq",
+        "user": "OnAirJana",
+        "timestamp": 1474413426,
+        "timeDelta": 25876
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 58189,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "778616503209857026",
+        "date": "2016-09-21T15:26:55.000Z",
+        "speed": null,
+        "text": "If you have any clothes in your closet with the tags still on, this is for you! https://t.co/KQlJqr26iG",
+        "user": "OnAirJana",
+        "timestamp": 1474471615,
+        "timeDelta": 58189
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "OnAirJana",
+        "text": "I'm just dying of cuteness over here. #morningshenanigans #snapchat @ XL 1067 https://t.co/OeyBJCBBaB",
+        "date": "2016-09-21T18:02:30.000Z",
+        "speed": null,
+        "timeD": 245195,
+        "cluster": 0,
+        "dbscan": "core",
+        "timestamp": 1474480950,
+        "timeDelta": 9335
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3948157,
+          28.63380763
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 80353,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "778953531579654144",
+        "date": "2016-09-22T13:46:08.000Z",
+        "speed": null,
+        "text": "RT @Q1019: 1 reason is because we purchase for fantasy, not reality: clothes we TRY to make fit into our life but just don't. https://t.co/…",
+        "user": "OnAirJana",
+        "timestamp": 1474551968,
+        "timeDelta": 71018
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 51,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "778953743228346368",
+        "date": "2016-09-22T13:46:59.000Z",
+        "speed": null,
+        "text": "RT @WingnutONAir: TOMORROW NIGHT @Drake @Sia @twentyonepilots and MORE take our #iHeartRadio Music Festival stage! We're LIVE startin… ",
+        "user": "OnAirJana",
+        "timestamp": 1474552019,
+        "timeDelta": 51
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 36,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "778953894487592961",
+        "date": "2016-09-22T13:47:35.000Z",
+        "speed": null,
+        "text": "RT @KatieRadio1: Here it is! Night #1 of our @iHeartRadio Music Festival! Who is ur Friday fav? (all times are PT) #iHeartRadio https://t.c…",
+        "user": "OnAirJana",
+        "timestamp": 1474552055,
+        "timeDelta": 36
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 6176,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "778979799305850880",
+        "date": "2016-09-22T15:30:31.000Z",
+        "speed": null,
+        "text": "What were some of your favorite family vacations when you were a kid? Have you done them with your own? https://t.co/vzbYMT78bu",
+        "user": "OnAirJana",
+        "timestamp": 1474558231,
+        "timeDelta": 6176
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 143,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "778980397346467840",
+        "date": "2016-09-22T15:32:54.000Z",
+        "speed": null,
+        "text": "RT @DisneyParks: PHOTOS: See Mickey’s #NotSoScary Halloween Party in all its spooky glory with these new pics:… ",
+        "user": "OnAirJana",
+        "timestamp": 1474558374,
+        "timeDelta": 143
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 33551,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779121120813330432",
+        "date": "2016-09-23T00:52:05.000Z",
+        "speed": null,
+        "text": "Growing up southern, I know ALL OF THESE classic \"Southern Sayings.\"  Which ones would you add to the list, sugah? https://t.co/3iOACN2a6O",
+        "user": "OnAirJana",
+        "timestamp": 1474591925,
+        "timeDelta": 33551
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 35611,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779270485595000832",
+        "date": "2016-09-23T10:45:36.000Z",
+        "speed": null,
+        "text": "Never show up empty handed... but this time I picked this sweetie up early. Going to send pics… https://t.co/26bUxVVp3T",
+        "user": "OnAirJana",
+        "timestamp": 1474627536,
+        "timeDelta": 35611
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 4891,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779291000954953728",
+        "date": "2016-09-23T12:07:07.000Z",
+        "speed": null,
+        "text": "SO ready for tonight! #iHeartFestival @xl1067",
+        "user": "OnAirJana",
+        "timestamp": 1474632427,
+        "timeDelta": 4891
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 2435,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779301214106161152",
+        "date": "2016-09-23T12:47:42.000Z",
+        "speed": null,
+        "text": "OMG!!!!!!! https://t.co/cBi9r9Kmrf",
+        "user": "OnAirJana",
+        "timestamp": 1474634862,
+        "timeDelta": 2435
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 2156,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779310254370664448",
+        "date": "2016-09-23T13:23:38.000Z",
+        "speed": null,
+        "text": "SWEET!  See you at the show! https://t.co/87SlR39RgB",
+        "user": "OnAirJana",
+        "timestamp": 1474637018,
+        "timeDelta": 2156
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 329,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779311636356014080",
+        "date": "2016-09-23T13:29:07.000Z",
+        "speed": null,
+        "text": "*squeal* #iHeartFestival https://t.co/jdJq3H4eYa",
+        "user": "OnAirJana",
+        "timestamp": 1474637347,
+        "timeDelta": 329
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 1428,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779317626799427584",
+        "date": "2016-09-23T13:52:55.000Z",
+        "speed": null,
+        "text": "This is going to be SICK AF! #iHeartFestival https://t.co/7szUNypwlX",
+        "user": "OnAirJana",
+        "timestamp": 1474638775,
+        "timeDelta": 1428
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 432,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779319437421707265",
+        "date": "2016-09-23T14:00:07.000Z",
+        "speed": null,
+        "text": "Flying over #NewMexico on way to #iHeartFestival .  Looks out window... \"OOOH Mountains!\"\n#FloridaSoFlat",
+        "user": "OnAirJana",
+        "timestamp": 1474639207,
+        "timeDelta": 432
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 1980,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779327743766831104",
+        "date": "2016-09-23T14:33:07.000Z",
+        "speed": null,
+        "text": "So ready to see this guy on stage tonight! #iHeartFestival https://t.co/GJSV1fg1Ao",
+        "user": "OnAirJana",
+        "timestamp": 1474641187,
+        "timeDelta": 1980
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 2027,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779336241770745860",
+        "date": "2016-09-23T15:06:54.000Z",
+        "speed": null,
+        "text": "RT @iHeartRadio: Last time @OfficialSting took the stage at our #iHeartFestival, HE WAS WITH @ladygaga. Sting performs tmrw night! 😄… ",
+        "user": "OnAirJana",
+        "timestamp": 1474643214,
+        "timeDelta": 2027
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 1693,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779343342853165057",
+        "date": "2016-09-23T15:35:07.000Z",
+        "speed": null,
+        "text": "I'm hoping she will just pop up again. Love the #Surprises each year. #iHeartFestival https://t.co/q676GiM38E",
+        "user": "OnAirJana",
+        "timestamp": 1474644907,
+        "timeDelta": 1693
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 3657,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779358681255129090",
+        "date": "2016-09-23T16:36:04.000Z",
+        "speed": null,
+        "text": "Prepping for more amazing tonight! #iHeartFestival https://t.co/e4W9Jc2Jbi",
+        "user": "OnAirJana",
+        "timestamp": 1474648564,
+        "timeDelta": 3657
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 1902,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779366658770997248",
+        "date": "2016-09-23T17:07:46.000Z",
+        "speed": null,
+        "text": "@RandiWest me too! I packed at 11p after GNO. I have no clue what I brought. Oops #iHeartFestival",
+        "user": "OnAirJana",
+        "timestamp": 1474650466,
+        "timeDelta": 1902
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 1757,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779374031778619392",
+        "date": "2016-09-23T17:37:03.000Z",
+        "speed": null,
+        "text": "And its SO GOOD! #iHeartFestival https://t.co/F0YPwwIl0D",
+        "user": "OnAirJana",
+        "timestamp": 1474652223,
+        "timeDelta": 1757
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 3660,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779389382692175872",
+        "date": "2016-09-23T18:38:03.000Z",
+        "speed": null,
+        "text": "Indeed! #iHeartFestival https://t.co/4ADjkHLSiG",
+        "user": "OnAirJana",
+        "timestamp": 1474655883,
+        "timeDelta": 3660
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 6598,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779417055380463616",
+        "date": "2016-09-23T20:28:01.000Z",
+        "speed": null,
+        "text": "Meeting with the ladies of @VIRGENInc #LasVegas... making things happen! @iHeartMedia #iheartfestival https://t.co/7HsAeUk8Ng",
+        "user": "OnAirJana",
+        "timestamp": 1474662481,
+        "timeDelta": 6598
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 666,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779419848367407104",
+        "date": "2016-09-23T20:39:07.000Z",
+        "speed": null,
+        "text": "Not making the trip to #LasVegas for #iHeartFestival ? No prob. Watch it on https://t.co/y2lzn564S3 and on The CW app!",
+        "user": "OnAirJana",
+        "timestamp": 1474663147,
+        "timeDelta": 666
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 10866,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779465424677183488",
+        "date": "2016-09-23T23:40:13.000Z",
+        "speed": null,
+        "text": "RT @iHeartRadio: We're so close to kicking off our #iHeartFestival! It's the calm before the storm! https://t.co/J1AS8Btckf https://t.co/V5…",
+        "user": "OnAirJana",
+        "timestamp": 1474674013,
+        "timeDelta": 10866
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 3113,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779478480366899200",
+        "date": "2016-09-24T00:32:06.000Z",
+        "speed": null,
+        "text": "EEK!!  I'm so excited! #iHeartFestival https://t.co/uMxZvAXynA",
+        "user": "OnAirJana",
+        "timestamp": 1474677126,
+        "timeDelta": 3113
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 372,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779480041033912321",
+        "date": "2016-09-24T00:38:18.000Z",
+        "speed": null,
+        "text": "@xl1067 I'm so excited I can't stop giggling! https://t.co/GazqxR9vy4",
+        "user": "OnAirJana",
+        "timestamp": 1474677498,
+        "timeDelta": 372
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 7546,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779511693298769920",
+        "date": "2016-09-24T02:44:04.000Z",
+        "speed": null,
+        "text": "And away we go!!! #iheartfestival https://t.co/snaps0QJbw",
+        "user": "OnAirJana",
+        "timestamp": 1474685044,
+        "timeDelta": 7546
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 1087,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779516249151643649",
+        "date": "2016-09-24T03:02:11.000Z",
+        "speed": null,
+        "text": "Oh hi @MileyCyrus ... on stage with Billy Idol. #iheartfestival",
+        "user": "OnAirJana",
+        "timestamp": 1474686131,
+        "timeDelta": 1087
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 2258,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779525721915920384",
+        "date": "2016-09-24T03:39:49.000Z",
+        "speed": null,
+        "text": "RT @glorylangston: Where's @OnAirJana @JohnnyMagic1067? #iHeartFestival https://t.co/M5mpEHISrI",
+        "user": "OnAirJana",
+        "timestamp": 1474688389,
+        "timeDelta": 2258
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 60,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779525973817503744",
+        "date": "2016-09-24T03:40:49.000Z",
+        "speed": null,
+        "text": "@glorylangston @JohnnyMagic1067 backstage warner suite... you remember  @glorylangston? https://t.co/Q2JV1STvVO",
+        "user": "OnAirJana",
+        "timestamp": 1474688449,
+        "timeDelta": 60
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 852,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779529546823446528",
+        "date": "2016-09-24T03:55:01.000Z",
+        "speed": null,
+        "text": "So... #taylorlautner just walked past me. Just saying. #iHeartFestival  #teamwerewolf",
+        "user": "OnAirJana",
+        "timestamp": 1474689301,
+        "timeDelta": 852
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 1950,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779537724046848000",
+        "date": "2016-09-24T04:27:31.000Z",
+        "speed": null,
+        "text": "@Sia  #thegreatest @pulseorlando #orlandolove #iheartfestival Tears in your eyes",
+        "user": "OnAirJana",
+        "timestamp": 1474691251,
+        "timeDelta": 1950
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 1160,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779542589976477696",
+        "date": "2016-09-24T04:46:51.000Z",
+        "speed": null,
+        "text": "This! Now! twentyonepilots ! #iheartfestival https://t.co/rvSufqNczp",
+        "user": "OnAirJana",
+        "timestamp": 1474692411,
+        "timeDelta": 1160
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 1999,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779550974172012544",
+        "date": "2016-09-24T05:20:10.000Z",
+        "speed": null,
+        "text": "RT @iHeartRadio: Oh hey @Drake's next! We got another surprise for you guys. We want to send you to see @Drake too! Tweet #iHeartFestival a…",
+        "user": "OnAirJana",
+        "timestamp": 1474694410,
+        "timeDelta": 1999
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "OnAirJana",
+        "text": "No words. #iheartfestival @ T-Mobile Arena https://t.co/uHiFoBsStn",
+        "date": "2016-09-24T06:11:40.000Z",
+        "speed": null,
+        "timeD": 216550,
+        "cluster": 1,
+        "dbscan": "core",
+        "timestamp": 1474697500,
+        "timeDelta": 3090
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1736,
+          36.10352
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 3430,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779565362178363392",
+        "date": "2016-09-24T06:17:20.000Z",
+        "speed": null,
+        "text": "#u2 #iheartfestival https://t.co/fpFJdoVGv9",
+        "user": "OnAirJana",
+        "timestamp": 1474697840,
+        "timeDelta": 340
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 24045,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779666212489801728",
+        "date": "2016-09-24T12:58:05.000Z",
+        "speed": null,
+        "text": "Waking up in #LasVegas... that sounds like a @katyperry song. Oh wait. It is. Remember when she was at #iHeartFestival? Nt 2 tonight!",
+        "user": "OnAirJana",
+        "timestamp": 1474721885,
+        "timeDelta": 24045
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 3732,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779681865305206786",
+        "date": "2016-09-24T14:00:17.000Z",
+        "speed": null,
+        "text": "THIS! TONIGHT! #iHeartFestival https://t.co/dp2gHGT53D",
+        "user": "OnAirJana",
+        "timestamp": 1474725617,
+        "timeDelta": 3732
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 3650,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779697175433392128",
+        "date": "2016-09-24T15:01:07.000Z",
+        "speed": null,
+        "text": "Last night... amazing. I keep pinching myself that I'm about to do this again tonight! #iHeartFestival",
+        "user": "OnAirJana",
+        "timestamp": 1474729267,
+        "timeDelta": 3650
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 4254,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779715019705507840",
+        "date": "2016-09-24T16:12:01.000Z",
+        "speed": null,
+        "text": "Are you ready for night 2 of the #iHeartFestival ? I AM ready for this girl! https://t.co/sbuLQ9C6QQ",
+        "user": "OnAirJana",
+        "timestamp": 1474733521,
+        "timeDelta": 4254
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "OnAirJana",
+        "text": "Precious baby. @ iHeartRadio Music Festival https://t.co/N2qlB5sR0N",
+        "date": "2016-09-24T16:57:19.000Z",
+        "speed": null,
+        "timeD": 38739,
+        "cluster": 1,
+        "dbscan": "core",
+        "timestamp": 1474736239,
+        "timeDelta": 2718
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.168572,
+          36.104627
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 4093,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779732184789770240",
+        "date": "2016-09-24T17:20:14.000Z",
+        "speed": null,
+        "text": "Run! Must get up front! https://t.co/ZUky0o0Y1C",
+        "user": "OnAirJana",
+        "timestamp": 1474737614,
+        "timeDelta": 1375
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 3407,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779746477497122816",
+        "date": "2016-09-24T18:17:01.000Z",
+        "speed": null,
+        "text": "I can hear the crowd at the #iHeartFestival  #iheartvillage from my hotel room. #powernap #readyfornight2 #okIMayBeGambling",
+        "user": "OnAirJana",
+        "timestamp": 1474741021,
+        "timeDelta": 3407
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 7262,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779776933445771265",
+        "date": "2016-09-24T20:18:03.000Z",
+        "speed": null,
+        "text": "Slightly geeking out... so ready to see @britneyspears at #iHeartFestival She opens the show tonight! Listen live @xl1067 10p EST",
+        "user": "OnAirJana",
+        "timestamp": 1474748283,
+        "timeDelta": 7262
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 4139,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779794294110494720",
+        "date": "2016-09-24T21:27:02.000Z",
+        "speed": null,
+        "text": "Must HYDRATE! Must prepare for tonight. Night 2 #iHeartFestival #iHeartVillage #LasVegas Desert air is NO JOKE!",
+        "user": "OnAirJana",
+        "timestamp": 1474752422,
+        "timeDelta": 4139
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 3723,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779809910036963328",
+        "date": "2016-09-24T22:29:05.000Z",
+        "speed": null,
+        "text": "So... should I wear a big ponytail tonight? Maybe I can get some pointers from @ArianaGrande ? #iHeartFestival https://t.co/X81THBI1sL",
+        "user": "OnAirJana",
+        "timestamp": 1474756145,
+        "timeDelta": 3723
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 6581,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779837513313550336",
+        "date": "2016-09-25T00:18:46.000Z",
+        "speed": null,
+        "text": "RT @FLAGALine: Can’t wait to party with y’all at @iHeartRadio Fest tonight! Not in Vegas? Listen here:  https://t.co/Ljb4luvEKY #iHeartFest…",
+        "user": "OnAirJana",
+        "timestamp": 1474762726,
+        "timeDelta": 6581
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 28,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779837629424545794",
+        "date": "2016-09-25T00:19:14.000Z",
+        "speed": null,
+        "text": "RT @iHeartRadio: We're out here waiting on @SamHuntMusic in a desperate manner #iHeartVillage https://t.co/S1THvken0l",
+        "user": "OnAirJana",
+        "timestamp": 1474762754,
+        "timeDelta": 28
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 768,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779840850620583941",
+        "date": "2016-09-25T00:32:02.000Z",
+        "speed": null,
+        "text": "After last night... I can't wait to see what surprises are about to go down! Listen live @xl1067 10p EST. #iHeartFestival",
+        "user": "OnAirJana",
+        "timestamp": 1474763522,
+        "timeDelta": 768
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 6094,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779866413255110657",
+        "date": "2016-09-25T02:13:36.000Z",
+        "speed": null,
+        "text": "RT @xl1067: Who will slay the #iHeartFestival Stage the most? @britneyspears or @ArianaGrande #BritneyArmy #Arianators… ",
+        "user": "OnAirJana",
+        "timestamp": 1474769616,
+        "timeDelta": 6094
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 61,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779866669933920257",
+        "date": "2016-09-25T02:14:37.000Z",
+        "speed": null,
+        "text": "RT @WingnutONAir: Sweatpants and champagne...that's how I do night 2 of our #iHeartFestival!",
+        "user": "OnAirJana",
+        "timestamp": 1474769677,
+        "timeDelta": 61
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 40,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779866837244706816",
+        "date": "2016-09-25T02:15:17.000Z",
+        "speed": null,
+        "text": "RT @xl1067: Tonight's #iHeartFestival schedule.  Watch it LIVE on our website - keyword \"Festival\" https://t.co/Nn9K0qZuGc",
+        "user": "OnAirJana",
+        "timestamp": 1474769717,
+        "timeDelta": 40
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 285,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779868031002345474",
+        "date": "2016-09-25T02:20:02.000Z",
+        "speed": null,
+        "text": "It's #BRITNEYBITCH! @britneyspears #iHeartFestival Night 2, #LetsGo https://t.co/0JwVLaPGyY",
+        "user": "OnAirJana",
+        "timestamp": 1474770002,
+        "timeDelta": 285
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 1309,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779873520041930752",
+        "date": "2016-09-25T02:41:51.000Z",
+        "speed": null,
+        "text": "5 minutes! Get ready #iheartfestival! https://t.co/Op7MLVybF4",
+        "user": "OnAirJana",
+        "timestamp": 1474771311,
+        "timeDelta": 1309
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "OnAirJana",
+        "text": "@britneyspears hits the stage! Night 2 is on #iheartfestival @ T-Mobile Arena https://t.co/487V3SWAaU",
+        "date": "2016-09-25T02:50:37.000Z",
+        "speed": null,
+        "timeD": 35598,
+        "cluster": 1,
+        "dbscan": "core",
+        "timestamp": 1474771837,
+        "timeDelta": 526
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1736,
+          36.10352
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 1873,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779881375218343936",
+        "date": "2016-09-25T03:13:04.000Z",
+        "speed": null,
+        "text": "Oh hey #GEasy with @britneyspears at #iHeartFestival",
+        "user": "OnAirJana",
+        "timestamp": 1474773184,
+        "timeDelta": 1347
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 331,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779882765495967746",
+        "date": "2016-09-25T03:18:35.000Z",
+        "speed": null,
+        "text": "I love this turn table stage!  Let's go @floridageorgialine #iheartfestival https://t.co/wtxlhfXhIU",
+        "user": "OnAirJana",
+        "timestamp": 1474773515,
+        "timeDelta": 331
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "OnAirJana",
+        "text": "Next up... Florida Georgia line. #iheartfestival @ T-Mobile Arena https://t.co/P8HZoiTqc5",
+        "date": "2016-09-25T03:19:36.000Z",
+        "speed": null,
+        "timeD": 1739,
+        "cluster": 1,
+        "dbscan": "core",
+        "timestamp": 1474773576,
+        "timeDelta": 61
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1736,
+          36.10352
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 911,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779886585374314496",
+        "date": "2016-09-25T03:33:46.000Z",
+        "speed": null,
+        "text": "Love that #Orlando @HOBOrlando shout out from  Florida Georgia line #backstreetboys!",
+        "user": "OnAirJana",
+        "timestamp": 1474774426,
+        "timeDelta": 850
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 1172,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779891501920772097",
+        "date": "2016-09-25T03:53:18.000Z",
+        "speed": null,
+        "text": "RT @iHeartRadio: All you people can't you see, the @backstreetboys just made #Vegas lose their minds! #iHeartFestival 😍   😎 https://t.co/N8…",
+        "user": "OnAirJana",
+        "timestamp": 1474775598,
+        "timeDelta": 1172
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 3246,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779905118292500481",
+        "date": "2016-09-25T04:47:24.000Z",
+        "speed": null,
+        "text": "RT @iHeartRadio: Getting it in on stage @ArianaGrande #iHeartFestival #iHeartAriana #Arianators https://t.co/hYi6V7pkgx",
+        "user": "OnAirJana",
+        "timestamp": 1474778844,
+        "timeDelta": 3246
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 10,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "779905156938817537",
+        "date": "2016-09-25T04:47:34.000Z",
+        "speed": null,
+        "text": "RT @WingnutONAir: SHUT. UP. It's #SideToSide! @arianagrande #iHeartFestival",
+        "user": "OnAirJana",
+        "timestamp": 1474778854,
+        "timeDelta": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "OnAirJana",
+        "text": "My speed... all day. #wetrepublic @ Wet Republic Ultra Pool https://t.co/7vD4vEK55v",
+        "date": "2016-09-25T19:32:37.000Z",
+        "speed": null,
+        "timeD": 58381,
+        "cluster": 1,
+        "dbscan": "core",
+        "timestamp": 1474831957,
+        "timeDelta": 53103
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.16621104,
+          36.10531327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "OnAirJana",
+        "text": "So tired... and wrapping up this #iheartfestival weekend with some cabana time. #naptime PS...… https://t.co/UrbUclO3bv",
+        "date": "2016-09-25T20:53:49.000Z",
+        "speed": 0,
+        "timeD": 4872,
+        "cluster": 1,
+        "dbscan": "core",
+        "timestamp": 1474836829,
+        "timeDelta": 4872
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.16621104,
+          36.10531327
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 134050,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "780467404241408000",
+        "date": "2016-09-26T18:01:44.000Z",
+        "speed": null,
+        "text": "@WingnutONAir @xl1067 Thanks! Hopping on the plane now. #LeavingLasVegas",
+        "user": "OnAirJana",
+        "timestamp": 1474912904,
+        "timeDelta": 76075
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 86944,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "780832075792252928",
+        "date": "2016-09-27T18:10:48.000Z",
+        "speed": null,
+        "text": "Yes... you should eat the chocolate. Science backs it up! \nhttps://t.co/vhrOu2LZcL",
+        "user": "OnAirJana",
+        "timestamp": 1474999848,
+        "timeDelta": 86944
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 15852,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "780898564801081345",
+        "date": "2016-09-27T22:35:00.000Z",
+        "speed": null,
+        "text": "Either this Mom is completely fed up... or she thought this one out a few times. https://t.co/vnZ5Tbh6iH",
+        "user": "OnAirJana",
+        "timestamp": 1475015700,
+        "timeDelta": 15852
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 6555,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "780926057658585088",
+        "date": "2016-09-28T00:24:15.000Z",
+        "speed": null,
+        "text": "RT @RedHuber: .@GabbyGiffords holds the hand of #Pulse shooting survivor Angel Colon,  close to her heart during a #VocalMajority… ",
+        "user": "OnAirJana",
+        "timestamp": 1475022255,
+        "timeDelta": 6555
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 62718,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "781189116604010496",
+        "date": "2016-09-28T17:49:33.000Z",
+        "speed": null,
+        "text": "Go get your free coffee tomorrow! #NationalCoffeeDay  \nGo here ---&gt; https://t.co/zYpTBgCFCf",
+        "user": "OnAirJana",
+        "timestamp": 1475084973,
+        "timeDelta": 62718
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 17242,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "781261433447342080",
+        "date": "2016-09-28T22:36:55.000Z",
+        "speed": null,
+        "text": "Thanks to the #RatingsGods I'm kicking up the house wine tonight! And thanks to my daughter and… https://t.co/ykEAyyg5as",
+        "user": "OnAirJana",
+        "timestamp": 1475102215,
+        "timeDelta": 17242
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 7467,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "781292750914347008",
+        "date": "2016-09-29T00:41:22.000Z",
+        "speed": null,
+        "text": "RT @Q1019: What a happy day for this mom-to-be! https://t.co/5UDp2jCZbT",
+        "user": "OnAirJana",
+        "timestamp": 1475109682,
+        "timeDelta": 7467
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 22,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "781292843201622017",
+        "date": "2016-09-29T00:41:44.000Z",
+        "speed": null,
+        "text": "RT @Q1019: Free coffee!  \nhttps://t.co/Ulna9o2rUN",
+        "user": "OnAirJana",
+        "timestamp": 1475109704,
+        "timeDelta": 22
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 52342,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "781512381574766593",
+        "date": "2016-09-29T15:14:06.000Z",
+        "speed": null,
+        "text": "RT @iHeartRadio: SURPRISE! @charlieputh, @Daya, @diplo &amp; @FifthHarmony are the first four artists joining us on the #JingleBall Tour… ",
+        "user": "OnAirJana",
+        "timestamp": 1475162046,
+        "timeDelta": 52342
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 9,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "781512421563170816",
+        "date": "2016-09-29T15:14:15.000Z",
+        "speed": null,
+        "text": "RT @iHeartRadio: Taylor Swfit and Calvin Harris are friends again 👀 https://t.co/jAyBn0hFRQ https://t.co/pq07yE6tZ2",
+        "user": "OnAirJana",
+        "timestamp": 1475162055,
+        "timeDelta": 9
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 9,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "781512458301153280",
+        "date": "2016-09-29T15:14:24.000Z",
+        "speed": null,
+        "text": "RT @iHeartRadio: ....!!!!!! 😍 @NiallOfficial #iHeartNiall https://t.co/XzvjJcoFmF",
+        "user": "OnAirJana",
+        "timestamp": 1475162064,
+        "timeDelta": 9
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 680,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "781515311870726144",
+        "date": "2016-09-29T15:25:44.000Z",
+        "speed": null,
+        "text": "That's one way to clear up those \"fake pregnancy\" rumors. #JanetJackson\nClick here---&gt; https://t.co/P9piww3ZMo https://t.co/XOybaar5bl",
+        "user": "OnAirJana",
+        "timestamp": 1475162744,
+        "timeDelta": 680
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 82958,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "781863260857315328",
+        "date": "2016-09-30T14:28:22.000Z",
+        "speed": null,
+        "text": "So... which do you think is more expensive? Day Care vs. College?\nhttps://t.co/letzvQCcIn https://t.co/bZMCaAKp0a",
+        "user": "OnAirJana",
+        "timestamp": 1475245702,
+        "timeDelta": 82958
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 820,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "781866699200999429",
+        "date": "2016-09-30T14:42:02.000Z",
+        "speed": null,
+        "text": "Here is what really happens when you donate your clothes...\nhttps://t.co/608zEv4x4C",
+        "user": "OnAirJana",
+        "timestamp": 1475246522,
+        "timeDelta": 820
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 162,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "781867378778910722",
+        "date": "2016-09-30T14:44:44.000Z",
+        "speed": null,
+        "text": "RT @WESH: Power outage affecting two Universal rides https://t.co/mHQAMTRiBr #breaking https://t.co/uylsYAU1v5",
+        "user": "OnAirJana",
+        "timestamp": 1475246684,
+        "timeDelta": 162
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 14536,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "781928349396533248",
+        "date": "2016-09-30T18:47:00.000Z",
+        "speed": null,
+        "text": "Truth. https://t.co/S0TmpiWmY3",
+        "user": "OnAirJana",
+        "timestamp": 1475261220,
+        "timeDelta": 14536
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 21,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "781928436596178944",
+        "date": "2016-09-30T18:47:21.000Z",
+        "speed": null,
+        "text": "RT @alexsturgill: The last time the U.S. went 4-0 in the 1st session of the #RyderCup  ('75) Arnold Palmer was Captain. The U.S. won that y…",
+        "user": "OnAirJana",
+        "timestamp": 1475261241,
+        "timeDelta": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "OnAirJana",
+        "text": "#GNO #Disney #mickeysnotsoscary @ Disney's Magic Kingdom https://t.co/9yWHCNiyZd",
+        "date": "2016-09-30T23:11:06.000Z",
+        "speed": null,
+        "timeD": 440237,
+        "dbscan": "noise",
+        "timestamp": 1475277066,
+        "timeDelta": 15825
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.58050366,
+          28.41630219
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 18999,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "782008124337164288",
+        "date": "2016-10-01T00:04:00.000Z",
+        "speed": null,
+        "text": "Lancome, Oribe, etc... Beauty brands we are all probably saying wrong... I know I was. #Oops\nhttps://t.co/b462VCgEdG",
+        "user": "OnAirJana",
+        "timestamp": 1475280240,
+        "timeDelta": 3174
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 12411,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "782060180473339904",
+        "date": "2016-10-01T03:30:51.000Z",
+        "speed": null,
+        "text": "RT @iHeartRadio: When your ex texts you “Hey” https://t.co/dJELYMOtIz",
+        "user": "OnAirJana",
+        "timestamp": 1475292651,
+        "timeDelta": 12411
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 29877,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "782185494050435072",
+        "date": "2016-10-01T11:48:48.000Z",
+        "speed": null,
+        "text": "RT @orlandosentinel: Hurricane Matthew named Category 5 storm\nhttps://t.co/ARH2EB4BFd https://t.co/MFLQxYSRyt",
+        "user": "OnAirJana",
+        "timestamp": 1475322528,
+        "timeDelta": 29877
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 328,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "782186869538914304",
+        "date": "2016-10-01T11:54:16.000Z",
+        "speed": null,
+        "text": "RT @ArianaGrande: i started mentally preparing for this in June. it was everything i dreamt of &amp; more. thank you @HorrorNights. #HHN26 http…",
+        "user": "OnAirJana",
+        "timestamp": 1475322856,
+        "timeDelta": 328
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "OnAirJana",
+        "text": "Oooh... looking here. It's about that time! #newmusic #YAS @ XL 1067 https://t.co/YHjZ2eGTiL",
+        "date": "2016-10-03T15:01:59.000Z",
+        "speed": null,
+        "timeD": 229853,
+        "cluster": 0,
+        "dbscan": "core",
+        "timestamp": 1475506919,
+        "timeDelta": 184063
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3948157,
+          28.63380763
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 189113,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "782980066988830720",
+        "date": "2016-10-03T16:26:09.000Z",
+        "speed": null,
+        "text": "RT @OneRepublic: Los Angeles ✈ Rio ✈ London ✈ Mexico City ✈ Berlin\nExplore the cities where #OneRepublicOHMYMY was created at… ",
+        "user": "OnAirJana",
+        "timestamp": 1475511969,
+        "timeDelta": 5050
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 16620,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783049774400495616",
+        "date": "2016-10-03T21:03:09.000Z",
+        "speed": null,
+        "text": "RT @WESH: Gov. Scott declares state of emergency for Florida due to threat of Hurricane Matthew https://t.co/sbqSWM4tPW https://t.co/yEWvwK…",
+        "user": "OnAirJana",
+        "timestamp": 1475528589,
+        "timeDelta": 16620
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 54743,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783279385965199360",
+        "date": "2016-10-04T12:15:32.000Z",
+        "speed": null,
+        "text": "RT @JohnnysHouse: Rae and Missy's First Dance! | Johnny's House Live Blog | XL1067 https://t.co/Bw18XUMDG6",
+        "user": "OnAirJana",
+        "timestamp": 1475583332,
+        "timeDelta": 54743
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 12992,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783333874986123264",
+        "date": "2016-10-04T15:52:04.000Z",
+        "speed": null,
+        "text": "STUNNING! Watch as this man not only surprises his girl with a proposal, but with an instant wedding too! https://t.co/67A6YtAYef",
+        "user": "OnAirJana",
+        "timestamp": 1475596324,
+        "timeDelta": 12992
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 14,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783333937347080192",
+        "date": "2016-10-04T15:52:18.000Z",
+        "speed": null,
+        "text": "RT @mollendorffTV2: The Ryder Cup has come home! It was delivered to Arnold Palmer at his memorial service in Latrobe, PA. https://t.co/keb…",
+        "user": "OnAirJana",
+        "timestamp": 1475596338,
+        "timeDelta": 14
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 250,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783334983423266816",
+        "date": "2016-10-04T15:56:28.000Z",
+        "speed": null,
+        "text": "Here are some signs your child may be EXTRA smart at an early age.. https://t.co/vukVXPW5WF https://t.co/bWJP9Iy1mn",
+        "user": "OnAirJana",
+        "timestamp": 1475596588,
+        "timeDelta": 250
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 53,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783335207235485696",
+        "date": "2016-10-04T15:57:21.000Z",
+        "speed": null,
+        "text": "RT @Y1025: The mayor says those living and vacationing on Folly should get ready now, whether an evacuation is... https://t.co/ZI1hiAAvrg",
+        "user": "OnAirJana",
+        "timestamp": 1475596641,
+        "timeDelta": 53
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "OnAirJana",
+        "text": "Raises hand... the one holding the #Starbucks cup. @ Iheartmedia Orlando https://t.co/Fm4WlNKp9s",
+        "date": "2016-10-04T16:41:17.000Z",
+        "speed": null,
+        "timeD": 92358,
+        "cluster": 0,
+        "dbscan": "core",
+        "timestamp": 1475599277,
+        "timeDelta": 2636
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.39508739,
+          28.63335982
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 18773,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783413945986060288",
+        "date": "2016-10-04T21:10:14.000Z",
+        "speed": null,
+        "text": "Anyone know what is happening by Tijuana Flats on Sand Lake? Police everywhere.",
+        "user": "OnAirJana",
+        "timestamp": 1475615414,
+        "timeDelta": 16137
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 956,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783417954029285377",
+        "date": "2016-10-04T21:26:10.000Z",
+        "speed": null,
+        "text": "RT @AngelaWESH: Sandbags for Maitland folks available Wednesday,Thursday.\n-North City Hall Parking Lot\n-Wednesday 9AM - 5PM\n-Thursday 9AM -…",
+        "user": "OnAirJana",
+        "timestamp": 1475616370,
+        "timeDelta": 956
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 13,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783418010174238720",
+        "date": "2016-10-04T21:26:23.000Z",
+        "speed": null,
+        "text": "RT @HollywoodRecs: We're excited that @jordan_fisher's #LookinLikeThat is being featured all month on @iHeartRadio! Listen for it here… ",
+        "user": "OnAirJana",
+        "timestamp": 1475616383,
+        "timeDelta": 13
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 48,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783418211739979777",
+        "date": "2016-10-04T21:27:11.000Z",
+        "speed": null,
+        "text": "RT @UCFKnightNews: Here is the latest track and info as of 5pm. #HurricaneMatthew https://t.co/aNlnibB8cS",
+        "user": "OnAirJana",
+        "timestamp": 1475616431,
+        "timeDelta": 48
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 368,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783419754304241664",
+        "date": "2016-10-04T21:33:19.000Z",
+        "speed": null,
+        "text": "RT @WESH: Port Canaveral CEO issues evacuation order https://t.co/F3eaF0f7Bo https://t.co/E9v2SNLyem",
+        "user": "OnAirJana",
+        "timestamp": 1475616799,
+        "timeDelta": 368
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 20101,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783504065028354048",
+        "date": "2016-10-05T03:08:20.000Z",
+        "speed": null,
+        "text": "RT @TMainolfiWESH: NHC has issued their 11pm advisory. Here's the latest! #WESHwx https://t.co/rAsnbtcId0",
+        "user": "OnAirJana",
+        "timestamp": 1475636900,
+        "timeDelta": 20101
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 169,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783504773114892288",
+        "date": "2016-10-05T03:11:09.000Z",
+        "speed": null,
+        "text": "RT @TheSpaceGal: I'm excited for a day when religion isn't brought up during any VP/P debate #VPDebate",
+        "user": "OnAirJana",
+        "timestamp": 1475637069,
+        "timeDelta": 169
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 1191,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783509769466351616",
+        "date": "2016-10-05T03:31:00.000Z",
+        "speed": null,
+        "text": "RT @TMainolfiWESH: Tropical Storm Watch for Lake County in FL. Radar: https://t.co/HvEKcqKAhZ #WESHwx",
+        "user": "OnAirJana",
+        "timestamp": 1475638260,
+        "timeDelta": 1191
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 6,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783509794254708736",
+        "date": "2016-10-05T03:31:06.000Z",
+        "speed": null,
+        "text": "RT @TMainolfiWESH: Hurricane Watch for Seminole County in FL. Radar: https://t.co/HvEKcqKAhZ #WESHwx",
+        "user": "OnAirJana",
+        "timestamp": 1475638266,
+        "timeDelta": 6
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 4,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783509810218229760",
+        "date": "2016-10-05T03:31:10.000Z",
+        "speed": null,
+        "text": "RT @TMainolfiWESH: Hurricane Watch for Osceola County in FL. Radar: https://t.co/HvEKcqKAhZ #WESHwx",
+        "user": "OnAirJana",
+        "timestamp": 1475638270,
+        "timeDelta": 4
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 5,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783509830849925120",
+        "date": "2016-10-05T03:31:15.000Z",
+        "speed": null,
+        "text": "RT @TMainolfiWESH: Hurricane Watch for Orange County in FL. Radar: https://t.co/HvEKcqKAhZ #WESHwx",
+        "user": "OnAirJana",
+        "timestamp": 1475638275,
+        "timeDelta": 5
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 27610,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783625638305468416",
+        "date": "2016-10-05T11:11:25.000Z",
+        "speed": null,
+        "text": "RT @JulieNews6: New 5 am update of Hurricane Matthew Track. Shifted back towards east, now cat 3 with winds 125 mph moving N 10 mph. https:…",
+        "user": "OnAirJana",
+        "timestamp": 1475665885,
+        "timeDelta": 27610
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 27,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783625748821241856",
+        "date": "2016-10-05T11:11:52.000Z",
+        "speed": null,
+        "text": "RT @SonniAbatta: Brevard County public schools CLOSED THURSDAY AND FRIDAY due to #Matthew. No extra-curricular or after-school activities e…",
+        "user": "OnAirJana",
+        "timestamp": 1475665912,
+        "timeDelta": 27
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 47,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783625947627085824",
+        "date": "2016-10-05T11:12:39.000Z",
+        "speed": null,
+        "text": "RT @OrlandoPolice: Listen to @amysweezey    Now is the time to prepare.  Don't hesitate thinking you won't be affected. https://t.co/qrOj6n…",
+        "user": "OnAirJana",
+        "timestamp": 1475665959,
+        "timeDelta": 47
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 98,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783626356580032516",
+        "date": "2016-10-05T11:14:17.000Z",
+        "speed": null,
+        "text": "RT @FLGovScott: Plan where you would go and how you will get there if told to evacuate by local officials. #Matthew",
+        "user": "OnAirJana",
+        "timestamp": 1475666057,
+        "timeDelta": 98
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 9562,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783666464788213760",
+        "date": "2016-10-05T13:53:39.000Z",
+        "speed": null,
+        "text": "Water, snacks, batteries, wine, cash, and gas... check! Get prepared... better safe than sorry #matthew #HurricaneMatthew",
+        "user": "OnAirJana",
+        "timestamp": 1475675619,
+        "timeDelta": 9562
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 155,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783667115366703104",
+        "date": "2016-10-05T13:56:14.000Z",
+        "speed": null,
+        "text": "RT @Fox35Amy: Expect long lines at gas pump today &amp; stores to be low on water, batteries, etc. Don't wait 'til the last minute! #Fox35 #Hur…",
+        "user": "OnAirJana",
+        "timestamp": 1475675774,
+        "timeDelta": 155
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 69,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783667404085792769",
+        "date": "2016-10-05T13:57:23.000Z",
+        "speed": null,
+        "text": "Thanks @TheBrianGrimes ... #batteries just ordered with @amazon #sameday",
+        "user": "OnAirJana",
+        "timestamp": 1475675843,
+        "timeDelta": 69
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 2899,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783679562798342144",
+        "date": "2016-10-05T14:45:42.000Z",
+        "speed": null,
+        "text": "RT @WESH: #Osceola County schools (classes, activities, events) canceled Thursday &amp; Friday due to #Matthew Full list: https://t.co/2S3yWkCk…",
+        "user": "OnAirJana",
+        "timestamp": 1475678742,
+        "timeDelta": 2899
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 291,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783680784993361920",
+        "date": "2016-10-05T14:50:33.000Z",
+        "speed": null,
+        "text": "RT @Fox35Amy: CLOSED: Brevard, Volusia &amp; Flager Schools ALL CLOSED Thursday &amp; Friday. We will update you as the list grows. #HurricaneMatth…",
+        "user": "OnAirJana",
+        "timestamp": 1475679033,
+        "timeDelta": 291
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 24,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783680883945447424",
+        "date": "2016-10-05T14:50:57.000Z",
+        "speed": null,
+        "text": "RT @UCFKnights: BREAKING: @UCF_Football vs. Tulane has been postponed until Nov. 5 due to #HurricaneMatthew https://t.co/ASZ9sfYk5k",
+        "user": "OnAirJana",
+        "timestamp": 1475679057,
+        "timeDelta": 24
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 65,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783681156122193920",
+        "date": "2016-10-05T14:52:02.000Z",
+        "speed": null,
+        "text": "RT @Things4FLppl: Dear Hurricane Matthew,\n\nPlease destroy all of these creepy clowns in Florida.\n\nSincerely,\nAll Floridians",
+        "user": "OnAirJana",
+        "timestamp": 1475679122,
+        "timeDelta": 65
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 71,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783681454840557569",
+        "date": "2016-10-05T14:53:13.000Z",
+        "speed": null,
+        "text": "RT @UCFPolice: #UCF Alert Testing is today, starting at noon. This is just a test, not an actual emergency. Please RT.",
+        "user": "OnAirJana",
+        "timestamp": 1475679193,
+        "timeDelta": 71
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 2017,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783689913510219776",
+        "date": "2016-10-05T15:26:50.000Z",
+        "speed": null,
+        "text": "Ok... latest track has it shifting our  way. I got cash, batteries, gas, snacks, water, and games for the kids.  \nhttps://t.co/vl5E0S5sXQ",
+        "user": "OnAirJana",
+        "timestamp": 1475681210,
+        "timeDelta": 2017
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 6,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783689938088828928",
+        "date": "2016-10-05T15:26:56.000Z",
+        "speed": null,
+        "text": "RT @OrlandoPolice: The @citybeautiful is extending hours for sandbag distribution today until 7 p.m.  &amp; tomorrow, from 7 a.m. until 12… ",
+        "user": "OnAirJana",
+        "timestamp": 1475681216,
+        "timeDelta": 6
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 1706,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783697094175436800",
+        "date": "2016-10-05T15:55:22.000Z",
+        "speed": null,
+        "text": "RT @OCPSnews: #HurricaneMatthew Update: Schools &amp; @ocpsotc campuses closed Thurs &amp; Fri. All activities, on and off campus, cancel… ",
+        "user": "OnAirJana",
+        "timestamp": 1475682922,
+        "timeDelta": 1706
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 132,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783697649383780353",
+        "date": "2016-10-05T15:57:34.000Z",
+        "speed": null,
+        "text": "RT @orlandosentinel: BREAKING: All Central Florida public schools closed Thursday, Friday https://t.co/1zPH2WMza3 https://t.co/maqXw4vS8f",
+        "user": "OnAirJana",
+        "timestamp": 1475683054,
+        "timeDelta": 132
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 7816,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783730432248471552",
+        "date": "2016-10-05T18:07:50.000Z",
+        "speed": null,
+        "text": "RT @WPMObserver: BREAKING: The Winter Park Chamber of Commerce has canceled this weekend's 43rd Annual Winter Park Autumn Art... https://t.…",
+        "user": "OnAirJana",
+        "timestamp": 1475690870,
+        "timeDelta": 7816
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 63,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783730694782525444",
+        "date": "2016-10-05T18:08:53.000Z",
+        "speed": null,
+        "text": "RT @SF_Michal: Use generators safely! If u have portable generator, only run it outdoors with adequate ventilation. Never use gene… ",
+        "user": "OnAirJana",
+        "timestamp": 1475690933,
+        "timeDelta": 63
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 3480,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783745291082010624",
+        "date": "2016-10-05T19:06:53.000Z",
+        "speed": null,
+        "text": "RT @citybeautiful: #HurricaneMatthew update: regular garbage/recycling/yard waste collection Thurs. No service Fri. On Sat., Friday service…",
+        "user": "OnAirJana",
+        "timestamp": 1475694413,
+        "timeDelta": 3480
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 23229,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783842722134261760",
+        "date": "2016-10-06T01:34:02.000Z",
+        "speed": null,
+        "text": "RT @OrlandoPolice: Right now, Come Out With Pride Parade is still going ahead Saturday @LakeEolaPark But the launch parties earlier in… ",
+        "user": "OnAirJana",
+        "timestamp": 1475717642,
+        "timeDelta": 23229
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 30,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783842847313321985",
+        "date": "2016-10-06T01:34:32.000Z",
+        "speed": null,
+        "text": "RT @amysweezey: Biggest change at 5pm is a cone shift *closer* to the #FL coast. Winds still 120. Moving NW. This Cat 4 rides up ou… ",
+        "user": "OnAirJana",
+        "timestamp": 1475717672,
+        "timeDelta": 30
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 24,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783842947901059072",
+        "date": "2016-10-06T01:34:56.000Z",
+        "speed": null,
+        "text": "RT @OCPSnews: Reminder to OCPS families: no school Thurs/Fri &amp; all activities (on or off campus) are cancelled Thurs through Sund… ",
+        "user": "OnAirJana",
+        "timestamp": 1475717696,
+        "timeDelta": 24
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 11,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783842995443564544",
+        "date": "2016-10-06T01:35:07.000Z",
+        "speed": null,
+        "text": "RT @RobRobertsQ100: Heads up if you're in Matthew's path. The power WILL BE TURNED OFF if the hurricane is on you. That\"s why you need a ba…",
+        "user": "OnAirJana",
+        "timestamp": 1475717707,
+        "timeDelta": 11
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 27,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783843106823213056",
+        "date": "2016-10-06T01:35:34.000Z",
+        "speed": null,
+        "text": "RT @OrlandoPolice: Please make sure you keep an eye on all updates and as Thursday afternoon nears, get someplace safe and stay there! http…",
+        "user": "OnAirJana",
+        "timestamp": 1475717734,
+        "timeDelta": 27
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 3580,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "783858124562259968",
+        "date": "2016-10-06T02:35:14.000Z",
+        "speed": null,
+        "text": "RT @xl1067: Stay informed! Our #Stormwatch page pinned on our timeline is constantly being updated! #HurricaneMatthew #Orlando https://t.co…",
+        "user": "OnAirJana",
+        "timestamp": 1475721314,
+        "timeDelta": 3580
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 34441,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784002579659382784",
+        "date": "2016-10-06T12:09:15.000Z",
+        "speed": null,
+        "text": "Please prepare. #hurricanematthew #besafe https://t.co/0dkItdzgY9",
+        "user": "OnAirJana",
+        "timestamp": 1475755755,
+        "timeDelta": 34441
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 4122,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784019868727275520",
+        "date": "2016-10-06T13:17:57.000Z",
+        "speed": null,
+        "text": "RT @xl1067: #HurricaneMatthew Forecast Path.  Stay updated here:  https://t.co/TdgbwKSq7U https://t.co/rArcdSBGbD",
+        "user": "OnAirJana",
+        "timestamp": 1475759877,
+        "timeDelta": 4122
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 4,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784019886557241344",
+        "date": "2016-10-06T13:18:01.000Z",
+        "speed": null,
+        "text": "RT @Fox35Amy: BREAKING: @FLGovScott If you live on East coast -- you ARE going to lose power. Millions of you will lose power. #HurricaneMa…",
+        "user": "OnAirJana",
+        "timestamp": 1475759881,
+        "timeDelta": 4
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 5,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784019905070981120",
+        "date": "2016-10-06T13:18:06.000Z",
+        "speed": null,
+        "text": "RT @OrlandoPolice: Still have time to pick up Sandbags. https://t.co/tcC0Jc0F8F",
+        "user": "OnAirJana",
+        "timestamp": 1475759886,
+        "timeDelta": 5
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 21,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784019992585142273",
+        "date": "2016-10-06T13:18:27.000Z",
+        "speed": null,
+        "text": "RT @RosenHotels: Update: almost all hotels sold out the next two nights. Saturday we have some availability but limited. Will update period…",
+        "user": "OnAirJana",
+        "timestamp": 1475759907,
+        "timeDelta": 21
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 29,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784020114966470656",
+        "date": "2016-10-06T13:18:56.000Z",
+        "speed": null,
+        "text": "RT @Fox35Amy: NEWS ALERT: @JaymeKingFox35 says eye of #Matthew projected to go right over #PortCanaveral. If you live in that area -- get o…",
+        "user": "OnAirJana",
+        "timestamp": 1475759936,
+        "timeDelta": 29
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 908,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784023922215940096",
+        "date": "2016-10-06T13:34:04.000Z",
+        "speed": null,
+        "text": "RT @Fox35Amy: @Alicat1032 @OnAirJana We have no way of knowing if you will lose power or not -- but I would be prepared for it to be out fo…",
+        "user": "OnAirJana",
+        "timestamp": 1475760844,
+        "timeDelta": 908
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 478,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784025927965614080",
+        "date": "2016-10-06T13:42:02.000Z",
+        "speed": null,
+        "text": "@its_emilybemily @JimCantore heard he is in Melbourne. It's on!",
+        "user": "OnAirJana",
+        "timestamp": 1475761322,
+        "timeDelta": 478
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 13,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784025981136896001",
+        "date": "2016-10-06T13:42:15.000Z",
+        "speed": null,
+        "text": "RT @orlandomayor: We're getting prepared for #HurricaneMatthew. You should too! https://t.co/nnlpshHIWw",
+        "user": "OnAirJana",
+        "timestamp": 1475761335,
+        "timeDelta": 13
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 2308,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784035664719413248",
+        "date": "2016-10-06T14:20:43.000Z",
+        "speed": null,
+        "text": "#hurricanematthew diet rules in effect. Anything goes! Pass the #doritos https://t.co/lkgaJsdRmr",
+        "user": "OnAirJana",
+        "timestamp": 1475763643,
+        "timeDelta": 2308
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 2412,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784045779522457600",
+        "date": "2016-10-06T15:00:55.000Z",
+        "speed": null,
+        "text": "Good news! The @Publix on Sand Lake has wine... and bananas... and water. Yay! ##hurricanematthew #prep",
+        "user": "OnAirJana",
+        "timestamp": 1475766055,
+        "timeDelta": 2412
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 325,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784047144781045760",
+        "date": "2016-10-06T15:06:20.000Z",
+        "speed": null,
+        "text": "Thanks! Y'all stay safe. https://t.co/1SQeKjUeG6",
+        "user": "OnAirJana",
+        "timestamp": 1475766380,
+        "timeDelta": 325
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "OnAirJana",
+        "text": "More hurricane diet. #hurricanematthew #eatwhenyoucan @ Iheartmedia Orlando https://t.co/riJu18EVoT",
+        "date": "2016-10-06T16:20:05.000Z",
+        "speed": null,
+        "timeD": 171528,
+        "cluster": 0,
+        "dbscan": "core",
+        "timestamp": 1475770805,
+        "timeDelta": 4425
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.39508739,
+          28.63335982
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 12045,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784097663557840896",
+        "date": "2016-10-06T18:27:05.000Z",
+        "speed": null,
+        "text": "RT @Fox35Amy: BREAKING: President Obama Signs Florida Emergency Declaration #HurricaneMatthew #Fox35",
+        "user": "OnAirJana",
+        "timestamp": 1475778425,
+        "timeDelta": 7620
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 59501,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784347230346108933",
+        "date": "2016-10-07T10:58:46.000Z",
+        "speed": null,
+        "text": "So far, so good here. Even got decent sleep. Now... we wait for this to pass. The wind sounds so wicked!… https://t.co/449SuROnME",
+        "user": "OnAirJana",
+        "timestamp": 1475837926,
+        "timeDelta": 59501
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 9968,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784389038388154368",
+        "date": "2016-10-07T13:44:54.000Z",
+        "speed": null,
+        "text": "Let the \"stuck inside\" crafting begin! #hurricanematthew #dontletthe5yroldgetbored #shescrafty https://t.co/7tERYsbpii",
+        "user": "OnAirJana",
+        "timestamp": 1475847894,
+        "timeDelta": 9968
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 14968,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784451816683474946",
+        "date": "2016-10-07T17:54:22.000Z",
+        "speed": null,
+        "text": "RT @xl1067: The #OrangeCounty curfew will be lifted at 2PM today. #HurricaneMatthew #MatthewAlert",
+        "user": "OnAirJana",
+        "timestamp": 1475862862,
+        "timeDelta": 14968
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 24,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784451917757886465",
+        "date": "2016-10-07T17:54:46.000Z",
+        "speed": null,
+        "text": "RT @KodyIsFrozen: A shark was pushed inland from #HurricaneMatthew https://t.co/qRc5inxDM5",
+        "user": "OnAirJana",
+        "timestamp": 1475862886,
+        "timeDelta": 24
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 11244,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784499077857804288",
+        "date": "2016-10-07T21:02:10.000Z",
+        "speed": null,
+        "text": "Sure. Make the kids clean up the hurricane. #smartparents Harness the power of #cabinfever https://t.co/nKAif9SjOp",
+        "user": "OnAirJana",
+        "timestamp": 1475874130,
+        "timeDelta": 11244
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 10373,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784542588791558144",
+        "date": "2016-10-07T23:55:03.000Z",
+        "speed": null,
+        "text": "RT @OfficialSting: Night Two of the @iHeartRadio Music Festival airs TONIGHT on @TheCW at 8PM ET - don't miss it! #iHeartOnCW https://t.co/…",
+        "user": "OnAirJana",
+        "timestamp": 1475884503,
+        "timeDelta": 10373
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 5068,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784563843246727171",
+        "date": "2016-10-08T01:19:31.000Z",
+        "speed": null,
+        "text": "RT @orlandomayor: Thank you for taking #HurricaneMatthew seriously and for helping neighbors before and after the storm. https://t.co/5cub8…",
+        "user": "OnAirJana",
+        "timestamp": 1475889571,
+        "timeDelta": 5068
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 36934,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784718755096133632",
+        "date": "2016-10-08T11:35:05.000Z",
+        "speed": null,
+        "text": "RT @MCO: Latest #HurricaneMatthew statement (10/7/16 PM):\n\nMCO resumes commercial aircraft operations tomorrow, 10/8/16, at… ",
+        "user": "OnAirJana",
+        "timestamp": 1475926505,
+        "timeDelta": 36934
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 7252,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784749175204446213",
+        "date": "2016-10-08T13:35:57.000Z",
+        "speed": null,
+        "text": "RT @SFB_Airport: SFB Airport will reopen at 7:20 AM on Saturday, October 8. Please check with your airline directly for updates on... https…",
+        "user": "OnAirJana",
+        "timestamp": 1475933757,
+        "timeDelta": 7252
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 294,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784750405037256704",
+        "date": "2016-10-08T13:40:51.000Z",
+        "speed": null,
+        "text": "Just passed a massive Convoy of electric trucks heading north to help. That's awesome!",
+        "user": "OnAirJana",
+        "timestamp": 1475934051,
+        "timeDelta": 294
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 7489,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784781819472470016",
+        "date": "2016-10-08T15:45:40.000Z",
+        "speed": null,
+        "text": "RT @AP: The National Hurricane Center says Hurricane #Matthew made landfall just southeast of McClellanville, S.C. https://t.co/uUkUk4FFs7",
+        "user": "OnAirJana",
+        "timestamp": 1475941540,
+        "timeDelta": 7489
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 8867,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784819007224475652",
+        "date": "2016-10-08T18:13:27.000Z",
+        "speed": null,
+        "text": "My #copilot. My little one rocked her 1st #hurricane and she gets this little guy for that.… https://t.co/d7TXMbKPiN",
+        "user": "OnAirJana",
+        "timestamp": 1475950407,
+        "timeDelta": 8867
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 3131,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "784832138730475520",
+        "date": "2016-10-08T19:05:38.000Z",
+        "speed": null,
+        "text": "Listening to new @OneRepublic #OhMyMy. #sogood Just flipped out hearing @itspetergabriel's voice on #AI #amazing",
+        "user": "OnAirJana",
+        "timestamp": 1475953538,
+        "timeDelta": 3131
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 151856,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785469072360091648",
+        "date": "2016-10-10T13:16:34.000Z",
+        "speed": null,
+        "text": "@jnogs Thats a great idea!",
+        "user": "OnAirJana",
+        "timestamp": 1476105394,
+        "timeDelta": 151856
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 7733,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785501507504394240",
+        "date": "2016-10-10T15:25:27.000Z",
+        "speed": null,
+        "text": "RT @NBCNightlyNews: JUST IN: Speaker Ryan tells House GOP he will not defend or campaign with Trump, members should focus on best for them…",
+        "user": "OnAirJana",
+        "timestamp": 1476113127,
+        "timeDelta": 7733
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 4157,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785518939933519872",
+        "date": "2016-10-10T16:34:44.000Z",
+        "speed": null,
+        "text": "Machines that clean your windows, at home dry cleaner (that fits in closet), &amp; other gadgets that clean EVERYTHING! https://t.co/PFw6PJUkAU",
+        "user": "OnAirJana",
+        "timestamp": 1476117284,
+        "timeDelta": 4157
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 158,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785519605607309312",
+        "date": "2016-10-10T16:37:22.000Z",
+        "speed": null,
+        "text": "RECALL! Share with your friends... especially if their child has food allergies. https://t.co/zAZZi8N1It https://t.co/CUmxeSVJHe",
+        "user": "OnAirJana",
+        "timestamp": 1476117442,
+        "timeDelta": 158
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 14033,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785578463772028928",
+        "date": "2016-10-10T20:31:15.000Z",
+        "speed": null,
+        "text": "For my #Bachelor obsession... I can't wait to see @BenandLaurenTV! Premieres tomorrow night at 8 on @FreeformTV (formerly ABC Family) #ad",
+        "user": "OnAirJana",
+        "timestamp": 1476131475,
+        "timeDelta": 14033
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 1536,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785584905136644096",
+        "date": "2016-10-10T20:56:51.000Z",
+        "speed": null,
+        "text": "@matkearney looking forward to seeing you on Saturday! #Orlando #Hard Hardrock",
+        "user": "OnAirJana",
+        "timestamp": 1476133011,
+        "timeDelta": 1536
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 8496,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785620538085535745",
+        "date": "2016-10-10T23:18:27.000Z",
+        "speed": null,
+        "text": "@HRHUniversalORL ... and looking forward to dinner at #thepalmbefore the show Saturday night! #yum",
+        "user": "OnAirJana",
+        "timestamp": 1476141507,
+        "timeDelta": 8496
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 6526,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785647913284296705",
+        "date": "2016-10-11T01:07:13.000Z",
+        "speed": null,
+        "text": "RT @vonnie11_: @iK1K0 @HOBOrlando @xl1067 @afrojack @ShakenBass @ma_LESS @CityTucker @DrKhaaaan yaaasssss 🎃👻",
+        "user": "OnAirJana",
+        "timestamp": 1476148033,
+        "timeDelta": 6526
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 38755,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785810460666920960",
+        "date": "2016-10-11T11:53:08.000Z",
+        "speed": null,
+        "text": "RT @BenandLaurenTV: Time for a viewing party! #BenandLauren and #TheLetter premiere TONIGHT on @FreeformTV starting at 8/7c! https://t.co/K…",
+        "user": "OnAirJana",
+        "timestamp": 1476186788,
+        "timeDelta": 38755
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 12995,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785864967136415744",
+        "date": "2016-10-11T15:29:43.000Z",
+        "speed": null,
+        "text": "RT @OrlandoPolice: At OPD, we support everyone's right to be who they are. On the 28th #NationalComingOutDay meet Lt. Jim Young, OPD L… ",
+        "user": "OnAirJana",
+        "timestamp": 1476199783,
+        "timeDelta": 12995
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 22015,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785957303153557504",
+        "date": "2016-10-11T21:36:38.000Z",
+        "speed": null,
+        "text": "RT @BenandLaurenTV: Uh oh…it’s Jojo! Don’t miss #BenandLauren TONIGHT at 8/7c on Freeform! https://t.co/33lOzp3uyB",
+        "user": "OnAirJana",
+        "timestamp": 1476221798,
+        "timeDelta": 22015
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 40,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "785957472452354048",
+        "date": "2016-10-11T21:37:18.000Z",
+        "speed": null,
+        "text": "RT @OCPSnews: Seniors: The OCPS 2017 Graduation Schedule has been set. Please direct any questions about your school's graduation… ",
+        "user": "OnAirJana",
+        "timestamp": 1476221838,
+        "timeDelta": 40
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 47410,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786156323180126208",
+        "date": "2016-10-12T10:47:28.000Z",
+        "speed": null,
+        "text": "New day, new data! #TMobileONE has NO DATA limits. 4 lines/ $35 each w/ Autopay. Not too shabby, just saying... #limitedtime #ad @TMobile",
+        "user": "OnAirJana",
+        "timestamp": 1476269248,
+        "timeDelta": 47410
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 1827,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786163987318644736",
+        "date": "2016-10-12T11:17:55.000Z",
+        "speed": null,
+        "text": "This lil beauty is the #Delayofgame #Strangewich and I will be making some this wknd @Hellmanns \nrecipe ---&gt;… https://t.co/EHXMY6qPVd",
+        "user": "OnAirJana",
+        "timestamp": 1476271075,
+        "timeDelta": 1827
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 11853,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786213702466809856",
+        "date": "2016-10-12T14:35:28.000Z",
+        "speed": null,
+        "text": "Find out how MATTHEW the Eagle is doing after being rescued from the grill of a car. Hint: #GoodNews  https://t.co/yHyUKIybWs",
+        "user": "OnAirJana",
+        "timestamp": 1476282928,
+        "timeDelta": 11853
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 1160,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786218569214234624",
+        "date": "2016-10-12T14:54:48.000Z",
+        "speed": null,
+        "text": "RT @orlandomayor: It's #NationalStopBullyingDay and I'm proud that we're teaching students about acceptance and respect via our Stand… ",
+        "user": "OnAirJana",
+        "timestamp": 1476284088,
+        "timeDelta": 1160
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 3792,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786234472643428352",
+        "date": "2016-10-12T15:58:00.000Z",
+        "speed": null,
+        "text": "QUIZ: What kind of Mom are you? This put a huge smile on my face, ENJOY! - Jana https://t.co/mwsLxNgIx4",
+        "user": "OnAirJana",
+        "timestamp": 1476287880,
+        "timeDelta": 3792
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 3160,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786247728313491456",
+        "date": "2016-10-12T16:50:40.000Z",
+        "speed": null,
+        "text": "I'm playing it in 10 min @xl1067 ! https://t.co/QtcszxH2Pv",
+        "user": "OnAirJana",
+        "timestamp": 1476291040,
+        "timeDelta": 3160
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 11420,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786295626858246144",
+        "date": "2016-10-12T20:01:00.000Z",
+        "speed": null,
+        "text": "Here is an easy chart that shows when you REALLY need Antibiotics. - Jana https://t.co/BivR4Fh0v7 https://t.co/RaGEoUjTHF",
+        "user": "OnAirJana",
+        "timestamp": 1476302460,
+        "timeDelta": 11420
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 10441,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786339418240147456",
+        "date": "2016-10-12T22:55:01.000Z",
+        "speed": null,
+        "text": "RT @Q1019: @OnAirJana got \"Chill Mom\" &amp; @QsJennie got \"Outsourcing Mom.\" What about you?\nhttps://t.co/2sp5gMJoHd",
+        "user": "OnAirJana",
+        "timestamp": 1476312901,
+        "timeDelta": 10441
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 138697,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786921154678325248",
+        "date": "2016-10-14T13:26:38.000Z",
+        "speed": null,
+        "text": "This thing is going to be amazing! #volcanobay #universalorlando #summer2017 https://t.co/XshU8hV25o",
+        "user": "OnAirJana",
+        "timestamp": 1476451598,
+        "timeDelta": 138697
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 4546,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "786940222298787840",
+        "date": "2016-10-14T14:42:24.000Z",
+        "speed": null,
+        "text": "Love this spooky crew! Missing @wingnutonair kissbmack @connorjhachey @sondrarae… https://t.co/f8gP4BTq8P",
+        "user": "OnAirJana",
+        "timestamp": 1476456144,
+        "timeDelta": 4546
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "OnAirJana",
+        "text": "When a teacher work day becomes #takeyourdaughtertoworkday #universalbroadcastcenter… https://t.co/qbxldzSuPU",
+        "date": "2016-10-14T14:53:39.000Z",
+        "speed": null,
+        "timeD": 686014,
+        "dbscan": "noise",
+        "timestamp": 1476456819,
+        "timeDelta": 675
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.467,
+          28.4752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "OnAirJana",
+        "text": "#Scary...  Cookies! #universalbroadcastcenter #radiolife #doneright @ Universal Studios Florida https://t.co/JVwzxYC66S",
+        "date": "2016-10-14T15:10:19.000Z",
+        "speed": 0,
+        "timeD": 1000,
+        "dbscan": "noise",
+        "timestamp": 1476457819,
+        "timeDelta": 1000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.467,
+          28.4752
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 21333,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "787029698182250497",
+        "date": "2016-10-14T20:37:57.000Z",
+        "speed": null,
+        "text": "RT @adamlevine: NEW VIDEO #DONTWANNAKNOW IS HERE!!!!! CHECK IT OUT ON @VEVO!!!!!!!!!! https://t.co/5fBRJDCH6Z https://t.co/J2qRVCJvMY",
+        "user": "OnAirJana",
+        "timestamp": 1476477477,
+        "timeDelta": 19658
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 44,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "787029885575393280",
+        "date": "2016-10-14T20:38:41.000Z",
+        "speed": null,
+        "text": "RT @xl1067: Last chance to win @UniversalORL #HHN26 tickets is coming up today @ 5:50PM! Practice your screams and set your ala… ",
+        "user": "OnAirJana",
+        "timestamp": 1476477521,
+        "timeDelta": 44
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 85882,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "787390101731041280",
+        "date": "2016-10-15T20:30:03.000Z",
+        "speed": null,
+        "text": "So awesome! https://t.co/qQCLrjjbNi",
+        "user": "OnAirJana",
+        "timestamp": 1476563403,
+        "timeDelta": 85882
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 56811,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "787628381936451584",
+        "date": "2016-10-16T12:16:54.000Z",
+        "speed": null,
+        "text": "Got to love live music! #hardrock #Orlando #parachute https://t.co/ETiVop0Ps2",
+        "user": "OnAirJana",
+        "timestamp": 1476620214,
+        "timeDelta": 56811
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 4487,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "787647201212243968",
+        "date": "2016-10-16T13:31:41.000Z",
+        "speed": null,
+        "text": "RT @orlandoscience: From Halloween-themed activities to the Grand Opening of New KidsTown, here's a guide to fun OSC events this month! htt…",
+        "user": "OnAirJana",
+        "timestamp": 1476624701,
+        "timeDelta": 4487
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 1400,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "787653075632852993",
+        "date": "2016-10-16T13:55:01.000Z",
+        "speed": null,
+        "text": "RT @NASASocial: And our #NASASocial is underway! The sun rises behind @OrbitalATK's Antares rocket @NASA_Wallops launch Pad-0A.… ",
+        "user": "OnAirJana",
+        "timestamp": 1476626101,
+        "timeDelta": 1400
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "OnAirJana",
+        "text": "#sundayfunday #foodandwinefestival #Orlando #Disney @ Epcot - Walt Disney World https://t.co/fqCljz7pDC",
+        "date": "2016-10-16T18:31:59.000Z",
+        "speed": null,
+        "timeD": 184900,
+        "dbscan": "noise",
+        "timestamp": 1476642719,
+        "timeDelta": 16618
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5494125,
+          28.3756625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "OnAirJana",
+        "text": "#foodandwinefestival #Disney #wineandwinefestival @ Epcot - Walt Disney World https://t.co/ZphZvfpX2V",
+        "date": "2016-10-16T19:07:25.000Z",
+        "speed": 0,
+        "timeD": 2126,
+        "dbscan": "noise",
+        "timestamp": 1476644845,
+        "timeDelta": 2126
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5494125,
+          28.3756625
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 77061,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "787976292775886848",
+        "date": "2016-10-17T11:19:22.000Z",
+        "speed": null,
+        "text": "RT @DavidRoads: Courage is what it takes to stand up and speak. Courage is also what it takes to sit down and listen. - Winston Churchill",
+        "user": "OnAirJana",
+        "timestamp": 1476703162,
+        "timeDelta": 58317
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 11327,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "788023798926749696",
+        "date": "2016-10-17T14:28:09.000Z",
+        "speed": null,
+        "text": "After all that carving... don't let your pumpkin wilt. Here's a ONE STEP way to keep it looking awesome.… https://t.co/8Kcpp8huZx",
+        "user": "OnAirJana",
+        "timestamp": 1476714489,
+        "timeDelta": 11327
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 229,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "788024759862775810",
+        "date": "2016-10-17T14:31:58.000Z",
+        "speed": null,
+        "text": "RT @xl1067: These #celebs had #sidehustles you didn't even know about! Who knew @chrisbrown owned 14 BURGER KINGS!? \nhttps://t.co/CELNxTNFeu",
+        "user": "OnAirJana",
+        "timestamp": 1476714718,
+        "timeDelta": 229
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 16,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "788024826476711936",
+        "date": "2016-10-17T14:32:14.000Z",
+        "speed": null,
+        "text": "RT @OrlandoWeekly: Orlando International Airport retires its original people mover trams after 35 years https://t.co/eoEbtpdTHd https://t.c…",
+        "user": "OnAirJana",
+        "timestamp": 1476714734,
+        "timeDelta": 16
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 1156,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "788029676077711360",
+        "date": "2016-10-17T14:51:30.000Z",
+        "speed": null,
+        "text": "A very determined shark GETS INTO THE DIVE CAGE!  OMG!\nThis is officially off my bucket list!… https://t.co/1Z3mfC6Gpt",
+        "user": "OnAirJana",
+        "timestamp": 1476715890,
+        "timeDelta": 1156
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 2477,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "788040065104556032",
+        "date": "2016-10-17T15:32:47.000Z",
+        "speed": null,
+        "text": "RT @OrlandoPolice: Please take a good look at this guy. He stole 8 firearms from a car and he is still at large. Call @CrimelineFL - t… ",
+        "user": "OnAirJana",
+        "timestamp": 1476718367,
+        "timeDelta": 2477
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 1333,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "788045658695487488",
+        "date": "2016-10-17T15:55:00.000Z",
+        "speed": null,
+        "text": "Are you a #Thanksgiving day shopper? Well... over 40 stores want you to stay home.\n#Yay #MoreFootball #Leftovers https://t.co/gcKiMnqqBc",
+        "user": "OnAirJana",
+        "timestamp": 1476719700,
+        "timeDelta": 1333
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "OnAirJana",
+        "text": "#momlife When you wake up late... and only have time to get one of you dressed before school… https://t.co/2HdvVlVGrS",
+        "date": "2016-10-17T18:19:28.000Z",
+        "speed": null,
+        "timeD": 83523,
+        "cluster": 0,
+        "dbscan": "core",
+        "timestamp": 1476728368,
+        "timeDelta": 8668
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3948157,
+          28.63380763
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 28560,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "788165447128608768",
+        "date": "2016-10-17T23:51:00.000Z",
+        "speed": null,
+        "text": "Keep the kids busy! Here are some easy &amp; not too messy Halloween Crafts to try... https://t.co/rubRMw35T5 https://t.co/k61YlHaAc3",
+        "user": "OnAirJana",
+        "timestamp": 1476748260,
+        "timeDelta": 19892
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 3123,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "788178544056762368",
+        "date": "2016-10-18T00:43:03.000Z",
+        "speed": null,
+        "text": "RT @TheSpaceGal: When do you expect we'll have a man on Mars?\n\"Well, it could just as easily be a woman on Mars\" Hero @jasonrdavis o… ",
+        "user": "OnAirJana",
+        "timestamp": 1476751383,
+        "timeDelta": 3123
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 31,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "788178677272018945",
+        "date": "2016-10-18T00:43:34.000Z",
+        "speed": null,
+        "text": "RT @its_emilybemily: If feels like a Monday on Twitter. https://t.co/nUuRc0lfHK",
+        "user": "OnAirJana",
+        "timestamp": 1476751414,
+        "timeDelta": 31
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 207,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "788179542728904705",
+        "date": "2016-10-18T00:47:01.000Z",
+        "speed": null,
+        "text": "3 down... 2 to go. :( #saddirectioners https://t.co/L2kNVrwIpt",
+        "user": "OnAirJana",
+        "timestamp": 1476751621,
+        "timeDelta": 207
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "OnAirJana",
+        "text": "The good news... I got a shower today, Yay! The even better news... I've got more @arianagrande… https://t.co/7XM6jOala2",
+        "date": "2016-10-18T17:54:29.000Z",
+        "speed": null,
+        "timeD": 84901,
+        "cluster": 0,
+        "dbscan": "core",
+        "timestamp": 1476813269,
+        "timeDelta": 61648
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3948157,
+          28.63380763
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 62097,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "788439998961815552",
+        "date": "2016-10-18T18:01:58.000Z",
+        "speed": null,
+        "text": "Aw! #love #music #Orlando https://t.co/mFwgS2Wd4Q",
+        "user": "OnAirJana",
+        "timestamp": 1476813718,
+        "timeDelta": 449
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 21343,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "788529515928645632",
+        "date": "2016-10-18T23:57:41.000Z",
+        "speed": null,
+        "text": "RT @OCPSnews: Remember, tomorrow is *not* a short Wednesday. All students will stay for a full school day.  Please RT https://t.co/eZrUw86D…",
+        "user": "OnAirJana",
+        "timestamp": 1476835061,
+        "timeDelta": 21343
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 10,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "788529557011828737",
+        "date": "2016-10-18T23:57:51.000Z",
+        "speed": null,
+        "text": "RT @Q1019: Kids love to make stuff and you love to display their creations!  It's win-win! https://t.co/JfxxUtC3zi",
+        "user": "OnAirJana",
+        "timestamp": 1476835071,
+        "timeDelta": 10
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 54021,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "788756137369751552",
+        "date": "2016-10-19T14:58:12.000Z",
+        "speed": null,
+        "text": "Tomorrow, I have my first parent teacher conference. Why am I nervous? What do I need to know? HELP! - Jana https://t.co/anRNNeaDT2",
+        "user": "OnAirJana",
+        "timestamp": 1476889092,
+        "timeDelta": 54021
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "OnAirJana",
+        "text": "Let's lift each other up. #MissingMyGirls #WhoRunsTheWorld @ XL 1067 https://t.co/q946jSq4iZ",
+        "date": "2016-10-19T15:14:29.000Z",
+        "speed": null,
+        "timeD": 76800,
+        "cluster": 0,
+        "dbscan": "core",
+        "timestamp": 1476890069,
+        "timeDelta": 977
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3948157,
+          28.63380763
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 4849,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "788776475289907200",
+        "date": "2016-10-19T16:19:01.000Z",
+        "speed": null,
+        "text": "Adele's boyfriend for the win. Check out this SWEET ANNIVERSARY SURPRISE he pulled off the other night.\nhttps://t.co/SxR7FsLhUk",
+        "user": "OnAirJana",
+        "timestamp": 1476893941,
+        "timeDelta": 3872
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 17065,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "788848051494486017",
+        "date": "2016-10-19T21:03:26.000Z",
+        "speed": null,
+        "text": "My beautiful #almamater #UNC #ChapelHill https://t.co/E85oQ3bO2T",
+        "user": "OnAirJana",
+        "timestamp": 1476911006,
+        "timeDelta": 17065
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 64269,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "789117616111644672",
+        "date": "2016-10-20T14:54:35.000Z",
+        "speed": null,
+        "text": "RT @jaydedonovan: Wake up bad hombres and nasty women. Let's do this. https://t.co/BARDQt5uxa",
+        "user": "OnAirJana",
+        "timestamp": 1476975275,
+        "timeDelta": 64269
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "OnAirJana",
+        "text": "Clearly, Fall has not found its way to #Orlando yet. Sheeeeeeesh! @ XL 1067 https://t.co/z4xJRFZnLZ",
+        "date": "2016-10-20T18:43:48.000Z",
+        "speed": null,
+        "timeD": 98959,
+        "cluster": 0,
+        "dbscan": "core",
+        "timestamp": 1476989028,
+        "timeDelta": 13753
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3948157,
+          28.63380763
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 35996,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "789268595750604800",
+        "date": "2016-10-21T00:54:31.000Z",
+        "speed": null,
+        "text": "Why is it I'm #exhausted from 3p-9p... and as soon as I get my kid to sleep it's like... #wideawake #hello #parenthood #toomuchcaffeine",
+        "user": "OnAirJana",
+        "timestamp": 1477011271,
+        "timeDelta": 22243
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 14,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "789268655066451969",
+        "date": "2016-10-21T00:54:45.000Z",
+        "speed": null,
+        "text": "RT @BigDradio: Before you #Netflix and chill this weekend, check out what you're about to gain and LOSE on your profile! https://t.co/dYxqv…",
+        "user": "OnAirJana",
+        "timestamp": 1477011285,
+        "timeDelta": 14
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 51964,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "789486604591075328",
+        "date": "2016-10-21T15:20:49.000Z",
+        "speed": null,
+        "text": "I can't wait to make this with my daughter. It's looks so fun &amp; yummy! #CakeCakeCake https://t.co/bNtwaDUb06 https://t.co/u9wkb3EcI7",
+        "user": "OnAirJana",
+        "timestamp": 1477063249,
+        "timeDelta": 51964
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 50,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "789486816881614848",
+        "date": "2016-10-21T15:21:39.000Z",
+        "speed": null,
+        "text": "RT @iHeartRadio: Here’s what we know about @BrunoMars’ upcoming #24KMagic album https://t.co/0u9ZOd9Vjl https://t.co/IyKluzIhFR",
+        "user": "OnAirJana",
+        "timestamp": 1477063299,
+        "timeDelta": 50
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 4913,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "789507422339538944",
+        "date": "2016-10-21T16:43:32.000Z",
+        "speed": null,
+        "text": "RT @Q1019: Something fun for you and the kids to make this weekend! https://t.co/viNkSjSFIg",
+        "user": "OnAirJana",
+        "timestamp": 1477068212,
+        "timeDelta": 4913
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "user": "OnAirJana",
+        "text": "Rocking that pink! #pinktoberorlando #findacure #fightlikeagirl @ XL 1067 https://t.co/mYDvkd9VDW",
+        "date": "2016-10-21T17:49:35.000Z",
+        "speed": null,
+        "timeD": 83147,
+        "cluster": 0,
+        "dbscan": "core",
+        "timestamp": 1477072175,
+        "timeDelta": 3963
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3948157,
+          28.63380763
+        ]
+      }
+    },
+    {
+      "geometry": null,
+      "type": "Feature",
+      "properties": {
+        "coords": null,
+        "uid": "54544561",
+        "cluster_center": "null",
+        "time_delta": 21629,
+        "geo_delta": null,
+        "cluster": null,
+        "tweet_id": "789598140454334464",
+        "date": "2016-10-21T22:44:01.000Z",
+        "speed": null,
+        "text": "One little letter changes it all... Hilarious teleprompter mistake.\nEnjoy! #YouWillLaugh #oops #blooper… https://t.co/cjq2TrPlhg",
+        "user": "OnAirJana",
+        "timestamp": 1477089841,
+        "timeDelta": 17666
+      }
+    }
+  ]
+}

@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8' />
+  <title>Visualizing and Clustering A User's Tweets</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <script src='lib/mapbox-gl.js'></script>
+  <link href='lib/mapbox-gl.css' rel='stylesheet' />
+
+  <script src="lib/d3.v4.min.js"></script>
+  <link href="lib/assembly.min.css" rel="stylesheet">
+  <script async defer src="lib/assembly.js"></script>
+
+  <script src="lib/turf.min.js"></script>
+  <script src="lib/lodash.min.js"></script>
+
+  <link href="site.css" rel="stylesheet">
+  <script src='site.js'></script>
+
+  <script src="d3-timeline.js"></script>
+  <script src="clustering.js"></script>
+
+</head>
+<body>
+
+<div class='grid grid--gut12'>
+  <div class='col col--4'>
+
+    <div id="left-sidebar" class="ml6">
+      <h2 class="txt-h2 mb6">User: <a target="_blank" class="link" href="#" id='userName-span'></a></h2>
+      <h4 class="txt-h4 mb12">Tweet Count: <span id='tweetCount-span'></span> total, <span id='geoTweetCount-span'></span> geotagged</h4>
+
+      <div class='toggle-group mr18'>
+        <label class='toggle-container'>
+          <input id="all-tweets-toggle" checked name='toggle' type='radio' />
+          <div class='toggle'>All Tweets</div>
+        </label>
+        <label class='toggle-container'>
+          <input id="tweets-in-view" name='toggle' type='radio' />
+          <div id='tweetsInViewLabel' class='toggle'>Tweets in View</div>
+        </label>
+      </div>
+
+      <div id="tweet-table-container">
+        <table id="tweet-table" style="display:block;">
+          <thead id="tweet-table-head" class="loading">
+            <tr><td style="padding-left:10px; width:100px;" class="date">Time (EST)</td>
+              <td class="date">User</td>
+              <td class="text">Text</td>
+              <td class="speed">Speed</td>
+            </tr>
+          </thead>
+          <tbody id="tweet-table-body" class="tweet-table-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class='col col--8 pr6'>
+    <div id='timeline' class='flex-parent flex-parent--center-main'>
+      <svg class="flex-child" id='timeline-svg' width="900" height="100"></svg>
+    </div>
+    <div id='map' class='relative pb6'>
+      <nav id="commands" class="absolute z5 bg-gray-light round mt6 ml6 px6 pb6">
+        <h4 class='txt-h4 color-gray'>Toggles</h4>
+        <button class='mt3 btn btn--s' id='toggleHomeCluster'>Calculated Home</button><br>
+        <button class='mt3 btn btn--s btn--stroke' id='toggleClusterCenters'>Cluster Centers</button><br>
+        <button class='mt3 btn btn--s btn--stroke' id='toggleMovementLines'>Movement Lines</button><br>
+        <button class='mt3 btn btn--s' id='toggleClusterPolys'>Cluster Polygons</button><br>
+        <button class='mt3 btn btn--s' id='toggleOtherUsers'>Other Users</button><br>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<script>
+
+/*
+  Specify the GeoJSON source in the URL
+*/
+
+mapboxgl.accessToken = 'pk.eyJ1IjoiamVubmluZ3NhbmRlcnNvbiIsImEiOiIzMHZndnpvIn0.PS-j7fRK3HGU7IE8rbLT9A';
+
+var map = new mapboxgl.Map({
+    container: 'map',
+    zoom: 2,
+    center: [-97, 33],
+    style: 'mapbox://styles/mapbox/light-v9',
+    hash: true
+});
+var allTimestamps = []
+var tweetClusterer;
+
+map.once('load',function(){
+  var userInfo = getUserGeoJSON(window.location.href);
+  var userName = userInfo[1].toLowerCase();
+  var geojson = userInfo[0]
+
+  console.log("Map loaded, fetching user: ", userName)
+
+  var uNameLink = document.getElementById('userName-span')
+  uNameLink.innerHTML = userName
+  uNameLink.href = "http://twitter.com/"+userName
+
+  //Disable clusters for now
+  document.getElementById('toggleHomeCluster').disabled = true;
+  document.getElementById('toggleClusterCenters').disabled = true;
+  document.getElementById('toggleClusterPolys').disabled = true;
+
+  var meta = false;
+
+  //Add the main tweets layer to the map
+  map.addLayer({
+    "id": "tweets",
+    "type": "circle",
+    "source" : {
+      type: 'geojson',
+      data: geojson
+    },
+    "paint": {
+      "circle-color": {
+        'property':'cluster',
+        'stops' : [
+          [0,'red'],
+          [5,'orange'],
+          [10,'yellow'],
+          [20,'green'],
+          [25,'blue'],
+          [30,'violet']
+        ]
+      },
+      "circle-opacity":0.5,
+      "circle-radius": {
+        'stops':[[0,5],[10,4]]
+      }
+    },
+    filter: ['==','user', userName]
+  });
+
+  map.addLayer({
+    "id": "tweets-other-users",
+    "type": "circle",
+    "source" : {
+      type: 'geojson',
+      data: geojson
+    },
+    "paint": {
+      "circle-color": 'violet',
+      "circle-radius": {
+        'stops':[[0,5],[10,4]]
+      }
+    },
+    'filter': ['!=','user',userName],
+    'layout':{
+      'visibility':'visible'
+    }
+  });
+
+  if(meta){
+    map.addLayer({
+      "id": "tweets-meta-hull",
+      "type": "fill",
+      "source": "tweets-meta",
+      "paint": {
+        "fill-color": {
+          'property':'cluster',
+          'stops' : [
+            [0,'red'],
+            [5,'orange'],
+            [10,'yellow'],
+            [20,'green'],
+            [25,'blue'],
+            [30,'violet']
+          ]
+        },
+        "fill-opacity": 0.2
+      },
+      'layout':{
+        'visibility':'visible'
+      }
+    });
+
+    map.addLayer({
+      "id": "tweets-meta-circle",
+      "type": "circle",
+      "source": "tweets-meta",
+      "paint": {
+        "circle-color": {
+          'property':'cluster',
+          'stops' : [
+            [0,'red'],
+            [5,'orange'],
+            [10,'yellow'],
+            [20,'green'],
+            [25,'blue'],
+            [30,'violet']
+          ]
+        },
+        "circle-radius": {
+          'property':'tweetCount',
+          'stops' : [
+            [1,5],
+            [10,10],
+            [1000,100],
+          ]
+        }
+      },
+      "filter":['has','clusterCenter'],
+      "layout":{
+        "visibility":"none"
+      }
+    });
+
+    map.addLayer({
+      "id": "tweets-meta-home",
+      "type": "circle",
+      "source": "tweets-meta",
+      "paint": {
+        "circle-color": 'steelblue',
+        "circle-radius": 50,
+        "circle-opacity": 0.6
+      },
+      "filter":['has','likelyHome'],
+      "layout":{
+        "visibility":"visible"
+      }
+    });
+  }
+
+  var geojsonData;
+
+  var parseDate = d3.timeParse("%Y-%m-%d");
+  d3.json(geojson, function(error, data) {
+    if (error) {
+      throw error;
+    }
+
+    //This is where tweets get added to a table (too)
+    var prevDateObj = new Date(data.features[0].properties.date)
+    var prevDateStr = prevDateObj.getFullYear() +"-"+(prevDateObj.getMonth()+1)+"-"+prevDateObj.getDate()
+    var prevDate = {date: parseDate(prevDateStr), count: 0}
+    var timelineCounts = []
+    var d, dStr, prevGeoTweet;
+
+    var tweetTable = document.getElementById('tweet-table-body')
+
+    var lineFeatures = [];
+    var geoCount = 0;
+    document.getElementById('geoTweetCount-span').innerHTML = geoCount;
+
+    document.getElementById('tweetCount-span').innerHTML = data.features.length;
+
+    var needsTimestamp = true;
+    if(data.features[0].properties.hasOwnProperty('timestamp')){
+      needsTimestamp = false;
+    }
+
+    /*
+      Iterate over the features to calculate timestamps and such.
+    */
+
+    data.features.forEach(function(f){
+      d = new Date(f.properties.date)
+
+      dStr = d.getFullYear() +"-"+(d.getMonth()+1)+"-"+d.getDate()
+      if (dStr==prevDateStr){
+        prevDate.count += 1
+      }else{
+        timelineCounts.push(prevDate) //make sure we're not over writing it
+        prevDateStr = dStr
+        prevDate = {date: parseDate(prevDateStr), count:1}
+      }
+
+      //This is straightforward enough?
+      f.properties.timestamp = Math.round(d.getTime()/1000)
+      f.properties.user = f.properties.user.toLowerCase();
+
+      allTimestamps.push(f.properties.timestamp)
+
+      if (f.geometry){
+        geoCount++;
+        //We can add a line here
+        if ( f.properties.user == userName ) {
+          if(prevGeoTweet){
+            lineFeatures.push({
+              'type':'Feature',
+              'properties':{
+                'speed':f.properties.speed,
+                'startTime':prevGeoTweet.properties.timestamp,
+                'endTime':f.properties.timestamp
+              },
+              'geometry':{'type':'LineString','coordinates':[
+                prevGeoTweet.geometry.coordinates,
+                f.geometry.coordinates
+              ]}
+            })
+          }
+          prevGeoTweet = f;
+        }
+      }
+      tweetTable.appendChild( tweetToTRElement(f) )
+    })
+
+    //Reset tweet source for performance
+    console.warn("Resetting tweet source to processed data")
+    map.getSource('tweets').setData(data)
+    map.getSource('tweets-other-users').setData(data)
+
+    if (lineFeatures.length>0){
+      map.addLayer({
+        'id':'movement-lines',
+        'type':'line',
+        'source':{
+          'type':'geojson',
+          'data':{'type':'FeatureCollection','features':lineFeatures}
+        },
+        'layout':{
+          'visibility':'none'
+        }
+      })
+    }
+
+    timelineCounts.push(prevDate)
+    document.getElementById('geoTweetCount-span').innerHTML = geoCount;
+
+    console.log(`Loaded ${data.features.length} tweets: ${geoCount} geotagged`);
+
+    /*
+        Clustering
+    */
+
+    //add the data to tweetClusterer, in case that gets used later.
+    tweetClusterer = new TweetClusterer(data, userName)
+    tweetClusterer.filterGeometries();
+    console.log("Running DB Scan...")
+    tweetClusterer.cluster();
+    console.log("Updating tweet source to be clustered")
+    map.getSource('tweets').setData(tweetClusterer.clustered)
+
+    tweetClusterer.getMetaGeoms();
+
+
+
+    createD3Timeline({
+      docID: "timeline-svg",
+      data:  timelineCounts
+    },function(brushEvent){
+      startTime = Math.floor(brushEvent[0].getTime()/1000)
+      endTime   = Math.floor(brushEvent[1].getTime()/1000)
+
+      map.setFilter('tweets',[
+        'all',
+        ['==','user',userName],
+        ['>=','timestamp',startTime],
+        ['<=','timestamp',endTime]
+      ])
+      map.setFilter('tweets-other-users',[
+        'all',
+        ['!=','user',userName],
+        ['>=','timestamp',startTime],
+        ['<=','timestamp',endTime]
+      ])
+      map.setFilter('movement-lines',[
+        'all',
+        ['>=','startTime',startTime],
+        ['<=','endTime',endTime]
+      ])
+
+      document.getElementById("tweet-table-body").scrollTop = (findPerfectTimestamp(startTime) - 200);
+    })
+    document.getElementById('tweet-table-head').classList = "";
+  })
+
+  //Interaction
+  map.on('mousemove', function(e){
+    var features = map.queryRenderedFeatures(e.point, {layers: ['tweets','tweets-other-users']})
+    map.getCanvas().style.cursor = (features.length>0)? 'pointer' : '';
+  });
+
+  map.on('click', function(e){
+    var features = map.queryRenderedFeatures(e.point, {layers: ['tweets','tweets-other-users']})
+    if(!features.length){return};
+    var props = features[0].properties
+
+    new mapboxgl.Popup({'closeOnClick':true})
+      .setLngLat(e.lngLat)
+      .setHTML(tweetToHTMLString(props))
+      .addTo(map);
+  });
+
+  if(meta){
+    map.on('click', function(e){
+      var features = map.queryRenderedFeatures(e.point, {layers: ['tweets-meta-circle']})
+      if(!features.length){return};
+      var props = features[0].properties
+
+      var html = JSON.stringify(props)
+
+      new mapboxgl.Popup({'closeOnClick':true})
+        .setLngLat(e.lngLat)
+        .setHTML(html)
+        .addTo(map);
+    });
+  }
+
+})
+
+document.getElementById('toggleClusterCenters').addEventListener('click',function(e){
+  var isVisible = map.getLayoutProperty('tweets-meta-circle','visibility')
+  if (isVisible=='visible'){
+    this.classList = 'mt3 btn btn--s btn--stroke'
+    map.setLayoutProperty('tweets-meta-circle','visibility','none')
+  }else{
+    this.classList = 'mt3 btn btn--s'
+    map.setLayoutProperty('tweets-meta-circle','visibility','visible')
+  }
+})
+
+document.getElementById('toggleClusterPolys').addEventListener('click',function(e){
+  var isVisible = map.getLayoutProperty('tweets-meta-hull','visibility')
+  if (isVisible=='visible'){
+    this.classList = 'mt3 btn btn--s btn--stroke'
+    map.setLayoutProperty('tweets-meta-hull','visibility','none')
+  }else{
+    this.classList = 'mt3 btn btn--s'
+    map.setLayoutProperty('tweets-meta-hull','visibility','visible')
+  }
+})
+
+document.getElementById('toggleMovementLines').addEventListener('click',function(e){
+  var isVisible = map.getLayoutProperty('movement-lines','visibility')
+  if (isVisible=='visible'){
+    this.classList = 'mt3 btn btn--s btn--stroke'
+    map.setLayoutProperty('movement-lines','visibility','none')
+  }else{
+    this.classList = 'mt3 btn btn--s'
+    map.setLayoutProperty('movement-lines','visibility','visible')
+  }
+})
+
+document.getElementById('toggleHomeCluster').addEventListener('click',function(e){
+  var isVisible = map.getLayoutProperty('tweets-meta-home','visibility')
+  if (isVisible=='visible'){
+    this.classList = 'mt3 btn btn--s btn--stroke'
+    map.setLayoutProperty('tweets-meta-home','visibility','none')
+  }else{
+    this.classList = 'mt3 btn btn--s'
+    map.setLayoutProperty('tweets-meta-home','visibility','visible')
+  }
+})
+
+document.getElementById('toggleOtherUsers').addEventListener('click',function(e){
+  var isVisible = map.getLayoutProperty('tweets-other-users','visibility')
+  if (isVisible=='visible'){
+    this.classList = 'mt3 btn btn--s btn--stroke'
+    map.setLayoutProperty('tweets-other-users','visibility','none')
+  }else{
+    this.classList = 'mt3 btn btn--s'
+    map.setLayoutProperty('tweets-other-users','visibility','visible')
+  }
+})
+
+var tweetTable = 'allTweets'
+
+function filterTableForInView(){
+  var tweets = getUniqueFeatures( map.queryRenderedFeatures({layers: ['tweets']}), 'tweetID');
+//  console.log("Found " + tweets.length + " tweets" );
+
+  var visibleTweetIDs = tweets.map(function(t){return t.properties.tweetID});
+
+  var table = document.getElementById('tweet-table-body');
+  for (var i = 0, row; row = table.rows[i]; i++) {
+    if (visibleTweetIDs.indexOf( table.rows[i].dataset.tweetid ) < 0 ){
+      table.rows[i].style.display='none';
+    }else{
+      table.rows[i].style.display='block';
+    }
+  }
+  document.getElementById('tweet-table-head').classList = "";
+  document.getElementById('tweetsInViewLabel').innerHTML = 'Tweets In View ('+visibleTweetIDs.length+')'
+}
+
+document.getElementById('tweets-in-view').addEventListener('click',function(e){
+  if (tweetTable==='allTweets'){
+    tweetTable = 'inView'
+    console.log("Switching to inView Tweets");
+    document.getElementById('tweet-table-head').classList += ' loading'
+
+    map.on('moveend',function(){
+      if (tweetTable==='inView'){
+        filterTableForInView();
+      }
+    });
+    filterTableForInView();
+  }
+});
+
+document.getElementById('all-tweets-toggle').addEventListener('click',function(e){
+  if (tweetTable==='inView'){
+    tweetTable = 'allTweets'
+    console.log("Switching to allTweets");
+    var table = document.getElementById('tweet-table-body');
+    for (var i = 0, row; row = table.rows[i]; i++) {
+      table.rows[i].style.display='block';
+    }
+    document.getElementById('tweetsInViewLabel').innerHTML = 'Tweets In View'
+  }
+});
+
+
+function findPerfectTimestamp(second){
+  for(var i=1; i<allTimestamps.length; i++){
+    if (allTimestamps[i] > second){
+      return document.getElementById('timestamp-'+allTimestamps[i-1]).offsetTop;
+    }
+  }
+  return document.getElementById('timestamp-'+allTimestamps[0]).offsetTop;
+}
+
+// Add zoom and rotation controls to the map.
+map.addControl(new mapboxgl.NavigationControl(),'top-right');
+map.addControl(new mapboxgl.ScaleControl({
+    maxWidth: 80,
+    unit: 'imperial'
+}));
+
+</script>
+
+</body>
+</html>

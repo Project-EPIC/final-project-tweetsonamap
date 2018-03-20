@@ -1,0 +1,71 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 0,
+        "clusterCenter": true,
+        "firstTimestamp": 1474046521,
+        "lastTimestamp": 1474200763,
+        "tweetCount": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0911,
+          32.0811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 1,
+        "clusterCenter": true,
+        "firstTimestamp": 1474474242,
+        "lastTimestamp": 1476985931,
+        "tweetCount": 11,
+        "likelyHome": true,
+        "likelyWork": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.11653146727274,
+          29.91872658909091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster": 1,
+        "tweetCount": 11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.1164299,
+              29.91854
+            ],
+            [
+              -90.11656956,
+              29.91872222
+            ],
+            [
+              -90.116523,
+              29.9187606
+            ],
+            [
+              -90.1164299,
+              29.91854
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
