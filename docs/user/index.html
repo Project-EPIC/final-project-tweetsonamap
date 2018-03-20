@@ -102,9 +102,9 @@ map.once('load',function(){
   uNameLink.href = "http://twitter.com/"+userName
 
   //Disable clusters for now
-  document.getElementById('toggleHomeCluster').disabled = true;
-  document.getElementById('toggleClusterCenters').disabled = true;
-  document.getElementById('toggleClusterPolys').disabled = true;
+  //document.getElementById('toggleHomeCluster').disabled = true;
+  //document.getElementById('toggleClusterCenters').disabled = true;
+  //document.getElementById('toggleClusterPolys').disabled = true;
 
   var meta = false;
 
@@ -155,7 +155,11 @@ map.once('load',function(){
     }
   });
 
-  if(meta){
+  function addMetaLayers(metaLayer){
+    map.addSource('tweets-meta',{
+         type: 'geojson',
+         data: metaLayer
+     })
     map.addLayer({
       "id": "tweets-meta-hull",
       "type": "fill",
@@ -255,7 +259,7 @@ map.once('load',function(){
     }
 
     /*
-      Iterate over the features to calculate timestamps and such.
+      Iterate over the features to calculate timestamps & speeds.
     */
 
     data.features.forEach(function(f){
@@ -275,12 +279,18 @@ map.once('load',function(){
       f.properties.user = f.properties.user.toLowerCase();
 
       allTimestamps.push(f.properties.timestamp)
-
+      var timeDelta;
       if (f.geometry){
         geoCount++;
         //We can add a line here
         if ( f.properties.user == userName ) {
           if(prevGeoTweet){
+
+            //Calculate speed
+            timeDelta = Math.floor(f.properties.timestamp - prevGeoTweet.properties.timestamp);
+            speed = distance(prevGeoTweet, f, {units: "miles"}) / (timeDelta/3600)
+            f.properties.speed = speed
+
             lineFeatures.push({
               'type':'Feature',
               'properties':{
@@ -336,9 +346,14 @@ map.once('load',function(){
     console.log("Updating tweet source to be clustered")
     map.getSource('tweets').setData(tweetClusterer.clustered)
 
+    console.log("Now calculating meta geometries")
     tweetClusterer.getMetaGeoms();
-
-
+    tweetClusterer.calculateHomeCluster();
+    addMetaLayers({
+      type:"FeatureCollection",
+      features:tweetClusterer.metaGeoms
+    })
+    console.log("Done, Creating Timeline...")
 
     createD3Timeline({
       docID: "timeline-svg",
