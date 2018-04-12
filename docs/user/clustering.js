@@ -75,7 +75,7 @@ var TweetClusterer = function(geojson, userName){
 
   this.cluster = function(){
     var that = this;
-    var distance  = 1; //kilometers
+    var distance  = 0.1; //kilometers
     var minPoints = 5;
     that.clustered = clustersDbscan({
       type:'FeatureCollection',
