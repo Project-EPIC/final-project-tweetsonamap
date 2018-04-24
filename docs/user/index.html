@@ -277,11 +277,6 @@ map.once('load',function(){
 
     document.getElementById('tweetCount-span').innerHTML = data.features.length;
 
-    // var needsTimestamp = true;
-    // if(data.features[0].properties.hasOwnProperty('timestamp')){
-      // needsTimestamp = false;
-    // }
-
     /*
       Iterate over the features to calculate timestamps & speeds.
     */
@@ -350,7 +345,7 @@ map.once('load',function(){
 
     console.log(`Loaded ${data.features.length} tweets: ${geoCount} geotagged`);
 
-    /*
+    /*t
         Clustering
     */
 
@@ -376,7 +371,7 @@ map.once('load',function(){
       data:  timelineCounts
     },function(brushEvent){
       startTime = Math.floor(brushEvent[0].getTime()/1000)
-      endTime   = Math.floor(brushEvent[1].getTime()/1000)
+      endTime   = Math.floor(brushEvent[1].getTime()/1000)+(3600*24) 
 
       map.setFilter('tweets',[
         'all',
@@ -395,6 +390,8 @@ map.once('load',function(){
         ['>=','startTime',startTime],
         ['<=','endTime',endTime]
       ])
+
+      console.log(`TimeLineFilter: ${startTime} - ${endTime}`)
 
       document.getElementById("tweet-table-body").scrollTop = (findPerfectTimestamp(startTime) - 200);
     })

@@ -65,7 +65,6 @@ var TweetClusterer = function(geojson, userName){
             text: f.properties.text,
             date: f.properties.date,
             speed: f.properties.speed || "",
-            timeD: f.properties.time_delta || ""
           }
        })
      }else{
@@ -85,6 +84,8 @@ var TweetClusterer = function(geojson, userName){
 
     //Ensure that everything is sorted by date
     that.sortedFeatures = _.sortBy(that.withoutGeometries.concat(that.clustered.features), function(f){return f.properties.timestamp})
+
+    console.log(that.withGeometries)
   }
 
   this.getMetaGeoms = function(){
