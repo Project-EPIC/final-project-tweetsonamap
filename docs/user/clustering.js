@@ -61,6 +61,7 @@ var TweetClusterer = function(geojson, userName){
           properties: {
             tweetID: f.properties.tweetID || "",
             user: f.properties.user,
+            timestamp: f.properties.timestamp,
             text: f.properties.text,
             date: f.properties.date,
             speed: f.properties.speed || "",

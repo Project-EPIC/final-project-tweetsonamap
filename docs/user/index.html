@@ -79,7 +79,7 @@
 */
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiamVubmluZ3NhbmRlcnNvbiIsImEiOiIzMHZndnpvIn0.PS-j7fRK3HGU7IE8rbLT9A';
-
+var globalData = {}
 var map = new mapboxgl.Map({
     container: 'map',
     zoom: 2,
@@ -154,6 +154,19 @@ map.once('load',function(){
       'visibility':'visible'
     }
   });
+
+  map.addSource('lineFeatures',
+    {'type':'geojson',
+     'data':{'type':"FeatureCollection","features":[]}})
+
+  map.addLayer({
+    'id':'movement-lines',
+    'type':'line',
+    'source': 'lineFeatures',
+    'layout':{
+      'visibility':'none'
+    }
+  })
 
   function addMetaLayers(metaLayer){
     map.addSource('tweets-meta',{
@@ -238,6 +251,17 @@ map.once('load',function(){
       throw error;
     }
 
+    var prevDateObj = new Date(data.features[0].properties.date)
+
+    //HALT! Check if we need to reverse the dates...
+    if (data.features.length>1){
+      var checkDateObj = new Date(data.features[1].properties.date)
+      if (prevDateObj > checkDateObj){
+        data.features = data.features.reverse();
+        new Date(data.features[0].properties.date)
+      }
+    }
+
     //This is where tweets get added to a table (too)
     var prevDateObj = new Date(data.features[0].properties.date)
     var prevDateStr = prevDateObj.getFullYear() +"-"+(prevDateObj.getMonth()+1)+"-"+prevDateObj.getDate()
@@ -253,10 +277,10 @@ map.once('load',function(){
 
     document.getElementById('tweetCount-span').innerHTML = data.features.length;
 
-    var needsTimestamp = true;
-    if(data.features[0].properties.hasOwnProperty('timestamp')){
-      needsTimestamp = false;
-    }
+    // var needsTimestamp = true;
+    // if(data.features[0].properties.hasOwnProperty('timestamp')){
+      // needsTimestamp = false;
+    // }
 
     /*
       Iterate over the features to calculate timestamps & speeds.
@@ -275,8 +299,10 @@ map.once('load',function(){
       }
 
       //This is straightforward enough?
-      f.properties.timestamp = Math.round(d.getTime()/1000)
+      f.properties.timestamp = Math.round(d.getTime()/1000);
       f.properties.user = f.properties.user.toLowerCase();
+
+      // console.log(f.properties.timestamp)
 
       allTimestamps.push(f.properties.timestamp)
       var timeDelta;
@@ -316,17 +342,7 @@ map.once('load',function(){
     map.getSource('tweets-other-users').setData(data)
 
     if (lineFeatures.length>0){
-      map.addLayer({
-        'id':'movement-lines',
-        'type':'line',
-        'source':{
-          'type':'geojson',
-          'data':{'type':'FeatureCollection','features':lineFeatures}
-        },
-        'layout':{
-          'visibility':'none'
-        }
-      })
+      map.getSource('lineFeatures').setData({'type':'FeatureCollection','features':lineFeatures});
     }
 
     timelineCounts.push(prevDate)
