@@ -155,18 +155,18 @@ var TweetClusterer = function(geojson, userName){
       5.0, 5.1, 5.6, 5.7,
     ]
 
-    var homeClusters = []
-    var workClusters = []
+    var homeClusters = [];
+    var workClusters = [];
     Object.keys(gbDay).forEach(function(key){
       if (homeHours.indexOf(Number(key))>-1){
         gbDay[key].map(function(f){
-          if (f.properties.cluster){
+          if (f.properties.cluster >= 0){
             homeClusters.push(f.properties.cluster)
           }
         })
       }else if (workHours.indexOf(Number(key))>-1){
         gbDay[key].map(function(f){
-          if (f.properties.cluster){
+          if (f.properties.cluster >= 0){
             workClusters.push(f.properties.cluster)
           }
         })
@@ -178,13 +178,22 @@ var TweetClusterer = function(geojson, userName){
     var countedWork = _.countBy(workClusters)
     var likelyWorkID = _.sortBy(Object.keys(countedWork), function(a){return -countedWork[a]})[0]
 
-    if (likelyHomeID){
+    if (likelyHomeID >= 0 ){
       that.clusterCenters[likelyHomeID].properties.likelyHome = true
     }
 
-    if (likelyWorkID){
+    if (likelyWorkID >= 0 ){
       that.clusterCenters[likelyWorkID].properties.likelyWork = true
     }
+
+    // console.warn("HOME")
+    // console.log(likelyHomeID)
+    // console.log(homeClusters)
+
+    // console.warn("WORK")
+    // console.log(likelyWorkID)
+    // console.log(workClusters)
+
   }
 }
 
