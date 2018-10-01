@@ -27,11 +27,18 @@
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoiamVubmluZ3NhbmRlcnNvbiIsImEiOiIzMHZndnpvIn0.PS-j7fRK3HGU7IE8rbLT9A';
 
+let urlParams = new URLSearchParams(window.location.search);
+let style = urlParams.get('style');
+
+var styleString = "mapbox://styles/mapbox/" + ( (style==null)? "satellite-streets-v9" : style )
+
+console.log(styleString)
+
 var map = new mapboxgl.Map({
     container: 'map',
     zoom: 2,
     center: [-147.81, 36.93],
-    style: 'mapbox://styles/mapbox/satellite-streets-v9',
+    style: styleString,
     hash: true
 });
 
